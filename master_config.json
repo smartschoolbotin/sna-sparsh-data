@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T15:47:13.625Z",
+  "updatedAt": "2026-09-17T02:49:24.916Z",
   "rules": {
     "workflows": {
       "BENEFICIARIES": {
@@ -50,6 +50,7 @@
       "NAME_EN": "Dilapidated Additional Classroom",
       "NAME_GU": "જર્જરિત વધારાનો વર્ગખંડ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "PM_SHRI_SCHOOL",
       "": ""
     },
@@ -61,6 +62,7 @@
       "NAME_EN": "Girls Toilets",
       "NAME_GU": "છોકરીઓ માટે શૌચાલય",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "PRIMARY_SCHOOL",
       "": ""
     },
@@ -72,6 +74,7 @@
       "NAME_EN": "Ramps and Handrails",
       "NAME_GU": "રેમ્પ અને હેન્ડ્રેલ્સ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "HIGH_SCHOOL",
       "": ""
     },
@@ -83,6 +86,7 @@
       "NAME_EN": "Infirmary and Health Management Facilities",
       "NAME_GU": "ઇન્ફર્મરી અને આરોગ્ય વ્યવસ્થાપન સુવિધાઓ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "KGBV",
       "": ""
     },
@@ -94,6 +98,7 @@
       "NAME_EN": "Lab Equipment Biology",
       "NAME_GU": "લેબ ઇક્વિપમેન્ટ બાયોલોજી",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "CRC",
       "": "Column 7 (STATUS)"
     },
@@ -105,6 +110,7 @@
       "NAME_EN": "Lab Equipment Chemistry",
       "NAME_GU": "લેબ સાધનો રસાયણશાસ્ત્ર",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "BRC",
       "": "ACTIVE"
     },
@@ -116,6 +122,7 @@
       "NAME_EN": "Lab Equipment Physics",
       "NAME_GU": "લેબ સાધનો ભૌતિકશાસ્ત્ર",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "URC",
       "": "ACTIVE"
     },
@@ -127,6 +134,7 @@
       "NAME_EN": "Furniture for Classroom Staff ICT Lab",
       "NAME_GU": "વર્ગખંડ સ્ટાફ આઇસીટી લેબ માટે ફર્નિચર",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "ALL",
       "": ""
     },
@@ -138,6 +146,7 @@
       "NAME_EN": "Solar lights",
       "NAME_GU": "સૌર લાઇટ્સ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -149,6 +158,7 @@
       "NAME_EN": "Rain Water Harvesting",
       "NAME_GU": "વરસાદી પાણીનો સંગ્રહ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -160,6 +170,7 @@
       "NAME_EN": "Additional Classrooms",
       "NAME_GU": "વધારાના વર્ગખંડો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -171,6 +182,7 @@
       "NAME_EN": "Computer Room",
       "NAME_GU": "કમ્પ્યુટર રૂમ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -182,6 +194,7 @@
       "NAME_EN": "CWSN Toilets",
       "NAME_GU": "CWSN શૌચાલયો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -193,6 +206,7 @@
       "NAME_EN": "Major Repair",
       "NAME_GU": "મુખ્ય સમારકામ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -204,6 +218,7 @@
       "NAME_EN": "Furniture",
       "NAME_GU": "ફર્નિચર",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -215,6 +230,7 @@
       "NAME_EN": "Solar Panel",
       "NAME_GU": "સોલાર પેનલ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -226,6 +242,7 @@
       "NAME_EN": "Boys Toilets",
       "NAME_GU": "છોકરાઓના શૌચાલય",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -237,6 +254,7 @@
       "NAME_EN": "Drinking Water",
       "NAME_GU": "પીવાનું પાણી",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -248,6 +266,7 @@
       "NAME_EN": "LED Lightening",
       "NAME_GU": "એલઇડી લાઇટનિંગ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -259,6 +278,7 @@
       "NAME_EN": "Covering area of the school with grass or plantation of different varieties",
       "NAME_GU": "શાળાના વિસ્તારને ઘાસ અથવા વિવિધ જાતોના વાવેતરથી આવરી લેવો.",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -268,8 +288,9 @@
       "SLS_CODE": "GJ-302",
       "CODE": "1.2.11",
       "NAME_EN": "Organize ‘Swachhta Pakhwada’ clean up drives",
-      "NAME_GU": "‘સ્વચ્છતા પખવાડા’ ક્લીન અપ ડ્રાઇવનું આયોજન કરો",
+      "NAME_GU": "'સ્વચ્છતા પખવાડા' ક્લીન અપ ડ્રાઇવનું આયોજન કરો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -281,6 +302,7 @@
       "NAME_EN": "Expert Talks",
       "NAME_GU": "નિષ્ણાત વાતો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -292,6 +314,7 @@
       "NAME_EN": "Field Visits",
       "NAME_GU": "ક્ષેત્ર મુલાકાતો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -303,6 +326,7 @@
       "NAME_EN": "Activity Promoting Green School Upto 200 Students",
       "NAME_GU": "૨૦૦ વિદ્યાર્થીઓ સુધી ગ્રીન સ્કૂલને પ્રોત્સાહન આપવાની પ્રવૃત્તિ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -314,6 +338,7 @@
       "NAME_EN": "Activity Promoting Green School More than 200 Students",
       "NAME_GU": "ગ્રીન સ્કૂલને પ્રોત્સાહન આપતી પ્રવૃત્તિ 200 થી વધુ વિદ્યાર્થીઓ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -325,6 +350,7 @@
       "NAME_EN": "Composting facility like vermi\u0002composting for kitchen and garden waste",
       "NAME_GU": "રસોડા અને બગીચાના કચરા માટે વર્મી કમ્પોસ્ટિંગ જેવી ખાતર બનાવવાની સુવિધા",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -336,6 +362,7 @@
       "NAME_EN": "Vegetable Medical Kitchen Gardens",
       "NAME_GU": "શાકભાજી તબીબી રસોડાના બગીચા",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -347,6 +374,7 @@
       "NAME_EN": "Drip Irrigation Systems made with earther pots or plastic bottles or any other waste material",
       "NAME_GU": "માટીના વાસણો, પ્લાસ્ટિક બોટલો અથવા અન્ય કોઈપણ કચરામાંથી બનેલી ટપક સિંચાઈ પ્રણાલીઓ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -358,6 +386,7 @@
       "NAME_EN": "Colourful sorting dustbins painted in interesting characters for waste segregation",
       "NAME_GU": "કચરાના અલગીકરણ માટે રસપ્રદ અક્ષરોમાં રંગાયેલા રંગબેરંગી કચરાપેટીઓ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -369,6 +398,7 @@
       "NAME_EN": "Composting facility for kitchen and garden waste",
       "NAME_GU": "રસોડા અને બગીચાના કચરા માટે ખાતર બનાવવાની સુવિધા",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -380,6 +410,7 @@
       "NAME_EN": "Colorful Dustbins painted with interesting characters for waste segregation",
       "NAME_GU": "કચરાના અલગીકરણ માટે રસપ્રદ અક્ષરોથી રંગાયેલા રંગબેરંગી કચરાપેટીઓ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -391,6 +422,7 @@
       "NAME_EN": "Digital Software Hardware",
       "NAME_GU": "ડિજિટલ સોફ્ટવેર હાર્ડવેર",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -402,6 +434,7 @@
       "NAME_EN": "No. of Schools having Students uo to100",
       "NAME_GU": "૧૦૦ થી વધુ વિદ્યાર્થીઓ ધરાવતી શાળાઓની સંખ્યા",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -413,6 +446,7 @@
       "NAME_EN": "No. of Schools having Students 101 to 250",
       "NAME_GU": "૧૦૧ થી ૨૫૦ વિદ્યાર્થીઓ ધરાવતી શાળાઓની સંખ્યા",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -424,6 +458,7 @@
       "NAME_EN": "No. of Schools having Students 251 to 1000",
       "NAME_GU": "૨૫૧ થી ૧૦૦૦ વિદ્યાર્થીઓ ધરાવતી શાળાઓની સંખ્યા",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -435,6 +470,7 @@
       "NAME_EN": "No. of Schools having Students more than 1000",
       "NAME_GU": "૧૦૦૦ થી વધુ વિદ્યાર્થીઓ ધરાવતી શાળાઓની સંખ્યા",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -446,6 +482,7 @@
       "NAME_EN": "Upper Primary School Upto highest class Vlll",
       "NAME_GU": "ઉચ્ચ પ્રાથમિક શાળા ઉચ્ચતમ ધોરણ સુધી Vlll",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -457,6 +494,7 @@
       "NAME_EN": "Additional Classroom",
       "NAME_GU": "વધારાનો વર્ગખંડ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -468,6 +506,7 @@
       "NAME_EN": "Bala Features",
       "NAME_GU": "બાલા સુવિધાઓ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -479,6 +518,7 @@
       "NAME_EN": "child friendly furniture",
       "NAME_GU": "બાળ મૈત્રીપૂર્ણ ફર્નિચર",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -490,6 +530,7 @@
       "NAME_EN": "outdoor Play Materials",
       "NAME_GU": "આઉટડોર પ્લે મટિરિયલ્સ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -501,6 +542,7 @@
       "NAME_EN": "Primary School upto highest class V",
       "NAME_GU": "પ્રાથમિક શાળા ઉચ્ચતમ ધોરણ પાંચ સુધી",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -512,6 +554,7 @@
       "NAME_EN": "Upper Primary School upto highest class VIII",
       "NAME_GU": "ઉચ્ચ પ્રાથમિક શાળા ઉચ્ચતમ ધોરણ આઠમા સુધી",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -523,6 +566,7 @@
       "NAME_EN": "Secondary School upto highest class X",
       "NAME_GU": "ઉચ્ચતમ ધોરણ X સુધી માધ્યમિક શાળા",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -534,6 +578,7 @@
       "NAME_EN": "Sr. Secondary School upto highest class XII",
       "NAME_GU": "ઉચ્ચતમ ધોરણ XII સુધી સિનિયર માધ્યમિક શાળા",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -545,6 +590,7 @@
       "NAME_EN": "Development of Play Ground Outdoor Indoor Sports Game Facilities",
       "NAME_GU": "રમતના મેદાનનો વિકાસ આઉટડોર ઇન્ડોર રમતગમત સુવિધાઓ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -556,6 +602,7 @@
       "NAME_EN": "Sports Equipment",
       "NAME_GU": "રમતગમતના સાધનો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -567,6 +614,7 @@
       "NAME_EN": "Engagement of Yoga Sports Teacher Coaches",
       "NAME_GU": "યોગ સ્પોર્ટ્સ ટીચર કોચની સંલગ્નતા",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -578,6 +626,7 @@
       "NAME_EN": "21st Century Learning and Information Skills",
       "NAME_GU": "21મી સદીની શિક્ષણ અને માહિતી કૌશલ્ય",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -589,6 +638,7 @@
       "NAME_EN": "Cost of providing hands on Skill Training to Students",
       "NAME_GU": "વિદ્યાર્થીઓને વ્યવહારુ કૌશલ્ય તાલીમ આપવાનો ખર્ચ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -600,6 +650,7 @@
       "NAME_EN": "Financial support for Resource Persons VE",
       "NAME_GU": "રિસોર્સ પર્સન VE માટે નાણાકીય સહાય",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -611,6 +662,7 @@
       "NAME_EN": "Raw Material Grant",
       "NAME_GU": "કાચા માલનું અનુદાન",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -622,6 +674,7 @@
       "NAME_EN": "Office Expenses Conting encies",
       "NAME_GU": "કાર્યાલયના ખર્ચો ચાલુ રહે છે",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -633,6 +686,7 @@
       "NAME_EN": "Atal Tinkering Lab",
       "NAME_GU": "અટલ ટિંકરિંગ લેબ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -644,6 +698,7 @@
       "NAME_EN": "BALA Features Classes 1 to V",
       "NAME_GU": "BALA માં ધોરણ 1 થી V સુધીનો સમાવેશ થાય છે.",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -655,6 +710,7 @@
       "NAME_EN": "First aid kit",
       "NAME_GU": "પ્રાથમિક સારવાર કીટ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -666,6 +722,7 @@
       "NAME_EN": "BLACK BOARDS GREEN BOARDS",
       "NAME_GU": "બ્લેક બોર્ડ, ગ્રીન બોર્ડ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -677,6 +734,7 @@
       "NAME_EN": "SMART Class",
       "NAME_GU": "સ્માર્ટ ક્લાસ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -688,6 +746,7 @@
       "NAME_EN": "Aptitude Test at School",
       "NAME_GU": "શાળામાં યોગ્યતા કસોટી",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -699,6 +758,7 @@
       "NAME_EN": "Science Exhibhition",
       "NAME_GU": "વિજ્ઞાન પ્રદર્શન",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -710,6 +770,7 @@
       "NAME_EN": "Shaala Sidhi",
       "NAME_GU": "શાલા સિદ્ધિ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -721,6 +782,7 @@
       "NAME_EN": "Social Science Kit",
       "NAME_GU": "સામાજિક વિજ્ઞાન કીટ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -732,6 +794,7 @@
       "NAME_EN": "Strengthening of Sports Education",
       "NAME_GU": "રમતગમત શિક્ષણને મજબૂત બનાવવું",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -743,6 +806,7 @@
       "NAME_EN": "Talent Search at School",
       "NAME_GU": "શાળામાં પ્રતિભા શોધ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -754,6 +818,7 @@
       "NAME_EN": "Twinning of Schools",
       "NAME_GU": "શાળાઓનું જોડિયાપણું",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -765,6 +830,7 @@
       "NAME_EN": "Youth and Eco Club",
       "NAME_GU": "યુવા અને ઇકો ક્લબ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -776,6 +842,7 @@
       "NAME_EN": "Transport Escort Facility Class VI XII",
       "NAME_GU": "ટ્રાન્સપોર્ટ એસ્કોર્ટ સુવિધા વર્ગ VI XII",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -787,6 +854,7 @@
       "NAME_EN": "Rangosustav",
       "NAME_GU": "રંગોસુસ્તાવ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -798,6 +866,7 @@
       "NAME_EN": "Musical Instruments",
       "NAME_GU": "સંગીતનાં સાધનો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -809,6 +878,7 @@
       "NAME_EN": "Band Set",
       "NAME_GU": "બેન્ડ સેટ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -820,6 +890,7 @@
       "NAME_EN": "Robotic and Engineering Instruments",
       "NAME_GU": "રોબોટિક અને એન્જિનિયરિંગ સાધનો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -831,6 +902,7 @@
       "NAME_EN": "Teacher ID Card",
       "NAME_GU": "શિક્ષક આઈડી કાર્ડ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -842,6 +914,7 @@
       "NAME_EN": "Media and Awareness",
       "NAME_GU": "મીડિયા અને જાગૃતિ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -853,6 +926,7 @@
       "NAME_EN": "Art and Craft Resource Person",
       "NAME_GU": "કલા અને હસ્તકલા સંસાધન વ્યક્તિ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -864,6 +938,7 @@
       "NAME_EN": "Music cum Dance Resource Person",
       "NAME_GU": "સંગીત અને નૃત્ય સંસાધન વ્યક્તિ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -875,6 +950,7 @@
       "NAME_EN": "Science and Maths Curiosity programme STEM Education",
       "NAME_GU": "વિજ્ઞાન અને ગણિત ક્યુરિયોસિટી પ્રોગ્રામ STEM શિક્ષણ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -884,8 +960,9 @@
       "SLS_CODE": "GJ-302",
       "CODE": "2.12.4.26",
       "NAME_EN": "Computer Resource Person",
-      "NAME_GU": "કમ્પ્યુટર રિસોર્સ પર્સન",
+      "NAME_GU": "કોમ્પ્યુટર રિસોર્સ પર્સન",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -897,6 +974,7 @@
       "NAME_EN": "One day Orientation programme for Stakeholders on PM SHRI scheme",
       "NAME_GU": "પીએમ શ્રી યોજના પર હિસ્સેદારો માટે એક દિવસીય ઓરિએન્ટેશન કાર્યક્રમ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -908,6 +986,7 @@
       "NAME_EN": "Teachers Academic Exposure visit outside the State",
       "NAME_GU": "રાજ્ય બહાર શિક્ષકોની શૈક્ષણિક મુલાકાત",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -919,6 +998,7 @@
       "NAME_EN": "Development and Priniting of Teacher Handbook",
       "NAME_GU": "શિક્ષક માર્ગદર્શિકાનો વિકાસ અને છાપકામ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -930,6 +1010,7 @@
       "NAME_EN": "Ek Bharat Shreshta Bharat",
       "NAME_GU": "એક ભારત શ્રેષ્ઠ ભારત",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -941,6 +1022,7 @@
       "NAME_EN": "Development and Priniting of Student Handbook",
       "NAME_GU": "વિદ્યાર્થી માર્ગદર્શિકાનો વિકાસ અને છાપકામ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -952,6 +1034,7 @@
       "NAME_EN": "Bal Sansad",
       "NAME_GU": "બાલ સંસદ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -963,6 +1046,7 @@
       "NAME_EN": "Exposure for teachers to other districts States",
       "NAME_GU": "શિક્ષકો માટે અન્ય જિલ્લાઓમાં એક્સપોઝર રાજ્યો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -974,6 +1058,7 @@
       "NAME_EN": "Sports Day Annual Day Celebration",
       "NAME_GU": "રમતગમત દિવસ વાર્ષિક ઉજવણી",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -985,6 +1070,7 @@
       "NAME_EN": "Identity Cards for Students",
       "NAME_GU": "વિદ્યાર્થીઓ માટે ઓળખ કાર્ડ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -996,6 +1082,7 @@
       "NAME_EN": "School level TLM development by Teachers and Students",
       "NAME_GU": "શિક્ષકો અને વિદ્યાર્થીઓ દ્વારા શાળા સ્તરના TLM વિકાસ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1007,6 +1094,7 @@
       "NAME_EN": "Art and Craft Material",
       "NAME_GU": "કલા અને હસ્તકલા સામગ્રી",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1018,6 +1106,7 @@
       "NAME_EN": "Sports Wear",
       "NAME_GU": "સ્પોર્ટ્સ વેર",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1029,6 +1118,7 @@
       "NAME_EN": "ISRO visit to Students",
       "NAME_GU": "વિદ્યાર્થીઓ માટે ISRO ની મુલાકાત",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1040,6 +1130,7 @@
       "NAME_EN": "AI and Robotics Training",
       "NAME_GU": "એઆઈ અને રોબોટિક્સ તાલીમ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1051,6 +1142,7 @@
       "NAME_EN": "Fund for Safety and Security",
       "NAME_GU": "સલામતી અને સુરક્ષા માટે ભંડોળ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1062,6 +1154,7 @@
       "NAME_EN": "Exposure Visit of Student Outside the State",
       "NAME_GU": "રાજ્ય બહારના વિદ્યાર્થીઓની એક્સપોઝર મુલાકાત",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1073,6 +1166,7 @@
       "NAME_EN": "LED Lights for Class Rooms",
       "NAME_GU": "વર્ગખંડો માટે LED લાઇટ્સ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1084,6 +1178,7 @@
       "NAME_EN": "Talent search at School level",
       "NAME_GU": "શાળા સ્તરે પ્રતિભા શોધ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1095,6 +1190,7 @@
       "NAME_EN": "Twining of School",
       "NAME_GU": "શાળાનું ટ્વિનિંગ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1106,6 +1202,7 @@
       "NAME_EN": "Student Essential Kit",
       "NAME_GU": "વિદ્યાર્થી આવશ્યક કીટ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1117,6 +1214,7 @@
       "NAME_EN": "Band Uniform",
       "NAME_GU": "બેન્ડ યુનિફોર્મ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1128,6 +1226,7 @@
       "NAME_EN": "Organic Farming",
       "NAME_GU": "ઓર્ગેનિક ખેતી",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1139,6 +1238,7 @@
       "NAME_EN": "Orientation Programme for Teachers on Safety and Security",
       "NAME_GU": "શિક્ષકો માટે સલામતી અને સુરક્ષા પર ઓરિએન્ટેશન કાર્યક્રમ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1150,6 +1250,7 @@
       "NAME_EN": "Periodic Assessment Tests",
       "NAME_GU": "સામયિક મૂલ્યાંકન પરીક્ષણો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1161,6 +1262,7 @@
       "NAME_EN": "Pre Vocational Education",
       "NAME_GU": "પૂર્વ વ્યાવસાયિક શિક્ષણ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1172,6 +1274,7 @@
       "NAME_EN": "Project Book",
       "NAME_GU": "પ્રોજેક્ટ બુક",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1183,6 +1286,7 @@
       "NAME_EN": "Training of Head Teachers Principals",
       "NAME_GU": "મુખ્ય શિક્ષકો, આચાર્યોની તાલીમ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1194,6 +1298,7 @@
       "NAME_EN": "Training of Master Trainers",
       "NAME_GU": "માસ્ટર ટ્રેનર્સની તાલીમ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1205,6 +1310,7 @@
       "NAME_EN": "Training of Teachers",
       "NAME_GU": "શિક્ષકોની તાલીમ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1216,6 +1322,7 @@
       "NAME_EN": "Teaching Learning Material I V",
       "NAME_GU": "શિક્ષણ શિક્ષણ સામગ્રી I V",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1227,6 +1334,7 @@
       "NAME_EN": "Learning Enrichment Programmer LEP",
       "NAME_GU": "લર્નિંગ એનરિચમેન્ટ પ્રોગ્રામર LEP",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1238,6 +1346,7 @@
       "NAME_EN": "Student Assessment",
       "NAME_GU": "વિદ્યાર્થી મૂલ્યાંકન",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1249,6 +1358,7 @@
       "NAME_EN": "Holistic Report Card School",
       "NAME_GU": "હોલિસ્ટિક રિપોર્ટ કાર્ડ સ્કૂલ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1260,6 +1370,7 @@
       "NAME_EN": "HPC Format Development State",
       "NAME_GU": "HPC ફોર્મેટ ડેવલપમેન્ટ સ્ટેટ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1271,6 +1382,7 @@
       "NAME_EN": "Module Development Class I",
       "NAME_GU": "મોડ્યુલ ડેવલપમેન્ટ ક્લાસ I",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1282,6 +1394,7 @@
       "NAME_EN": "Resource Material Activity Hand Book",
       "NAME_GU": "સંસાધન સામગ્રી પ્રવૃત્તિ હેન્ડબુક",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1293,6 +1406,7 @@
       "NAME_EN": "Science KitScience Kit",
       "NAME_GU": "વિજ્ઞાન કિટવિજ્ઞાન કિટ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1304,6 +1418,7 @@
       "NAME_EN": "Maths Kit",
       "NAME_GU": "ગણિત કીટ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1315,6 +1430,7 @@
       "NAME_EN": "Science Circles",
       "NAME_GU": "વિજ્ઞાન વર્તુળો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1326,6 +1442,7 @@
       "NAME_EN": "Math Circles",
       "NAME_GU": "ગણિત વર્તુળો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1337,6 +1454,7 @@
       "NAME_EN": "Exposure Visit",
       "NAME_GU": "એક્સપોઝર મુલાકાત",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1348,6 +1466,7 @@
       "NAME_EN": "Mentoring by Eminent Experts National",
       "NAME_GU": "પ્રખ્યાત નિષ્ણાતો રાષ્ટ્રીય દ્વારા માર્ગદર્શન",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1359,6 +1478,7 @@
       "NAME_EN": "Mentoring by Eminent Experts Interational",
       "NAME_GU": "આંતરરાષ્ટ્રીય સ્તરે પ્રખ્યાત નિષ્ણાતો દ્વારા માર્ગદર્શન",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1370,6 +1490,7 @@
       "NAME_EN": "Tools and Equipment",
       "NAME_GU": "સાધનો અને સાધનો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1381,6 +1502,7 @@
       "NAME_EN": "Construction of Workshop Laboratory cum Classroom",
       "NAME_GU": "વર્કશોપ લેબોરેટરી કમ ક્લાસરૂમનું બાંધકામ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1392,6 +1514,7 @@
       "NAME_EN": "Induction Training 5 Days",
       "NAME_GU": "ઇન્ડક્શન તાલીમ ૫ દિવસ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1403,6 +1526,7 @@
       "NAME_EN": "Financial support for Vocational Teachers Trainers New",
       "NAME_GU": "વ્યાવસાયિક શિક્ષક તાલીમાર્થીઓ માટે નાણાકીય સહાય નવી",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1414,6 +1538,7 @@
       "NAME_EN": "Financial support for Resource Persons New",
       "NAME_GU": "રિસોર્સ પર્સન માટે નાણાકીય સહાય નવી",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1425,6 +1550,7 @@
       "NAME_EN": "Raw Material Grant for new schools per course New",
       "NAME_GU": "નવી શાળાઓ માટે કોર્ષ દીઠ કાચા માલનું અનુદાન નવું",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1436,6 +1562,7 @@
       "NAME_EN": "Cost of providing hands Training to Students New",
       "NAME_GU": "વિદ્યાર્થીઓને હાથ તાલીમ આપવાનો ખર્ચ નવા",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1447,6 +1574,7 @@
       "NAME_EN": "Community Participation",
       "NAME_GU": "સમુદાય ભાગીદારી",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1458,6 +1586,7 @@
       "NAME_EN": "Trainings through The District Regional Institute of Education and Training",
       "NAME_GU": "જિલ્લા પ્રાદેશિક શિક્ષણ અને તાલીમ સંસ્થા દ્વારા તાલીમ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1469,6 +1598,7 @@
       "NAME_EN": "Escort Allowance",
       "NAME_GU": "એસ્કોર્ટ ભથ્થું",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1480,6 +1610,7 @@
       "NAME_EN": "Transport Allowance",
       "NAME_GU": "પરિવહન ભથ્થું",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1491,6 +1622,7 @@
       "NAME_EN": "Home Based Education",
       "NAME_GU": "ઘર આધારિત શિક્ષણ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1502,6 +1634,7 @@
       "NAME_EN": "Braille Stationary Material IncEmbossed Charts. globes etc .",
       "NAME_GU": "બ્રેઇલ સ્ટેશનરી મટિરિયલ ઇન્ક. એમ્બોસ્ડ ચાર્ટ્સ. ગ્લોબ્સ વગેરે.",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1513,6 +1646,7 @@
       "NAME_EN": "Providing Aids and Appliances",
       "NAME_GU": "સહાય અને ઉપકરણો પૂરા પાડવા",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1524,6 +1658,7 @@
       "NAME_EN": "Reader Allowance For only VI and Low vision",
       "NAME_GU": "ફક્ત છઠ્ઠી અને ઓછી દ્રષ્ટિ માટે વાચક ભથ્થું",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1535,6 +1670,7 @@
       "NAME_EN": "Scribe Facility",
       "NAME_GU": "સ્ક્રાઇબ સુવિધા",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1546,6 +1682,7 @@
       "NAME_EN": "Stipend for Girls",
       "NAME_GU": "છોકરીઓ માટે શિષ્યવૃત્તિ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1557,6 +1694,7 @@
       "NAME_EN": "Identification and Assessment Medical Assessment Camps",
       "NAME_GU": "ઓળખ અને મૂલ્યાંકન તબીબી મૂલ્યાંકન શિબિરો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1568,6 +1706,7 @@
       "NAME_EN": "Self Defence Training",
       "NAME_GU": "સ્વ-રક્ષા તાલીમ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1579,6 +1718,7 @@
       "NAME_EN": "Vending Machine",
       "NAME_GU": "વેન્ડિંગ મશીન",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1590,6 +1730,7 @@
       "NAME_EN": "Incinerators",
       "NAME_GU": "ભસ્મીકરણ યંત્રો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1601,6 +1742,7 @@
       "NAME_EN": "Sanitory Pads",
       "NAME_GU": "સેનિટરી પેડ્સ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1612,6 +1754,7 @@
       "NAME_EN": "Adolescent Girls Programs",
       "NAME_GU": "કિશોરીઓ માટે કાર્યક્રમો",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1623,6 +1766,7 @@
       "NAME_EN": "Career Guidance and Counselling of Students",
       "NAME_GU": "વિદ્યાર્થીઓનું કારકિર્દી માર્ગદર્શન અને પરામર્શ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1634,6 +1778,7 @@
       "NAME_EN": "Sanitary Pads",
       "NAME_GU": "સેનિટરી પેડ્સ",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1645,6 +1790,7 @@
       "NAME_EN": "MMMER 1 percent",
       "NAME_GU": "MMMER ૧ ટકા",
       "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     }
