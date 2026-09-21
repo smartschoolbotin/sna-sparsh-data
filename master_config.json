@@ -1,5 +1,7 @@
 {
-  "updatedAt": "2026-09-17T02:49:24.916Z",
+  "updatedAt": "2026-09-21T02:12:24.083Z",
+  "latestVersion": 8.5,
+  "minRequiredVersion": 8,
   "rules": {
     "workflows": {
       "BENEFICIARIES": {
@@ -288,7 +290,7 @@
       "SLS_CODE": "GJ-302",
       "CODE": "1.2.11",
       "NAME_EN": "Organize ‘Swachhta Pakhwada’ clean up drives",
-      "NAME_GU": "'સ્વચ્છતા પખવાડા' ક્લીન અપ ડ્રાઇવનું આયોજન કરો",
+      "NAME_GU": "‘સ્વચ્છતા પખવાડા’ ક્લીન અપ ડ્રાઇવનું આયોજન કરો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
@@ -960,7 +962,7 @@
       "SLS_CODE": "GJ-302",
       "CODE": "2.12.4.26",
       "NAME_EN": "Computer Resource Person",
-      "NAME_GU": "કોમ્પ્યુટર રિસોર્સ પર્સન",
+      "NAME_GU": "કમ્પ્યુટર રિસોર્સ પર્સન",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
@@ -1811,5 +1813,23 @@
       "LIVE ENGINE VERSION": "1.1",
       "REMARK": "{\n  \"{{DISTRICT_HOOK_1}}\": \"આ આદેશ માત્ર ૩૦ દિવસ માટે માન્ય રહેશે.\",\n  \"{{DISTRICT_HOOK_2}}\": \"કેન્દ્ર સરકારના હિસ્સાનું પેમેન્ટ પ્રથમ કરવાનું રહેશે.\",\n  \"{{CLERK_NOTE}}\": \"આ ફાઇલ શ્રી રમેશભાઈ પાસે જમા કરાવવી.\",\n  \"{{SPECIAL_WARNING}}\": \"જો બીલ રજૂ નહિ થાય તો ગ્રાન્ટ પરત ખેંચવામાં આવશે.\"\n}"
     }
-  ]
+  ],
+  "schools": {
+    "24160400402": {
+      "name": "CHANDANA PS",
+      "planType": "PM SHRI + LOCAL FUND (₹401)",
+      "schemes": "GJ302,LOCAL",
+      "expiry": "19-08-2027",
+      "pin": "6706",
+      "sig": "4AE109"
+    },
+    "24160400401": {
+      "name": "CHANDANA PS",
+      "planType": "3-Day Free Demo (COMBO) - ₹0",
+      "schemes": "PRIMARY_SCHOOL, GJ302, GJ209, LOCAL",
+      "expiry": "23-09-2026",
+      "pin": "7461",
+      "sig": "EC467B"
+    }
+  }
 }
