@@ -1,1 +1,94 @@
-[]
+[
+  {
+    "keywords": [
+      "SNA SPARSH",
+      "પરિચય",
+      "e-Kuber",
+      "PFMS",
+      "Just-in-Time"
+    ],
+    "question": "SNA-SPARSH શું છે અને તે શાળા કક્ષાએ કેવી રીતે ઉપયોગી છે?",
+    "answer": "<b>SNA-SPARSH</b> (Real-time System of Integrated Quick Transfers) એ કેન્દ્ર પુરસ્કૃત યોજનાઓ (Centrally Sponsored Schemes) માટે <b>\"Just-in-Time\"</b> ધોરણે ગ્રાન્ટ રીલીઝ અને ચૂકવણી કરવાની એક સંકલિત ઓનલાઇન સિસ્ટમ છે. આ સિસ્ટમ PFMS, રાજ્ય સરકાર અને RBI ના e-Kuber પ્લેટફોર્મને સીધું જોડે છે, જેથી શાળાઓ (SMC/Implementing Agency) વતી સીધા જ વેન્ડર કે લાભાર્થીના ખાતામાં ચૂકવણી રિયલ-ટાઇમ ટ્રેકિંગ સાથે સુરક્ષિત રીતે થઈ શકે.",
+    "component_match": "",
+    "pdfUrl": "https://drive.google.com/file/d/1_shoK4__dbzAJgqVm18zBR-erZrPzZJW/view",
+    "category": "SMC Rules",
+    "date": "2026-09-22"
+  },
+  {
+    "keywords": [
+      "40%",
+      "60%",
+      "નિયમ",
+      "બિલ વિભાજન",
+      "HOA Code",
+      "બજેટ હેડ"
+    ],
+    "question": "SNA-SPARSH માં 40% અને 60% નો બિલ વિભાજનનો નિયમ શું છે? કોઈ ઉદાહરણ આપીને સમજાવો.",
+    "answer": "<b>નિયમ:</b> શાળાના કોઈ પણ ખર્ચના બિલ માટે ફરજિયાતપણે બે અલગ-અલગ ક્લેમ (Claim) જનરેટ કરવાના રહેશે, જેમાં 60% કેન્દ્રીય હિસ્સો અને 40% રાજ્યનો હિસ્સો રહેશે.<br><br><b>ઉદાહરણ:</b> ધારો કે બિલ ₹5,000 નું છે તો તેના આ મુજબ બે ભાગ પડશે:<br><ul><li><b>60% ક્લેમ (₹3,000):</b> Recurring માટે HOA Code: <code>220201113050004009MVT38 – C</code> અથવા Non-Recurring માટે HOA Code: <code>420201201180004009MVT38 – C</code> નો ઉપયોગ કરવો.</li><li><b>40% ક્લેમ (₹2,000):</b> Recurring માટે HOA Code: <code>220201113060004009MVT38 – S</code> અથવા Non-Recurring માટે HOA Code: <code>420201201190004009MVT38 – S</code> નો ઉપયોગ કરવો.</li></ul>",
+    "component_match": "220201113050004009MVT38",
+    "pdfUrl": "https://drive.google.com/file/d/1_shoK4__dbzAJgqVm18zBR-erZrPzZJW/view",
+    "category": "SMC Rules",
+    "date": "2026-09-22"
+  },
+  {
+    "keywords": [
+      "બેલેન્સ",
+      "balance check",
+      "mother sanction",
+      "ગ્રાન્ટ",
+      "રિપોર્ટ"
+    ],
+    "question": "ક્લેમ જનરેટ કરતાં પહેલાં ઉપલબ્ધ ગ્રાન્ટનું બેલેન્સ અને તેની સક્રિયતા (Active Status) કેવી રીતે તપાસવી?",
+    "answer": "<b>ગ્રાન્ટનું બેલેન્સ ચેક કરવાની રીત:</b><br>1. IA Portal પર લોગિન કરો.<br>2. <b>Reports</b> વિભાગમાં જઈને <b>Mother Sanction Available</b> પર ક્લિક કરો.<br>3. ચાલુ નાણાકીય વર્ષ અને તમારી રાજ્ય સ્કીમનો કોડ (દા.ત. PM SHRI માટે GJ302 અથવા સમગ્ર શિક્ષા માટે GJ209) પસંદ કરો.<br>4. <b>Generate Report</b> પર ક્લિક કરો.<br>5. જો બજેટ હેડ સામે <b>Status = Active</b> બતાવે તો જ તેમાં ઉપલબ્ધ બેલેન્સ (Available Amount) માંથી ચુકવણી થઈ શકશે. જો Status <b>Inactive</b> હોય તો ચુકવણી થઈ શકશે નહીં.",
+    "component_match": "",
+    "pdfUrl": "https://drive.google.com/file/d/1_shoK4__dbzAJgqVm18zBR-erZrPzZJW/view",
+    "category": "SMC Rules",
+    "date": "2026-09-22"
+  },
+  {
+    "keywords": [
+      "EDP Code",
+      "Object Class",
+      "recurring",
+      "non-recurring",
+      "કોડ"
+    ],
+    "question": "રિકરિંગ (Recurring) અને નોન-રિકરિંગ (Non-Recurring) ખર્ચ માટે કયા EDP કોડ અને ઓબ્જેક્ટ ક્લાસ વાપરવા?",
+    "answer": "ખર્ચના પ્રકાર મુજબ નીચે દર્શાવેલા સચોટ કોડનો ઉપયોગ કરવાનો રહેશે:<br><ul><li><b>રિકરિંગ (Recurring Expenditure):</b> EDP Code: <code>3135 – 3135</code> અને Object Class: <code>C4: Grants Etc</code></li><li><b>નોન-રિકરિંગ (Non-Recurring Expenditure):</b> EDP Code: <code>6001 – 6000</code> અને Object Class: <code>C6: Capital Expenditure / Acquisition of Capital Assets</code></li></ul>",
+    "component_match": "",
+    "pdfUrl": "https://drive.google.com/file/d/1_shoK4__dbzAJgqVm18zBR-erZrPzZJW/view",
+    "category": "SMC Rules",
+    "date": "2026-09-22"
+  },
+  {
+    "keywords": [
+      "beneficiary",
+      "vendor",
+      "registration",
+      "રજીસ્ટ્રેશન",
+      "maker",
+      "checker"
+    ],
+    "question": "પોર્ટલ પર નવા લાભાર્થી કે વેન્ડર રજીસ્ટર અને અપ્રૂવ કરવાની સાચી પ્રક્રિયા કઈ છે?",
+    "answer": "<b>સ્ટેપ-બાય-સ્ટેપ પ્રક્રિયા:</b><br>1. <b>Maker ID</b> થી લોગિન કરો -> Admin -> Beneficiary Registration -> Registration પર જાઓ.<br>2. Beneficiary Type માં ફરજિયાત <b>\"Beneficiary\"</b> પસંદ કરો (Vendor નહીં).<br>3. જરૂરી વિગતો જેવી કે Name, Address, Bank A/c No, IFSC Code અને Mobile No (ન હોય તો 9999999999) ભરીને <b>Save</b> કરો.<br>4. સેવ કર્યા બાદ Worklist -> View Saved Beneficiary માં જઈને રેકોર્ડ સિલેક્ટ કરી <b>Forward to Checker</b> કરો.<br>5. <b>Checker ID</b> થી લોગિન કરી, Worklist -> View Saved Beneficiary માં જઈને રેકોર્ડ <b>Approve</b> કરો.",
+    "component_match": "",
+    "pdfUrl": "https://drive.google.com/file/d/1_shoK4__dbzAJgqVm18zBR-erZrPzZJW/view",
+    "category": "SMC Rules",
+    "date": "2026-09-22"
+  },
+  {
+    "keywords": [
+      "print",
+      "Voucher",
+      "DDO",
+      "દસ્તાવેજો",
+      "સેટ"
+    ],
+    "question": "ક્લેમ જનરેટ અને અપ્રૂવ થઈ ગયા પછી ડૉક્યુમેન્ટ્સ અને પ્રિન્ટ આઉટનું શું કરવાનું રહેશે?",
+    "answer": "ક્લેમ સફળતાપૂર્વક અપ્રૂવ થઈ ગયા બાદ શાળાના આચાર્યે નીચે મુજબની કાર્યવાહી કરવાની રહેશે:<br>1. Maker ID થી લોગિન કરી <b>Generate Claim Copy</b> પરથી પ્રિન્ટ મેળવો.<br>2. તેની સાથે અસલ વાઉચર અને બિલ જોડો.<br>3. આ રીતે કુલ <b>૪ (ચાર) કોપીના સેટ</b> તૈયાર કરો:<br><ul><li>૧ સેટ ચેકર (Checker) પાસે રાખવા માટે.</li><li>૨ સેટ જિલ્લા કક્ષાએ <b>DDO (District Drawing Officer)</b> ને સબમિટ કરવા માટે.</li><li>૧ સેટ શાળાના કચેરી રેકોર્ડ ફાઈલ માટે.</li></ul>",
+    "component_match": "",
+    "pdfUrl": "https://drive.google.com/file/d/1_shoK4__dbzAJgqVm18zBR-erZrPzZJW/view",
+    "category": "SMC Rules",
+    "date": "2026-09-22"
+  }
+]
