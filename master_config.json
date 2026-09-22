@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T01:57:24.938Z",
+  "updatedAt": "2026-09-22T02:12:24.195Z",
   "latestVersion": 8.5,
   "minRequiredVersion": 8,
   "rules": {
@@ -290,7 +290,7 @@
       "SLS_CODE": "GJ-302",
       "CODE": "1.2.11",
       "NAME_EN": "Organize ‘Swachhta Pakhwada’ clean up drives",
-      "NAME_GU": "‘સ્વચ્છતા પખવાડા’ ક્લીન અપ ડ્રાઇવનું આયોજન કરો",
+      "NAME_GU": "'સ્વચ્છતા પખવાડા' ક્લીન અપ ડ્રાઇવનું આયોજન કરો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
@@ -794,7 +794,7 @@
       "SLS_CODE": "GJ-302",
       "CODE": "2.12.4.13",
       "NAME_EN": "Strengthening of Sports Education",
-      "NAME_GU": "રમતગમત શિક્ષણને મજબૂત બનાવવું",
+      "NAME_GU": "રમતગમત શિક્ષણનું મજબૂતીકરણ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
@@ -962,7 +962,7 @@
       "SLS_CODE": "GJ-302",
       "CODE": "2.12.4.26",
       "NAME_EN": "Computer Resource Person",
-      "NAME_GU": "કમ્પ્યુટર રિસોર્સ પર્સન",
+      "NAME_GU": "કોમ્પ્યુટર રિસોર્સ પર્સન",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
