@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T21:12:24.303Z",
+  "updatedAt": "2026-09-22T21:27:24.371Z",
   "latestVersion": 8.5,
   "minRequiredVersion": 8,
   "rules": {
@@ -794,7 +794,7 @@
       "SLS_CODE": "GJ-302",
       "CODE": "2.12.4.13",
       "NAME_EN": "Strengthening of Sports Education",
-      "NAME_GU": "રમતગમત શિક્ષણનું મજબૂતીકરણ",
+      "NAME_GU": "રમતગમત શિક્ષણને મજબૂત બનાવવું",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
@@ -962,7 +962,7 @@
       "SLS_CODE": "GJ-302",
       "CODE": "2.12.4.26",
       "NAME_EN": "Computer Resource Person",
-      "NAME_GU": "કોમ્પ્યુટર રિસોર્સ પર્સન",
+      "NAME_GU": "કમ્પ્યુટર રિસોર્સ પર્સન",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
