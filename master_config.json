@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T03:52:12.631Z",
+  "updatedAt": "2026-09-24T03:57:26.165Z",
   "latestVersion": 8.5,
   "minRequiredVersion": 8,
   "rules": {
@@ -1815,21 +1815,21 @@
     }
   ],
   "schools": {
-    "24160400402": {
+    "24160400401": {
       "name": "CHANDANA PS",
       "planType": "PM SHRI + LOCAL FUND (₹401)",
       "schemes": "GJ302,LOCAL",
       "expiry": "19-08-2027",
       "pin": "6706",
-      "sig": "4AE109"
+      "sig": "E71F4A"
     },
-    "24160400401": {
+    "24160400402": {
       "name": "PM SHRI CHANDANA PS",
       "planType": "PM SHRI + LOCAL FUND COMBO (₹501)",
       "schemes": "GJ302, LOCAL, PRIMARY_SCHOOL, GJ209",
       "expiry": "27-09-2026",
       "pin": "4110",
-      "sig": "4B7054"
+      "sig": "52C613"
     }
   }
 }
