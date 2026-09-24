@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T03:42:24.258Z",
+  "updatedAt": "2026-09-24T03:52:12.631Z",
   "latestVersion": 8.5,
   "minRequiredVersion": 8,
   "rules": {
@@ -1824,12 +1824,12 @@
       "sig": "4AE109"
     },
     "24160400401": {
-      "name": "CHANDANA PS",
-      "planType": "3-Day Free Demo (COMBO) - ₹0",
-      "schemes": "PRIMARY_SCHOOL, GJ302, GJ209, LOCAL",
-      "expiry": "23-09-2026",
-      "pin": "7461",
-      "sig": "EC467B"
+      "name": "PM SHRI CHANDANA PS",
+      "planType": "PM SHRI + LOCAL FUND COMBO (₹501)",
+      "schemes": "GJ302, LOCAL, PRIMARY_SCHOOL, GJ209",
+      "expiry": "27-09-2026",
+      "pin": "4110",
+      "sig": "4B7054"
     }
   }
 }
