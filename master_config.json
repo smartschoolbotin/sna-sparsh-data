@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T17:12:24.050Z",
+  "updatedAt": "2026-09-26T17:19:00.747Z",
   "latestVersion": 8.5,
   "minRequiredVersion": 8,
   "rules": {
@@ -41,6 +41,33 @@
       "chunkSize": 100,
       "maintenanceMode": false,
       "maintenanceMessage": "અત્યારે સિસ્ટમમાં મેન્ટેનન્સ ચાલુ છે."
+    },
+    "motherSanctionRules": {
+      "1_semantic_column_discovery": {
+        "identifier_patterns": [
+          "Mother Sanction.*",
+          "SANCTION.*NO"
+        ],
+        "grant_addition_patterns": [
+          "EFFECTIVE.*DISTRIBUTED",
+          "TOP[-_ ]UP.*AMOUNT",
+          "^TOTAL AMOUNT$"
+        ],
+        "grant_subtraction_patterns": [
+          "UTILIZED",
+          "CLAIM.*CREATED",
+          "SPENT"
+        ],
+        "revoke_patterns": [
+          "REVOKE",
+          "WITHDRAWN",
+          "LAPSE"
+        ]
+      },
+      "2_auto_lapse_triggers": {
+        "lapse_if_revoke_greater_than_zero": true
+      },
+      "3_targeted_kill_switches": []
     }
   },
   "components": [
