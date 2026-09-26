@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T10:27:23.938Z",
+  "updatedAt": "2026-09-26T10:42:24.080Z",
   "latestVersion": 8.5,
   "minRequiredVersion": 8,
   "rules": {
@@ -1821,11 +1821,41 @@
       "GRANT TYPE": "NON_RECURRING",
       "TEMPLATE ID (GOOGLE DOC)": "1AN3l4hf0CCV3VOYJvpl5wySRrNIIiEBjA0nb1g6wDEw",
       "HEAD DESIGNATION (હોદ્દો)": "આચાર્યશ્રી",
-      "CENTRAL BUDGET BLOCK": "Demand No – 09 \n Major head – 4202 Capital Outlay on Education Sports, Arts and Culture\n Sub Major Head – 01 General Education\n Minor Head – 201 Elementary Education\n Sub Head – 18 Elementary under PM SHRI (60% - Central Share) – GJ302\n Head Chargeable :- 09-4202-01-201-18",
-      "STATE BUDGET BLOCK": "Demand No – 09\n Major head – 4202 Capital Outlay on Education Sports, Arts and Culture\n Sub Major Head – 01 General Education\n Minor Head – 201 Elementary Education\n Sub Head – 19 Elementary under PM SHRI (40% - State Share) – GJ302\n Head Chargeable :- 09-4202-01-201-19",
+      "CENTRAL BUDGET BLOCK": "Demand No – 09 \nMajor head – 4202 Capital Outlay on Education Sports, Arts and Culture\nSub Major Head – 01 General Education\nMinor Head – 201 Elementary Education\nSub Head – 18 Elementary under PM SHRI (60% - Central Share) – GJ302\nHead Chargeable :- 09-4202-01-201-18",
+      "STATE BUDGET BLOCK": "Demand No – 09\nMajor head – 4202 Capital Outlay on Education Sports, Arts and Culture\nSub Major Head – 01 General Education\nMinor Head – 201 Elementary Education\nSub Head – 19 Elementary under PM SHRI (40% - State Share) – GJ302\nHead Chargeable :- 09-4202-01-201-19",
+      "EXTRA TAGS (JSON)": "{\n  \"{{SCHEME_INTRO_PARAGRAPH}}\": \"પી એમ શ્રી યોજના કેન્દ્રીય પુરસ્કૃત યોજના છે અને ગુજરાત રાજ્યના તમામ જિલ્લામાં આ યોજના અમલમાં છે.\",\n  \"{{SCHEME_NAME_GUJ}}\": \"પી એમ શ્રી(GJ-302)\"\n}",
+      "STATUS": "ACTIVE",
+      "LIVE ENGINE VERSION": "1",
+      "REMARK": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "DISTRICT (ENGLISH)": "ALL",
+      "DISTRICT (REGIONAL LANGUAGE)": "ALL",
+      "INSTITUTION TYPE": "PRIMARY_SCHOOL",
+      "GRANT TYPE": "RECURRING",
+      "TEMPLATE ID (GOOGLE DOC)": "1AN3l4hf0CCV3VOYJvpl5wySRrNIIiEBjA0nb1g6wDEw",
+      "HEAD DESIGNATION (હોદ્દો)": "આચાર્યશ્રી",
+      "CENTRAL BUDGET BLOCK": "",
+      "STATE BUDGET BLOCK": "",
       "EXTRA TAGS (JSON)": "",
       "STATUS": "",
       "LIVE ENGINE VERSION": "",
+      "REMARK": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "DISTRICT (ENGLISH)": "ALL",
+      "DISTRICT (REGIONAL LANGUAGE)": "ALL",
+      "INSTITUTION TYPE": "HIGH_SCHOOL",
+      "GRANT TYPE": "RECURRING",
+      "TEMPLATE ID (GOOGLE DOC)": "1AN3l4hf0CCV3VOYJvpl5wySRrNIIiEBjA0nb1g6wDEw",
+      "HEAD DESIGNATION (હોદ્દો)": "આચાર્યશ્રી",
+      "CENTRAL BUDGET BLOCK": "• Demand No –  09 \n• Major head – 2202 General Education\n• Sub Major Head – 02 Secondary Education\n• Minor Head – 113 Samagra Shiksha\n• Sub Head – 01 Secondary Education under Samagra Shiksha (60% - Central Share) – GJ209\n• Head Chargeable :- 09-2202-02-113-01\n",
+      "STATE BUDGET BLOCK": "• Demand No – 09 \n• Major head – 2202 General Education\n• Sub Major Head – 02 Secondary Education\n• Minor Head – 113 Samagra Shiksha\n• Sub Head – 02 Secondary Education under Samagra •Shiksha (40% - State Share) – GJ209\n• Head Chargeable :- 09-2202-02-113-02\n",
+      "EXTRA TAGS (JSON)": "{\n  \"{{SCHEME_INTRO_PARAGRAPH}}\": \"સમગ્ર શિક્ષા  યોજના કેન્દ્રીય પુરસ્કૃત યોજના છે અને ગુજરાત રાજ્યના તમામ જિલ્લામાં આ યોજના અમલમાં છે.\",\n  \"{{SCHEME_NAME_GUJ}}\": \" સમગ્ર શિક્ષા (GJ-209)\"\n}",
+      "STATUS": "ACTIVE",
+      "LIVE ENGINE VERSION": "1",
       "REMARK": ""
     }
   ],
