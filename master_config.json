@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T10:12:24.024Z",
+  "updatedAt": "2026-09-26T10:27:23.938Z",
   "latestVersion": 8.5,
   "minRequiredVersion": 8,
   "rules": {
@@ -1800,18 +1800,33 @@
   "templates": [
     {
       "STATE": "GUJARAT",
-      "DISTRICT (ENGLISH)": "KHEDA",
-      "DISTRICT (REGIONAL LANGUAGE)": "ખેડા",
+      "DISTRICT (ENGLISH)": "ALL",
+      "DISTRICT (REGIONAL LANGUAGE)": "ALL",
       "INSTITUTION TYPE": "PM_SHRI_SCHOOL",
       "GRANT TYPE": "RECURRING",
       "TEMPLATE ID (GOOGLE DOC)": "1AN3l4hf0CCV3VOYJvpl5wySRrNIIiEBjA0nb1g6wDEw",
       "HEAD DESIGNATION (હોદ્દો)": "આચાર્યશ્રી",
       "CENTRAL BUDGET BLOCK": "Demand No – 09\nMajor head – 2202 General Education\nSub Major Head – 01 Elementary Education\nMinor Head – 113 Samagra Shiksha\nSub Head – 05 Elementary Education under PM SHRI (60% - Central Share) – GJ302\nHead Chargeable :- 09-2202-01-113-05",
       "STATE BUDGET BLOCK": "Demand No – 09\nMajor head – 2202 General Education\nSub Major Head – 01 Elementary Education\nMinor Head – 113 Samagra Shiksha\nSub Head – 06 Elementary Education under PM SHRI (40% - State Share) – GJ302\nHead Chargeable :- 09-2202-01-113-06",
-      "EXTRA TAGS (JSON)": "{\n  \"{{SCHEME_INTRO_PARAGRAPH}}\": \"પી.એમ.શ્રી યોજના કેન્દ્રીય પુરસ્કૃત યોજના છે અને ગુજરાત રાજ્યના તમામ જિલ્લામાં આ યોજના અમલમાં છે.\",\n  \"{{SCHEME_NAME_GUJ}}\": \"પી એમ શ્રી\"\n}",
+      "EXTRA TAGS (JSON)": "{\n  \"{{SCHEME_INTRO_PARAGRAPH}}\": \"પી એમ શ્રી યોજના કેન્દ્રીય પુરસ્કૃત યોજના છે અને ગુજરાત રાજ્યના તમામ જિલ્લામાં આ યોજના અમલમાં છે.\",\n  \"{{SCHEME_NAME_GUJ}}\": \"પી એમ શ્રી(GJ-302)\"\n}",
       "STATUS": "ACTIVE",
-      "LIVE ENGINE VERSION": "1.1",
+      "LIVE ENGINE VERSION": "1.2",
       "REMARK": "{\n  \"{{DISTRICT_HOOK_1}}\": \"આ આદેશ માત્ર ૩૦ દિવસ માટે માન્ય રહેશે.\",\n  \"{{DISTRICT_HOOK_2}}\": \"કેન્દ્ર સરકારના હિસ્સાનું પેમેન્ટ પ્રથમ કરવાનું રહેશે.\",\n  \"{{CLERK_NOTE}}\": \"આ ફાઇલ શ્રી રમેશભાઈ પાસે જમા કરાવવી.\",\n  \"{{SPECIAL_WARNING}}\": \"જો બીલ રજૂ નહિ થાય તો ગ્રાન્ટ પરત ખેંચવામાં આવશે.\"\n}"
+    },
+    {
+      "STATE": "GUJARAT",
+      "DISTRICT (ENGLISH)": "ALL",
+      "DISTRICT (REGIONAL LANGUAGE)": "ALL",
+      "INSTITUTION TYPE": "PM_SHRI_SCHOOL",
+      "GRANT TYPE": "NON_RECURRING",
+      "TEMPLATE ID (GOOGLE DOC)": "1AN3l4hf0CCV3VOYJvpl5wySRrNIIiEBjA0nb1g6wDEw",
+      "HEAD DESIGNATION (હોદ્દો)": "આચાર્યશ્રી",
+      "CENTRAL BUDGET BLOCK": "Demand No – 09 \n Major head – 4202 Capital Outlay on Education Sports, Arts and Culture\n Sub Major Head – 01 General Education\n Minor Head – 201 Elementary Education\n Sub Head – 18 Elementary under PM SHRI (60% - Central Share) – GJ302\n Head Chargeable :- 09-4202-01-201-18",
+      "STATE BUDGET BLOCK": "Demand No – 09\n Major head – 4202 Capital Outlay on Education Sports, Arts and Culture\n Sub Major Head – 01 General Education\n Minor Head – 201 Elementary Education\n Sub Head – 19 Elementary under PM SHRI (40% - State Share) – GJ302\n Head Chargeable :- 09-4202-01-201-19",
+      "EXTRA TAGS (JSON)": "",
+      "STATUS": "",
+      "LIVE ENGINE VERSION": "",
+      "REMARK": ""
     }
   ],
   "schools": {
