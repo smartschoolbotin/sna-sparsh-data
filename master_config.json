@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T16:45:43.491Z",
+  "updatedAt": "2026-09-27T16:46:31.913Z",
   "latestVersion": 8.5,
   "minRequiredVersion": 8,
   "rules": {
@@ -1850,9 +1850,9 @@
       "HEAD DESIGNATION (હોદ્દો)": "આચાર્યશ્રી",
       "CENTRAL BUDGET BLOCK": "Demand No – 09 \nMajor head – 4202 Capital Outlay on Education Sports, Arts and Culture\nSub Major Head – 01 General Education\nMinor Head – 201 Elementary Education\nSub Head – 18 Elementary under PM SHRI (60% - Central Share) – GJ302\nHead Chargeable :- 09-4202-01-201-18",
       "STATE BUDGET BLOCK": "Demand No – 09\nMajor head – 4202 Capital Outlay on Education Sports, Arts and Culture\nSub Major Head – 01 General Education\nMinor Head – 201 Elementary Education\nSub Head – 19 Elementary under PM SHRI (40% - State Share) – GJ302\nHead Chargeable :- 09-4202-01-201-19",
-      "EXTRA TAGS (JSON)": "{\n  \"{{SCHEME_INTRO_PARAGRAPH}}\": \"પી એમ શ્રી યોજના કેન્દ્રીય પુરસ્કૃત યોજના છે અને ગુજરાત રાજ્યના તમામ જિલ્લામાં આ યોજના અમલમાં છે.\",\n  \"{{SCHEME_NAME_GUJ}}\": \"પી એમ શ્રી(GJ-302)\"\n}",
+      "EXTRA TAGS (JSON)": "{\n  \"{{SCHEME_INTRO_PARAGRAPH}}\": \"પી એમ શ્રી યોજના કેન્દ્રીય પુરસ્કૃત યોજના છે અને ગુજરાત રાજ્યના તમામ જિલ્લામાં આ યોજના અમલમાં છે.\",\n  \"{{SCHEME_NAME_GUJ}}\": \"પી એમ શ્રી(GJ-302)\",\"TABLE_COLUMNS\": [\"ક્રમ\", \"એજન્સી નામ\", \"બેંક ખાતા નંબર\", \"રકમ (₹)\"]\n}",
       "STATUS": "ACTIVE",
-      "LIVE ENGINE VERSION": "1.1",
+      "LIVE ENGINE VERSION": "1.2",
       "REMARK": ""
     },
     {
