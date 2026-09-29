@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T03:12:24.850Z",
+  "updatedAt": "2026-09-29T03:27:25.775Z",
   "latestVersion": 8.5,
   "minRequiredVersion": 8,
   "rules": {
@@ -317,7 +317,7 @@
       "SLS_CODE": "GJ-302",
       "CODE": "1.2.11",
       "NAME_EN": "Organize ‘Swachhta Pakhwada’ clean up drives",
-      "NAME_GU": "'સ્વચ્છતા પખવાડા' ક્લીન અપ ડ્રાઇવનું આયોજન કરો",
+      "NAME_GU": "‘સ્વચ્છતા પખવાડા’ ક્લીન અપ ડ્રાઇવનું આયોજન કરો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "LIST OF SCHOOL TYPES..": "",
