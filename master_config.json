@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T13:12:24.566Z",
+  "updatedAt": "2026-10-01T13:27:24.143Z",
   "latestVersion": 8.5,
   "minRequiredVersion": 8,
   "rules": {
@@ -1820,6 +1820,18 @@
       "NAME_GU": "MMMER ૧ ટકા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
+      "LIST OF SCHOOL TYPES..": "",
+      "": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "SCHEME_TYPE": "",
+      "SLS_CODE": "GJ-209",
+      "CODE": "",
+      "NAME_EN": "",
+      "NAME_GU": "",
+      "STATUS": "",
+      "SCHEME_NAME_GUJ": "",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     }
