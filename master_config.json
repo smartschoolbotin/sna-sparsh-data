@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T13:27:24.143Z",
+  "updatedAt": "2026-10-01T13:42:25.258Z",
   "latestVersion": 8.5,
   "minRequiredVersion": 8,
   "rules": {
@@ -1827,11 +1827,11 @@
       "STATE": "GUJARAT",
       "SCHEME_TYPE": "",
       "SLS_CODE": "GJ-209",
-      "CODE": "",
-      "NAME_EN": "",
-      "NAME_GU": "",
-      "STATUS": "",
-      "SCHEME_NAME_GUJ": "",
+      "CODE": "1.6.2.8.1",
+      "NAME_EN": "SCERT",
+      "NAME_GU": "એસસીઇઆરટી",
+      "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     }
