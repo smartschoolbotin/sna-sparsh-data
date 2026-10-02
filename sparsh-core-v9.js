@@ -479,8 +479,9 @@ function initTomSelect(el, optionsArray, placeholder, defaultValue="") {
 
     el.innerHTML = ''; 
     
+    // 🚀 CRASH-PROOF: Filter out any undefined/null values before parsing
     let tsOptions = (optionsArray || [])
-        .filter(opt => opt && opt.val && String(opt.val).trim() !== "")
+        .filter(opt => opt && typeof opt.val !== 'undefined' && opt.val !== null && String(opt.val).trim() !== "")
         .map(opt => ({
             value: String(opt.val).trim(),
             text: String(opt.txt || opt.val).trim() 
@@ -502,9 +503,8 @@ function initTomSelect(el, optionsArray, placeholder, defaultValue="") {
             items: itemArray,
             maxOptions: 100 
         });
-    } catch (error) { console.error(error); }
+    } catch (error) { console.error("TomSelect Init Error:", error); }
 }
-
 function updateGlobalOptions(selectedSchemeCode = "ALL") {
     vOptionsGlobal = dynamicVendorsList.map(v => ({
         val: escapeHtml(v.name || v), 
