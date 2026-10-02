@@ -3783,3 +3783,160 @@ window.prepareProfessionalPrint = function(isBw) {
         document.body.classList.remove('grayscale', 'contrast-125');
     }, 2000);
 };
+// =========================================================================================
+// 🚀 GLOBAL PRINT & CASHBOOK STYLE FIXES
+// =========================================================================================
+
+window.setCashbookStyle = function(style) {
+    console.log("Style Changed to:", style);
+    cashbookStyle = style;
+    
+    if(style === 'TWO') { 
+        document.body.classList.add('folio-mode-two'); 
+    } else { 
+        document.body.classList.remove('folio-mode-two'); 
+    }
+    
+    let bOne = document.getElementById('btnCbOnePage'); 
+    let bTwo = document.getElementById('btnCbTwoPage');
+    
+    if(bOne && bTwo) {
+        if(style === 'ONE') { 
+            bOne.className = "flex-1 px-2 py-2 rounded-lg text-xs font-bold bg-white text-emerald-700 shadow-sm transition"; 
+            bTwo.className = "flex-1 px-2 py-2 rounded-lg text-xs font-bold text-slate-600 hover:bg-white/50 transition"; 
+        } else { 
+            bTwo.className = "flex-1 px-2 py-2 rounded-lg text-xs font-bold bg-white text-emerald-700 shadow-sm transition"; 
+            bOne.className = "flex-1 px-2 py-2 rounded-lg text-xs font-bold text-slate-600 hover:bg-white/50 transition"; 
+        }
+    }
+    
+    if (typeof window.generateAccountingReport === 'function') {
+        window.generateAccountingReport();
+    }
+};
+
+window.prepareProfessionalPrint = function(isBw) {
+    console.log("Printing Started. B/W Mode:", isBw);
+    
+    const target = document.getElementById('tableWrapper');
+    if (!target || !target.innerHTML.trim() || target.innerHTML.includes('loader')) {
+        if(typeof Swal !== 'undefined') {
+            Swal.fire({ icon: 'error', title: 'પ્રિન્ટ એરર', text: 'પ્રિન્ટ કરવા માટે રિપોર્ટ મળ્યો નથી! પહેલા રિપોર્ટ જનરેટ કરો.', confirmButtonText: 'ઠીક છે' });
+        } else {
+            alert("પ્રિન્ટ કરવા માટે કોઈ રિપોર્ટ નથી!");
+        }
+        return;
+    }
+
+    const printContainer = document.createElement('div');
+    printContainer.id = 'print-temp-container';
+    printContainer.style.cssText = 'width:100%; margin:0; padding:0; background:white;';
+    document.body.appendChild(printContainer);
+
+    const clone = target.cloneNode(true);
+    clone.querySelectorAll('.no-print, button').forEach(el => el.remove());
+
+    clone.style.display = 'block';
+    clone.style.width = '100%';
+    printContainer.appendChild(clone);
+
+    if (isBw) { 
+        document.body.classList.add('print-bw', 'grayscale', 'contrast-125'); 
+    }
+
+    // Logo Injection specifically for Printing
+    if (typeof logoSettings !== 'undefined') {
+        let pages = clone.querySelectorAll('.page-chunk, .folio-col, .ledger-page, .report-page-safe');
+        if (pages.length === 0) pages = clone.querySelectorAll('table'); 
+
+        pages.forEach((page) => {
+            page.style.position = 'relative'; 
+            page.style.boxSizing = 'border-box';
+
+            let headerBanner = document.createElement('div');
+            headerBanner.style.cssText = 'display:flex;justify-content:space-between;align-items:center;width:100%;margin-bottom:6px;padding:4px 0 6px 0;border-bottom:1.5px solid #334155;gap:8px;';
+
+            let leftDiv = document.createElement('div');
+            leftDiv.style.cssText = 'flex:0 0 90px;display:flex;align-items:center;';
+            if (logoSettings.useSchoolLogo && logoSettings.schoolLogoUrl) {
+                let imgL = document.createElement('img');
+                imgL.src = logoSettings.schoolLogoUrl;
+                imgL.style.cssText = 'height:42px;width:auto;max-width:85px;object-fit:contain;';
+                leftDiv.appendChild(imgL);
+            }
+            headerBanner.appendChild(leftDiv);
+
+            let centerDiv = document.createElement('div');
+            centerDiv.style.cssText = 'flex:1;text-align:center;font-family:"Anek Gujarati",sans-serif;padding:0 8px;overflow:hidden;';
+            
+            let nameSpan = document.createElement('div');
+            nameSpan.style.cssText = 'font-weight:800;font-size:15px;color:#0f172a;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;';
+            nameSpan.innerText = (typeof currentSchool !== 'undefined' && currentSchool.name) ? currentSchool.name : "PM SHRI SCHOOL";
+            centerDiv.appendChild(nameSpan);
+
+            let udiseSpan = document.createElement('div');
+            udiseSpan.style.cssText = 'font-weight:700;font-size:11px;color:#475569;margin-top:1px;letter-spacing:0.5px;';
+            let uCode = (typeof currentSchool !== 'undefined' && currentSchool.udise) ? currentSchool.udise : "";
+            udiseSpan.innerText = uCode ? ('UDISE: ' + uCode) : '';
+            centerDiv.appendChild(udiseSpan);
+            headerBanner.appendChild(centerDiv);
+
+            let rightDiv = document.createElement('div');
+            rightDiv.style.cssText = 'flex:0 0 120px;display:flex;gap:6px;align-items:center;justify-content:flex-end;';
+            if (logoSettings.usePmShri) {
+                let imgP = document.createElement('img');
+                imgP.src = logoSettings.pmShriLogoUrl || "https://i.ibb.co/8DsJSWWz/pm-shri-logo.jpg";
+                imgP.style.cssText = 'height:40px;width:auto;object-fit:contain;';
+                rightDiv.appendChild(imgP);
+            }
+            if (logoSettings.useSsa) {
+                let imgS = document.createElement('img');
+                imgS.src = logoSettings.ssaLogoUrl || "https://i.ibb.co/97B7MWw/samgrasiksha-cropped.png";
+                imgS.style.cssText = 'height:40px;width:auto;object-fit:contain;';
+                rightDiv.appendChild(imgS);
+            }
+            headerBanner.appendChild(rightDiv);
+            page.insertBefore(headerBanner, page.firstChild);
+        });
+    }
+
+    setTimeout(() => {
+        window.print();
+        setTimeout(() => { 
+            document.body.classList.remove('print-bw', 'grayscale', 'contrast-125'); 
+            printContainer.remove(); 
+        }, 1000);
+    }, 1500); 
+};
+
+window.downloadCSV = function() {
+    console.log("CSV Download Started");
+    let tableWrapper = document.getElementById("tableWrapper");
+    if(!tableWrapper) return;
+    let table = tableWrapper.querySelector("table");
+    if(!table) {
+        if(typeof Swal !== 'undefined') Swal.fire('Error', 'કોઈ ડેટા ઉપલબ્ધ નથી.', 'error');
+        return;
+    }
+    
+    let rows = table.querySelectorAll("tr");
+    let csvContent = "data:text/csv;charset=utf-8,\uFEFF"; 
+    
+    rows.forEach(row => {
+        let rowData = [];
+        row.querySelectorAll("th, td").forEach(cell => {
+            let text = cell.innerText.replace(/"/g, '""').replace(/\n/g, ' - ');
+            rowData.push('"' + text + '"');
+        });
+        csvContent += rowData.join(",") + "\r\n";
+    });
+    
+    let encodedUri = encodeURI(csvContent);
+    let link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    let fileName = (typeof currentReportType !== 'undefined' ? currentReportType.toUpperCase() : 'SNA_REPORT') + "_" + new Date().getTime() + ".csv";
+    link.setAttribute("download", fileName);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
