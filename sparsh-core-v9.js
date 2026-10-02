@@ -3563,3 +3563,483 @@ window.matchMedia('print').addListener(function(mql) {
         document.body.classList.remove('print-optimized-mode');
     }
 });
+// =========================================================================================
+// 🚀 ACCOUNTING REPORTS GENERATOR (100% CRASH-PROOF & FAST)
+// =========================================================================================
+function generateAccountingReport() {
+    const wrapper = document.getElementById('tableWrapper'); 
+    if(!wrapper) return;
+    
+    wrapper.innerHTML = `<div class="text-center py-16"><i data-feather="loader" class="animate-spin inline w-8 h-8 mb-3 text-indigo-500"></i><br><span class="font-bold text-slate-500">રિપોર્ટ બની રહ્યો છે... કૃપા કરીને રાહ જુઓ...</span></div>`; 
+    if(typeof feather !== 'undefined') feather.replace();
+    
+    setTimeout(() => {
+        try {
+            let _today = new Date(); let _cYear = _today.getFullYear(); let _cMonth = _today.getMonth() + 1;
+            let _sYear = _cMonth < 4 ? _cYear - 1 : _cYear; let _eYear = _sYear + 1;
+            let fyYear = `${_sYear}-${String(_eYear).slice(-2)}`;
+            let openingBalDate = `01-04-${_sYear}`;
+            let closingBalDate = `31-03-${_eYear}`;
+
+            let displayData = (typeof patrakData !== 'undefined') ? patrakData : []; 
+            
+            if (currentReportType !== 'epayment') {
+                displayData = displayData.filter(r => {
+                    let s = String(r.status || "").toUpperCase();
+                    return !(s.includes("REJECT") || s.includes("FAIL") || s.includes("CANCEL") || s.includes("RETURN"));
+                });
+            }
+
+            let headSelect = document.getElementById('accBudgetHead'); let selectedHead = headSelect ? headSelect.value : "ALL";
+            let searchInp = document.getElementById('accSearch'); let searchQ = searchInp ? searchInp.value.toLowerCase() : "";
+            let selectedMonths = []; 
+            document.querySelectorAll('#monthFilterChips .month-chk:checked').forEach(chk => selectedMonths.push(chk.value));
+
+            if ((currentReportType.includes('ledger') || currentReportType.includes('epayment')) && selectedHead !== 'ALL') {
+                displayData = displayData.filter(r => r.componentName === selectedHead);
+            }
+            
+            if (selectedMonths.length < 12 && selectedMonths.length > 0) { 
+                displayData = displayData.filter(r => { 
+                    let parts = String(r.date || "").split('-'); 
+                    let mKey = "ALL"; 
+                    if(parts.length >= 2) { 
+                        let mStr = parts[1].toLowerCase(); 
+                        if(isNaN(mStr)) mKey = mStr.substring(0,3); 
+                        else { 
+                            let mNum = parseInt(mStr, 10); 
+                            const mNames = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]; 
+                            if(mNum >= 1 && mNum <= 12) mKey = mNames[mNum - 1]; 
+                        } 
+                    } 
+                    return selectedMonths.includes(mKey); 
+                }); 
+            }
+            
+            if (searchQ) {
+                displayData = displayData.filter(r => (r.vendorName||"").toLowerCase().includes(searchQ) || (r.claimNo||"").toLowerCase().includes(searchQ));
+            }
+
+            let reportEndDate = closingBalDate;
+            
+            // 🚀 100% CRASH-PROOF DATE FIX (જો તારીખ ન હોય તો એરર નહિ આવે)
+            let validDates = displayData.map(r => String(r.date || "")).filter(d => d && d !== "-" && d.includes("-"));
+            if (validDates.length > 0) {
+                let maxDateStr = validDates.reduce((max, curr) => { 
+                    let p1 = curr.split('-'); let p2 = max.split('-'); 
+                    if(p1.length < 3 || p2.length < 3) return max;
+                    return new Date(`${p1[2]}-${p1[1]}-${p1[0]}`) > new Date(`${p2[2]}-${p2[1]}-${p2[0]}`) ? curr : max; 
+                }, validDates[0]);
+                
+                let parts = maxDateStr.split('-');
+                if(parts.length === 3) {
+                    let lastDay = new Date(parts[2], parseInt(parts[1]), 0).getDate(); 
+                    reportEndDate = `${String(lastDay).padStart(2,'0')}-${parts[1]}-${parts[2]}`;
+                }
+            }
+
+            if(displayData.length === 0) { 
+                wrapper.innerHTML = `<div class="text-center py-16 font-bold text-slate-400">કોઈ ડેટા ઉપલબ્ધ નથી. (No Data Found)</div>`; 
+                return; 
+            }
+
+            // 🚀 SMART SORTING (ખરાબ તારીખ હોય તો પણ નહિ અટકે)
+            let uniqueDates = [...new Set(displayData.map(item => String(item.date || "-")))]; 
+            uniqueDates.sort((a, b) => { 
+                let pA = a.split('-'); let pB = b.split('-');
+                if(pA.length < 3 || pB.length < 3) return 0;
+                return new Date(`${pA[2]}-${pA[1]}-${pA[0]}`) - new Date(`${pB[2]}-${pB[1]}-${pB[0]}`); 
+            });
+            
+            let cashbookPageMap = {}; uniqueDates.forEach((d, i) => cashbookPageMap[d] = i + 1); 
+            let allHeads = [...new Set(displayData.map(r => r.componentName || "-"))].sort(); 
+            let khatavahiPageMap = {}; allHeads.forEach((h, i) => khatavahiPageMap[h] = i + 1);
+
+            let html = `
+            <div class="flex flex-wrap justify-center gap-3 mb-6 no-print">
+              <button onclick="prepareProfessionalPrint(false)" class="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-bold text-sm flex items-center gap-2 shadow-md transition-all">
+                <i data-feather="printer" class="w-4 h-4"></i> Print (Color)
+              </button>
+              <button onclick="prepareProfessionalPrint(true)" class="px-5 py-2.5 bg-slate-700 hover:bg-slate-800 text-white rounded-xl font-bold text-sm flex items-center gap-2 shadow-md transition-all">
+                <i data-feather="printer" class="w-4 h-4"></i> Print (B/W - Ink Saver)
+              </button>
+            </div>`;
+
+            // 🚀 પત્રક-C (ROWS_PER_PAGE = 9)
+            if (currentReportType === 'patrak-c') {
+                let grandPatrakTotal = 0; displayData.forEach(r => grandPatrakTotal += (parseFloat(r.amount)||0));
+                const ROWS_PER_PAGE = 9; 
+                let totalPages = Math.ceil(displayData.length / ROWS_PER_PAGE) || 1;
+                for(let p=0; p<totalPages; p++) {
+                    html += `<div class="page-chunk"><div class="mb-4 text-center print-no-bg"><h2 class="font-bold text-xl mb-2 text-indigo-800 tracking-wide">PFMS & SNA SPARSH બીલ રજીસ્ટર ની વિગત (પત્રક-C) (Page ${p+1}/${totalPages})</h2><div class="flex justify-between text-sm font-bold text-slate-700 border-b-2 border-slate-800 pb-2"><div class="text-left">શાળાનું નામ : ${escapeHtml(currentSchool.name)}<br>ફંડનો પ્રકાર : SNA SPARSH</div><div class="text-right">વર્ષ : ${fyYear}</div></div></div><table class="tally-table border-2 border-slate-800 border-print w-full text-center text-sm"><thead class="bg-indigo-50 print-no-bg border-b-2 border-slate-800 border-print"><tr><th class="p-2 border-r border-slate-800 border-print">ક્રમ</th><th class="p-2 border-r border-slate-800 border-print">આદેશ / ઓર્ડર<br>ની તારીખ</th><th class="p-2 border-r border-slate-800 border-print">ચુકવણી પ્રકાર</th><th class="p-2 border-r border-slate-800 border-print">PFMS PPA NO. / Claim Number</th><th class="p-2 border-r border-slate-800 border-print">ચુકવેલ બીલ<br>ની રકમ (₹)</th><th class="p-2 border-r border-slate-800 border-print w-16">વાઉચર<br>નંબર</th><th class="p-2 border-r border-slate-800 border-print">પાર્ટીનું નામ<br>(Vendor)</th><th class="p-2 border-r border-slate-800 border-print">ગ્રાન્ટ નો હેડ</th><th class="p-2 border-print">PFMS પાસ<br>થયા તારીખ</th></tr></thead><tbody>`;
+                    let chunk = displayData.slice(p*ROWS_PER_PAGE, (p+1)*ROWS_PER_PAGE);
+                    chunk.forEach((r, i) => {
+                        let globalIdx = p*ROWS_PER_PAGE + i + 1; let vch = (r.vchNo && r.vchNo !== "N/A" && r.vchNo !== "-") ? escapeHtml(r.vchNo) : globalIdx; let amt = parseFloat(r.amount) || 0;
+                        let displayPfmsDate = (!r.pfmsDate || r.pfmsDate === "-") ? `<span class="text-[10px] text-amber-600 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">Pending</span>` : `<span class="text-emerald-700">${escapeHtml(r.pfmsDate)}</span>`;
+                        html += `<tr class="hover:bg-slate-50 border-b border-slate-400 border-print"><td class="p-2 border-r border-slate-400 border-print font-bold text-slate-600">${globalIdx}</td><td class="p-2 border-r border-slate-400 border-print font-bold whitespace-nowrap">${escapeHtml(r.date)}</td><td class="p-2 border-r border-slate-400 border-print font-black text-indigo-700">SNA SPARSH</td><td class="p-2 border-r border-slate-400 border-print font-mono text-xs text-indigo-600 claim-text">${formatClaimDisplay(r.claimNo)}</td><td class="p-2 border-r border-slate-400 border-print text-right font-black text-rose-600">${formatINR(amt)}</td><td class="p-2 border-r border-slate-400 border-print font-bold text-slate-700">${vch}</td><td class="p-2 border-r border-slate-400 border-print font-bold text-slate-800 text-left">${escapeHtml(r.vendorName)}</td><td class="p-2 border-r border-slate-400 border-print text-slate-600 text-left text-xs font-bold leading-tight">${escapeHtml(getGujHeadName(r.componentName))}</td><td class="p-2 font-bold">${displayPfmsDate}</td></tr>`;
+                    });
+                    if(p === totalPages - 1) { html += `<tr class="bg-slate-100 print-no-bg border-t-2 border-slate-800 border-print"><td colspan="4" class="text-right font-black text-slate-800 border-r border-slate-400 border-print p-3">કુલ રકમ સરવાળો:</td><td class="text-right font-black text-rose-700 text-lg border-r border-slate-400 border-print p-3">${formatINR(grandPatrakTotal)}</td><td colspan="4" class="border-print"></td></tr>`; }
+                    html += `</tbody></table></div>`;
+                }
+            }
+            // 🚀 કેશબુક (ROWS_PER_PAGE = 12)
+            else if (currentReportType === 'cashbook') {
+                html += `<div class="folio-grid-container">`;
+                let leftRowsHtml = [];
+                let rightRowsHtml = [];
+                let monthTotalInc = 0;
+                let monthTotalExp = 0;
+
+                let rStyle = 'style="height: auto; min-height: 28px; vertical-align: middle;"';
+                let tStyle = 'style="height: auto; min-height: 24px; vertical-align: middle;"';
+
+                leftRowsHtml.push(`<tr class="border-b border-slate-200 hover:bg-slate-50" ${rStyle}><td class="font-bold text-center text-xs">${openingBalDate}</td><td class="font-bold text-indigo-800 text-xs">-</td><td><div class="font-bold text-slate-900 text-xs">શ્રી ઉઘડતી સિલક</div></td><td class="text-center font-bold text-indigo-600 text-xs">-</td><td class="text-right font-black text-amber-800 text-xs">-</td><td class="text-right font-black text-indigo-800 text-xs">-</td><td class="text-right font-black text-emerald-800 text-xs">-</td></tr>`);
+                rightRowsHtml.push(`<tr class="border-b border-slate-200" ${rStyle}><td colspan="9">&nbsp;</td></tr>`);
+
+                uniqueDates.forEach((dateStr) => {
+                    let dayTxns = displayData.filter(r => r.date === dateStr);
+                    let dayTotalInc = 0, dayTotalExp = 0;
+                    let dayHeads = {};
+
+                    dayTxns.forEach(r => {
+                        let h = r.componentName || "SNA Grant";
+                        if (!dayHeads[h]) dayHeads[h] = 0;
+                        let amt = parseFloat(r.amount) || 0;
+                        dayHeads[h] += amt; dayTotalExp += amt; dayTotalInc += amt; monthTotalInc += amt; monthTotalExp += amt;
+                    });
+
+                    let tempLeft = []; let tempRight = [];
+
+                    for (let h in dayHeads) {
+                        let amt = dayHeads[h]; let displayHead = escapeHtml(getGujHeadName(h));
+                        tempLeft.push(`<tr class="border-b border-slate-200 hover:bg-slate-50" ${rStyle}><td class="font-bold text-center text-xs">${escapeHtml(dateStr)}</td><td class="font-bold text-indigo-800 text-[13px] leading-tight">${displayHead}</td><td><div class="font-bold text-emerald-700 text-[10px]">ગ્રાન્ટ જમા (Virtual)</div></td><td class="text-center font-bold text-indigo-600 text-xs">${khatavahiPageMap[h] || "-"}</td><td class="text-right font-black text-amber-800 text-xs">-</td><td class="text-right font-black text-indigo-800 text-xs">${formatINR(amt)}</td><td class="text-right font-black text-emerald-800 text-xs">${formatINR(amt)}</td></tr>`);
+                    }
+
+                    dayTxns.forEach((exp, i) => {
+                        let amt = parseFloat(exp.amount) || 0;
+                        let vch = (exp.vchNo && exp.vchNo !== "N/A" && exp.vchNo !== "-") ? escapeHtml(exp.vchNo) : (i + 1);
+                        let claimDisplay = formatClaimDisplay(exp.claimNo);
+                        let displayHead = escapeHtml(getGujHeadName(exp.componentName));
+                        let vNameDisplay = escapeHtml(exp.vendorName);
+                        tempRight.push(`<tr class="border-b border-slate-200 hover:bg-slate-50" ${rStyle}><td class="font-bold text-center text-xs">${escapeHtml(exp.date)}</td><td class="font-bold text-slate-500 text-[10px] leading-tight">${displayHead}</td><td><div class="font-bold text-indigo-900 text-xs uppercase tracking-wide">${vNameDisplay} ખાતે ઉધાર</div></td><td class="text-center font-bold text-slate-700 text-xs">${vch}</td><td class="text-center font-mono text-[9px] text-indigo-600 claim-text leading-tight">${claimDisplay}</td><td class="text-center font-bold text-indigo-600 text-xs">${khatavahiPageMap[exp.componentName] || "-"}</td><td class="text-right font-black text-amber-800 text-xs">-</td><td class="text-right font-black text-indigo-800 text-xs">${formatINR(amt)}</td><td class="text-right font-black text-rose-800 text-xs">${formatINR(amt)}</td></tr>`);
+                    });
+
+                    let maxD = Math.max(tempLeft.length, tempRight.length);
+                    for (let i = 0; i < maxD; i++) {
+                        leftRowsHtml.push(tempLeft[i] || `<tr class="border-b border-slate-200" ${rStyle}><td colspan="7">&nbsp;</td></tr>`);
+                        rightRowsHtml.push(tempRight[i] || `<tr class="border-b border-slate-200" ${rStyle}><td colspan="9">&nbsp;</td></tr>`);
+                    }
+
+                    leftRowsHtml.push(`<tr class="bg-emerald-50/50 font-bold border-b-2 border-slate-400" ${tStyle}><td colspan="5" class="text-right text-[11px] text-slate-700 py-1">તા. ${escapeHtml(dateStr)} કુલ જમા :</td><td class="text-right font-black text-indigo-900 text-xs">${formatINR(dayTotalInc)}</td><td class="text-right font-black text-emerald-900 text-xs">${formatINR(dayTotalInc)}</td></tr>`);
+                    leftRowsHtml.push(`<tr class="border-b border-slate-200" ${tStyle}><td colspan="7">&nbsp;</td></tr>`);
+
+                    rightRowsHtml.push(`<tr class="bg-rose-50/50 font-bold border-b border-slate-300" ${tStyle}><td colspan="6" class="text-right text-[11px] text-slate-700 py-1">તા. ${escapeHtml(dateStr)} કુલ ઉધાર :</td><td class="text-right font-black text-amber-900 text-xs">-</td><td class="text-right font-black text-indigo-900 text-xs">${formatINR(dayTotalExp)}</td><td class="text-right font-black text-rose-900 text-xs">${formatINR(dayTotalExp)}</td></tr>`);
+                    rightRowsHtml.push(`<tr class="bg-emerald-50/70 font-bold border-b-2 border-slate-400" ${tStyle}><td colspan="6" class="text-right text-[11px] text-emerald-900 py-1">તા. ${escapeHtml(dateStr)} શ્રી બંધ સિલક :</td><td class="text-right font-black text-emerald-900 text-xs">-</td><td class="text-right font-black text-emerald-900 text-xs">0.00</td><td class="text-right font-black text-emerald-900 text-xs">0.00</td></tr>`);
+                });
+
+                leftRowsHtml.push(`<tr class="double-underline bg-slate-200" ${tStyle}><td colspan="5" class="text-right font-black text-slate-900 py-2.5 text-sm">કુલ જમા સરવાળો :</td><td class="text-right font-black text-indigo-900 text-sm">${formatINR(monthTotalInc)}</td><td class="text-right font-black text-emerald-900 text-sm">${formatINR(monthTotalInc)}</td></tr>`);
+                rightRowsHtml.push(`<tr class="bg-slate-100 font-black border-t-2 border-slate-800" ${tStyle}><td colspan="6" class="text-right font-bold text-slate-700 py-1.5 text-xs">કુલ ઉધાર સરવાળો :</td><td class="text-right font-black text-amber-800 text-xs">-</td><td class="text-right font-black text-indigo-800 text-xs">${formatINR(monthTotalExp)}</td><td class="text-right font-black text-rose-800 text-xs">${formatINR(monthTotalExp)}</td></tr>`);
+
+                const ROWS_PER_PAGE = 12; 
+                const totalRows = Math.max(leftRowsHtml.length, rightRowsHtml.length);
+                const totalPages = Math.ceil(totalRows / ROWS_PER_PAGE) || 1;
+
+                while (leftRowsHtml.length < totalPages * ROWS_PER_PAGE) leftRowsHtml.push(`<tr class="border-b border-slate-200" ${rStyle}><td colspan="7">&nbsp;</td></tr>`);
+                while (rightRowsHtml.length < totalPages * ROWS_PER_PAGE) rightRowsHtml.push(`<tr class="border-b border-slate-200" ${rStyle}><td colspan="9">&nbsp;</td></tr>`);
+                for (let p = 0; p < totalPages; p++) {
+                    html += `<div class="folio-col page-chunk"><div class="cb-page-frame"><div class="bg-emerald-800 text-white p-2 text-center font-black text-sm">રોકડમેળ : જમા બાજુ (RECEIPT / CREDIT) - ડાબું પાનું (Page ${p + 1}/${totalPages})</div><div class="bg-slate-100 text-slate-800 p-1.5 text-center font-bold text-xs border-b border-slate-800 flex justify-between px-4"><span>${escapeHtml(currentSchool.name)} (SNA)</span><span>વર્ષ: ${fyYear}</span></div><table class="tally-table border-t-2 border-slate-800 border-print w-full"><thead><tr class="bg-emerald-50 text-emerald-900 border-b-2 border-slate-800 border-print"><th class="w-16 border-r border-slate-800 border-print">તારીખ</th><th class="w-24 border-r border-slate-800 border-print">હેડ (સદર)</th><th class="border-r border-slate-800 border-print">આવક / જમા વિગત</th><th class="w-12 border-r border-slate-800 border-print">ખા.પેજ</th><th class="w-16 text-right border-r border-slate-800 border-print">રોકડ (₹)</th><th class="w-20 text-right border-r border-slate-800 border-print">બેંક (₹)</th><th class="w-24 text-right border-print">કુલ (₹)</th></tr></thead><tbody>`;
+                    for (let r = p * ROWS_PER_PAGE; r < (p + 1) * ROWS_PER_PAGE; r++) if (leftRowsHtml[r]) html += leftRowsHtml[r];
+                    html += `</tbody></table></div></div>`;
+                    html += `<div class="folio-col page-chunk"><div class="cb-page-frame"><div class="bg-rose-800 text-white p-2 text-center font-black text-sm">રોકડમેળ : ઉધાર બાજુ (PAYMENT / DEBIT) - જમણું પાનું (Page ${p + 1}/${totalPages})</div><div class="bg-slate-100 text-slate-800 p-1.5 text-center font-bold text-xs border-b border-slate-800 flex justify-between px-4"><span>${escapeHtml(currentSchool.name)} (SNA)</span><span>વર્ષ: ${fyYear}</span></div><table class="tally-table border-t-2 border-slate-800 border-print w-full"><thead><tr class="bg-rose-50 text-rose-900 border-b-2 border-slate-800 border-print"><th class="w-16 border-r border-slate-800 border-print">તારીખ</th><th class="w-20 border-r border-slate-800 border-print">હેડ (સદર)</th><th class="border-r border-slate-800 border-print">ખર્ચ / ઉધાર વિગત</th><th class="w-10 border-r border-slate-800 border-print">વા.નં.</th><th class="w-36 border-r border-slate-800 border-print">SNA Claim</th><th class="w-10 border-r border-slate-800 border-print">ખા.પેજ</th><th class="w-14 text-right border-r border-slate-800 border-print">રોકડ (₹)</th><th class="w-16 text-right border-r border-slate-800 border-print">બેંક (₹)</th><th class="w-20 text-right border-print">કુલ (₹)</th></tr></thead><tbody>`;
+                    for (let r = p * ROWS_PER_PAGE; r < (p + 1) * ROWS_PER_PAGE; r++) if (rightRowsHtml[r]) html += rightRowsHtml[r];
+                    html += `</tbody></table></div></div>`;
+                }
+            }
+            // 🚀 ખાતાવહી (ROWS_PER_PAGE = 13)
+            else if (currentReportType === 'ledger') {
+                let dailyHeadTotals = {}; displayData.forEach(r => { let key = r.date + "||" + (r.componentName || "-"); if(!dailyHeadTotals[key]) dailyHeadTotals[key] = 0; dailyHeadTotals[key] += (parseFloat(r.amount) || 0); });
+                let headGroups = {}; for(let key in dailyHeadTotals) { let [d, h] = key.split("||"); let dayGrant = dailyHeadTotals[key]; if(selectedHead !== 'ALL' && h !== selectedHead) continue; if(!headGroups[h]) headGroups[h] = []; headGroups[h].push({d: d, grant: dayGrant}); }
+
+                if (Object.keys(headGroups).length === 0) { html += `<div class="text-center py-10 font-bold text-slate-400">કોઈ ડેટા ઉપલબ્ધ નથી.</div>`; } else {
+                    let sortedHeads = Object.keys(headGroups).sort((a, b) => { let pA = parseInt(khatavahiPageMap[a]) || 999; let pB = parseInt(khatavahiPageMap[b]) || 999; return pA - pB; });
+                    for(let h of sortedHeads) {
+                        let displayHead = escapeHtml(getGujHeadName(h));
+                        let headEntries = []; let headTotalInc = 0; let headTotalExp = 0;
+                        headEntries.push({type: 'opening', date: openingBalDate});
+                        headGroups[h].forEach(hg => {
+                            let d = hg.d; let dayGrant = hg.grant; let cbPageNo = cashbookPageMap[d] || "-";
+                            if(dayGrant > 0) { headEntries.push({type: 'inc', date: d, amount: dayGrant, cb: cbPageNo}); headTotalInc += dayGrant; }
+                            let dayExpenses = displayData.filter(r => r.date === d && (r.componentName||"-") === h);
+                            dayExpenses.forEach((r, i) => { 
+                                headEntries.push({type: 'exp', data: r, index: i, cb: cbPageNo});
+                                headTotalExp += (parseFloat(r.amount) || 0);
+                            });
+                        });
+
+                        const ROWS_PER_PAGE = 13; 
+                        let totalPages = Math.ceil(headEntries.length / ROWS_PER_PAGE) || 1;
+                        for(let p=0; p<totalPages; p++) {
+                            let villageText = (currentSchool.taluka && currentSchool.taluka !== "-" && currentSchool.taluka !== "..........") ? `ગામ : ${escapeHtml(currentSchool.taluka)}<br>` : "";
+                            html += `<div class="ledger-page page-chunk"><div class="mb-4 text-center print-no-bg"><h2 class="font-bold text-lg mb-2 text-slate-800">(પરિશિષ્ટ નંબર-૨) આવક/ખર્ચનું વર્ગીકરણ (ક્લાસીફાઈડ રજીસ્ટર) (ખાતાવહી) ${totalPages > 1 ? `(Page ${p+1}/${totalPages})` : ''}</h2><div class="flex justify-between text-sm font-bold text-slate-700 border-b-2 border-slate-800 pb-2"><div class="text-left">S.M.C./B.R.C./C.R.C.<br>શાળાનું નામ : ${escapeHtml(currentSchool.name)}<br>સદર (હેડનું નામ) : <span class="text-indigo-700 text-lg uppercase">${displayHead}</span></div><div class="text-right">વર્ષ : ${fyYear}<br>${villageText}<span class="bg-indigo-100 px-2 py-1 rounded border border-indigo-200">ખાતાવહી પાના નં: ${khatavahiPageMap[h] || "-"}</span></div></div></div><table class="tally-table border-2 border-slate-800 border-print w-full text-center mb-8"><thead class="bg-slate-100 print-no-bg border-b-2 border-slate-800 border-print"><tr><th class="border-r border-slate-800 border-print p-2">તારીખ</th><th class="border-r border-slate-800 border-print p-2">પહોંચ નંબર<br>અને તારીખ</th><th class="border-r border-slate-800 border-print text-emerald-700">આવક<br>રકમ રૂ.</th><th class="border-r border-slate-800 border-print p-2">વાઉચર નંબર<br>અને તારીખ</th><th class="border-r border-slate-800 border-print text-rose-700">ખર્ચની<br>રકમ રૂ.</th><th class="border-r border-slate-800 border-print p-2">કેશબુક<br>પાના નંબર</th><th class="border-print p-2 w-1/4">રિમાર્ક્સ</th></tr><tr class="text-sm text-slate-600"><th class="border-r border-slate-800 border-print py-0.5">૧</th><th class="border-r border-slate-800 border-print py-0.5">૨</th><th class="border-r border-slate-800 border-print py-0.5">૩</th><th class="border-r border-slate-800 border-print py-0.5">૪</th><th class="border-r border-slate-800 border-print py-0.5">૫</th><th class="border-r border-slate-800 border-print py-0.5">૬</th><th class="border-print py-0.5">૭</th></tr></thead><tbody>`;
+                            let chunk = headEntries.slice(p*ROWS_PER_PAGE, (p+1)*ROWS_PER_PAGE);
+                            chunk.forEach(ent => {
+                                if(ent.type === 'opening') {
+                                    html += `<tr class="border-b border-slate-400 hover:bg-slate-50 border-print"><td class="border-r border-slate-400 border-print font-bold">${ent.date}</td><td class="border-r border-slate-400 border-print font-bold">-</td><td class="border-r border-slate-400 border-print text-right font-black text-emerald-600">-</td><td class="border-r border-slate-400 border-print font-bold">-</td><td class="border-r border-slate-400 border-print text-right font-black">-</td><td class="border-r border-slate-400 border-print font-bold text-slate-400">-</td><td class="font-bold text-slate-600 border-print text-left">ગત વર્ષની બચત (ઉઘડતી સિલક)</td></tr>`;
+                                } else if(ent.type === 'inc') {
+                                    html += `<tr class="bg-emerald-50/30 print-no-bg border-b border-slate-300 border-print"><td class="border-r border-slate-400 border-print font-bold text-emerald-800">${escapeHtml(ent.date)}</td><td class="border-r border-slate-400 border-print font-bold">-</td><td class="border-r border-slate-400 border-print text-right font-black text-emerald-700">${formatINR(ent.amount)}</td><td class="border-r border-slate-400 border-print font-bold">-</td><td class="border-r border-slate-400 border-print text-right font-black text-slate-400">-</td><td class="border-r border-slate-400 border-print font-bold text-indigo-600">${ent.cb}</td><td class="font-bold text-emerald-700 border-print text-left">ગ્રાન્ટ જમા</td></tr>`;
+                                } else if(ent.type === 'exp') {
+                                    let r = ent.data; let i = ent.index;
+                                    let vch = (r.vchNo && r.vchNo !== "N/A" && r.vchNo !== "-") ? escapeHtml(r.vchNo) : (i + 1); let claimDisplay = formatClaimDisplay(r.claimNo); 
+                                    html += `<tr class="border-b border-slate-400 border-print hover:bg-slate-50"><td class="border-r border-slate-400 border-print font-bold">${escapeHtml(r.date)}</td><td class="border-r border-slate-400 border-print font-bold text-slate-400">-</td><td class="border-r border-slate-400 border-print text-right font-black text-slate-400">-</td><td class="border-r border-slate-400 border-print font-bold">${vch}<br><span class="text-[9px] text-slate-500">${escapeHtml(r.date)}</span></td><td class="border-r border-slate-400 border-print text-right font-black text-rose-600">${formatINR(r.amount)}</td><td class="border-r border-slate-400 border-print font-bold text-indigo-600">${ent.cb}</td><td class="font-bold text-slate-700 border-print text-xs text-left"><div class="text-indigo-900">${escapeHtml(r.vendorName)}</div><div class="text-[9px] text-indigo-600 font-mono mt-0.5 claim-text">SNA Claim: ${claimDisplay}</div></td></tr>`;
+                                }
+                            });
+                            if(p === totalPages - 1) {
+                                html += `<tr class="bg-slate-100 print-no-bg border-t-2 border-slate-800 border-print"><td colspan="2" class="text-right font-bold text-slate-800 border-r border-slate-400 border-print p-2">કુલ:</td><td class="text-right font-black text-emerald-700 border-r border-slate-400 border-print p-2">${formatINR(headTotalInc)}</td><td class="border-r border-slate-400 border-print p-2"></td><td class="text-right font-black text-rose-700 border-r border-slate-400 border-print p-2">${formatINR(headTotalExp)}</td><td colspan="2" class="border-print"></td></tr>`; 
+                            }
+                            html += `</tbody></table></div>`;
+                        }
+                    }
+                }
+            }
+            // 🚀 SNA Passbook (ROWS_PER_PAGE = 12)
+            else if (currentReportType === 'epayment') {
+                const ROWS_PER_PAGE = 12; let totalPages = Math.ceil(displayData.length / ROWS_PER_PAGE) || 1;
+                for(let p=0; p<totalPages; p++) {
+                    html += `<div class="page-chunk"><div class="mb-4 text-center print-no-bg"><h2 class="font-bold text-lg mb-2 text-slate-800">SNA Passbook (E-Payment Ledger) (Page ${p+1}/${totalPages})</h2><div class="flex justify-between text-sm font-bold text-slate-700 border-b-2 border-slate-800 pb-2"><div class="text-left">સંસ્થાનું નામ : ${escapeHtml(currentSchool.name)}<br>ફંડનો પ્રકાર : SNA SPARSH</div><div class="text-right">વર્ષ : ${fyYear}</div></div></div><table class="tally-table w-full text-center border-2 border-slate-800 border-print"><thead class="print-no-bg bg-slate-100 border-b-2 border-slate-800 border-print"><tr><th class="p-2 border-r border-slate-800 border-print">Order Date<br>(આદેશ તારીખ)</th><th class="p-2 border-r border-slate-800 border-print">SNA SPARSH વિગત (પાર્ટીનું નામ)</th><th class="p-2 border-r border-slate-800 border-print">SNA SPARSH Claim Number</th><th class="text-right p-2 border-r border-slate-800 border-print">SNA SPARSH રકમ</th><th class="p-2 border-r border-slate-800 border-print">વા. નં.</th><th class="p-2 border-r border-slate-800 border-print">હેડ</th><th class="p-2 border-r border-slate-800 border-print">PFMS Settlement<br>(પાસ તારીખ)</th><th class="p-2 border-print">સ્ટેટસ</th></tr></thead><tbody>`;
+                    let chunk = displayData.slice(p*ROWS_PER_PAGE, (p+1)*ROWS_PER_PAGE);
+                    chunk.forEach((r, i) => { 
+                        let globalIdx = p*ROWS_PER_PAGE + i + 1; let vch = (r.vchNo && r.vchNo !== "N/A" && r.vchNo !== "-") ? escapeHtml(r.vchNo) : globalIdx;
+                        
+                        let sUpper = String(r.status || "").toUpperCase();
+                        let statusColor = 'text-amber-600';
+                        let amountStyle = 'text-emerald-600';
+                        let displayPfmsDate = (!r.pfmsDate || r.pfmsDate === "-") ? `<span class="text-[10px] text-amber-600 font-bold border border-amber-200 bg-amber-50 px-1.5 py-0.5 rounded">Pending</span>` : `<span class="text-emerald-700 font-bold">${escapeHtml(r.pfmsDate)}</span>`;
+                        
+                        if(sUpper.includes('SUCCESS') || sUpper.includes('COMPLETED')) {
+                            statusColor = 'text-emerald-600';
+                        }
+                        else if(sUpper.includes('REJECT') || sUpper.includes('FAIL') || sUpper.includes('CANCEL') || sUpper.includes('RETURN')) { 
+                            statusColor = 'text-rose-600 font-black'; 
+                            amountStyle = 'text-rose-400 line-through';
+                        } 
+                        else if(sUpper.includes('PENDING')) {
+                            statusColor = 'text-blue-600';
+                        }
+
+                        html += `<tr class="border-b border-slate-400 border-print hover:bg-slate-50"><td class="p-2 border-r border-slate-400 border-print">${escapeHtml(r.date)}</td><td class="p-2 border-r border-slate-400 border-print font-bold text-slate-800 text-left">${escapeHtml(r.vendorName)}</td><td class="p-2 border-r border-slate-400 border-print font-mono text-indigo-600 font-bold claim-text">${formatClaimDisplay(r.claimNo)}</td><td class="p-2 border-r border-slate-400 border-print text-right font-black ${amountStyle}">${formatINR(r.amount)}</td><td class="p-2 border-r border-slate-400 border-print text-center">${vch}</td><td class="p-2 border-r border-slate-400 border-print font-bold text-slate-600 text-xs">${escapeHtml(getGujHeadName(r.componentName||"-"))}</td><td class="p-2 border-r border-slate-400 border-print text-center">${displayPfmsDate}</td><td class="p-2 border-print text-center text-xs font-bold ${statusColor}">${escapeHtml(r.status)}</td></tr>`; 
+                    });
+                    html += `</tbody></table></div>`; 
+                }
+            }
+            // 🚀 Bill Register (ROWS_PER_PAGE = 15)
+            else if (currentReportType === 'bill') {
+                const ROWS_PER_PAGE = 15; let totalPages = Math.ceil(displayData.length / ROWS_PER_PAGE) || 1;
+                for(let p=0; p<totalPages; p++) {
+                    html += `<div class="page-chunk"><div class="mb-4 text-center print-no-bg"><h2 class="font-bold text-lg mb-2 text-slate-800">વર્ષ દરમિયાનનું બિલોનું નોંધપત્રક (બિલ રજીસ્ટર) (Page ${p+1}/${totalPages})</h2><div class="flex justify-between text-sm font-bold text-slate-700 border-b-2 border-slate-800 pb-2"><div class="text-left">સંસ્થાનું નામ : ${escapeHtml(currentSchool.name)}<br>ફંડનો પ્રકાર : SNA SPARSH (Virtual Limit)</div><div class="text-right">વર્ષ : ${fyYear}<br>ચુકવણી રૂટ : IFMS / PFMS</div></div></div><table class="tally-table w-full text-center border-2 border-slate-800 border-print"><thead class="print-no-bg bg-slate-100 border-b-2 border-slate-800 border-print"><tr><th class="p-2 border-r border-slate-800 border-print">વાઉચર<br>નંબર</th><th class="p-2 border-r border-slate-800 border-print w-20">તારીખ</th><th class="p-2 border-r border-slate-800 border-print">બિલની વિગત<br>(હેડ)</th><th class="p-2 border-r border-slate-800 border-print">બિલ કોના તરફથી<br>મળેલ છે?</th><th class="p-2 border-r border-slate-800 border-print text-right">બિલની રકમ</th><th class="p-2 border-r border-slate-800 border-print text-right">કપાત</th><th class="p-2 border-r border-slate-800 border-print text-right">ચુકવવાની થતી<br>ચોખ્ખી રકમ</th><th class="p-2 border-r border-slate-800 border-print">મંજુર કરનાર<br>અધિકારીની સહી</th><th class="p-2 border-r border-slate-800 border-print">કેશબુક<br>પા.નં.</th><th class="p-2 border-print">શેરો</th></tr></thead><tbody>`;
+                    let chunk = displayData.slice(p*ROWS_PER_PAGE, (p+1)*ROWS_PER_PAGE);
+                    chunk.forEach((r, i) => { 
+                        let globalIdx = p*ROWS_PER_PAGE + i + 1; let vch = (r.vchNo && r.vchNo !== "N/A" && r.vchNo !== "-") ? escapeHtml(r.vchNo) : globalIdx; let cbPageNo = cashbookPageMap[r.date] || "-";
+                        html += `<tr class="border-b border-slate-400 border-print hover:bg-slate-50"><td class="p-2 border-r border-slate-400 border-print text-center font-bold text-slate-600">${vch}</td><td class="p-2 border-r border-slate-400 border-print text-center whitespace-nowrap">${escapeHtml(r.date)}</td><td class="p-2 border-r border-slate-400 border-print font-bold text-slate-700 text-left text-xs">${escapeHtml(getGujHeadName(r.componentName||"-"))}</td><td class="p-2 border-r border-slate-400 border-print font-bold text-indigo-700 text-left">${escapeHtml(r.vendorName)}</td><td class="p-2 border-r border-slate-400 border-print text-right font-black">${formatINR(r.amount)}</td><td class="p-2 border-r border-slate-400 border-print text-right font-bold text-slate-400">0.00</td><td class="p-2 border-r border-slate-400 border-print text-right font-black text-rose-600">${formatINR(r.amount)}</td><td class="p-2 border-r border-slate-400 border-print"></td><td class="p-2 border-r border-slate-400 border-print text-center font-bold text-emerald-600">${cbPageNo}</td><td class="p-2 border-print"></td></tr>`; 
+                    });
+                    html += `</tbody></table></div>`; 
+                }
+            }
+            // 🚀 FTO Register (ROWS_PER_PAGE = 9)
+            else if (currentReportType === 'cheque') {
+                const ROWS_PER_PAGE = 9; let totalPages = Math.ceil(displayData.length / ROWS_PER_PAGE) || 1;
+                for(let p=0; p<totalPages; p++) {
+                    html += `<div class="page-chunk"><div class="mb-4 text-center print-no-bg"><h2 class="font-bold text-lg mb-2 text-slate-800">SNA E-Payment / FTO નોંધપત્રક (Page ${p+1}/${totalPages})</h2><div class="flex justify-between text-sm font-bold text-slate-700 border-b-2 border-slate-800 pb-2"><div class="text-left">સંસ્થાનું નામ : ${escapeHtml(currentSchool.name)}<br>ફંડનો પ્રકાર : SNA SPARSH</div><div class="text-right">વર્ષ : ${fyYear}<br>ચુકવણી રૂટ : IFMS / PFMS</div></div></div><table class="tally-table w-full text-center border-2 border-slate-800 border-print"><thead class="print-no-bg bg-slate-100 border-b-2 border-slate-800 border-print"><tr><th class="p-2 border-r border-slate-800 border-print">ક્રમ</th><th class="p-2 border-r border-slate-800 border-print">આદેશ તારીખ</th><th class="p-2 border-r border-slate-800 border-print">SNA Claim / FTO નંબર</th><th class="p-2 border-r border-slate-800 border-print">વા. નં</th><th class="p-2 border-r border-slate-800 border-print">કઈ બાબતે કોને પેમેન્ટ કર્યું તેની વિગતો</th><th class="p-2 border-r border-slate-800 border-print text-right">ચુકવેલ રકમ</th><th class="p-2 border-r border-slate-800 border-print text-right">બિલની રકમ</th><th class="p-2 border-r border-slate-800 border-print">બિલ હેડ વિગતો</th><th class="p-2 border-r border-slate-800 border-print">PFMS Settlement તારીખ</th><th class="p-2 border-print">કેશબુક પા.નં.</th></tr></thead><tbody>`;
+                    let chunk = displayData.slice(p*ROWS_PER_PAGE, (p+1)*ROWS_PER_PAGE);
+                    chunk.forEach((r, i) => { 
+                        let globalIdx = p*ROWS_PER_PAGE + i + 1; let vch = (r.vchNo && r.vchNo !== "N/A" && r.vchNo !== "-") ? escapeHtml(r.vchNo) : globalIdx; let cbPageNo = cashbookPageMap[r.date] || "-";
+                        let displayPfmsDate = (!r.pfmsDate || r.pfmsDate === "-") ? `<span class="text-[10px] text-amber-600 font-bold border border-amber-200 bg-amber-50 px-1.5 py-0.5 rounded">Pending</span>` : `<span class="text-emerald-700 font-bold">${escapeHtml(r.pfmsDate)}</span>`;
+                        html += `<tr class="border-b border-slate-400 border-print hover:bg-slate-50"><td class="p-2 border-r border-slate-400 border-print text-center">${globalIdx}</td><td class="p-2 border-r border-slate-400 border-print">${escapeHtml(r.date)}</td><td class="p-2 border-r border-slate-400 border-print font-mono text-indigo-600 font-bold claim-text">${formatClaimDisplay(r.claimNo)}</td><td class="p-2 border-r border-slate-400 border-print text-center">${vch}</td><td class="p-2 border-r border-slate-400 border-print font-bold text-left">${escapeHtml(r.vendorName)}</td><td class="p-2 border-r border-slate-400 border-print text-right font-black text-emerald-700">${formatINR(r.amount)}</td><td class="p-2 border-r border-slate-400 border-print text-right font-bold text-slate-700">${formatINR(r.amount)}</td><td class="p-2 border-r border-slate-400 border-print font-bold text-slate-600 text-xs">${escapeHtml(getGujHeadName(r.componentName||"-"))}</td><td class="p-2 border-r border-slate-400 border-print text-center">${displayPfmsDate}</td><td class="p-2 border-print text-center font-bold text-indigo-600">${cbPageNo}</td></tr>`; 
+                    });
+                    html += `</tbody></table></div>`; 
+                }
+            }
+            // 🚀 Grant Register (ROWS_PER_PAGE = 13)
+            else if (currentReportType === 'grant') {
+                let grouped = {}; displayData.forEach(r => { let h = r.componentName||"Unknown"; if(!grouped[h]) grouped[h]=0; grouped[h]+=(parseFloat(r.amount)||0); });
+                let headsArray = Object.keys(grouped); let grandTotal = 0; headsArray.forEach(h => grandTotal += grouped[h]);
+                const ROWS_PER_PAGE = 13; let totalPages = Math.ceil(headsArray.length / ROWS_PER_PAGE) || 1;
+                for(let p=0; p<totalPages; p++) {
+                    html += `<div class="page-chunk"><div class="mb-4 text-center print-no-bg"><h2 class="font-bold text-lg mb-2 text-slate-800">ગ્રાન્ટ રજીસ્ટર : પરિશિષ્ટ ૧૧ (Page ${p+1}/${totalPages})</h2><div class="flex justify-between text-sm font-bold text-slate-700 border-b-2 border-slate-800 pb-2"><div class="text-left">INSTITUTE: ${escapeHtml(currentSchool.name)}<br>Type: SNA SPARSH (Virtual Limit)</div><div class="text-right">વર્ષ : ${fyYear}</div></div></div><table class="tally-table w-full text-center border-2 border-slate-800 border-print"><thead class="print-no-bg bg-slate-100"><tr class="border-b-2 border-slate-800 border-print"><th rowspan="2" class="p-2 border-r border-slate-800 border-print">ક્રમ</th><th rowspan="2" class="p-2 border-r border-slate-800 border-print">કોના તરફથી મળી</th><th rowspan="2" class="p-2 border-r border-slate-800 border-print">ગ્રાન્ટ જમા રકમ</th><th rowspan="2" class="p-2 border-r border-slate-800 border-print">ક્યાં કામે મળ્યા ? (Head)</th><th colspan="2" class="p-2 border-r border-slate-800 border-print bg-indigo-50 border-b print-no-bg">બેંક/ટ્રેઝરીમાં જમા કર્યાની વિગત</th><th rowspan="2" class="p-2 border-r border-slate-800 border-print">કોને ફાળવેલ</th><th rowspan="2" class="p-2 border-r border-slate-800 border-print">ખર્ચેલ રકમ</th><th rowspan="2" class="p-2 border-r border-slate-800 border-print">બચત ગ્રાન્ટ</th><th rowspan="2" class="p-2 border-print">રીમાર્કસ</th></tr><tr class="border-b-2 border-slate-800 border-print"><th class="p-2 border-r border-slate-800 border-print bg-indigo-50 print-no-bg">A/c No (Virtual)</th><th class="p-2 border-r border-slate-800 border-print bg-indigo-50 print-no-bg">Route / Bank</th></tr></thead><tbody>`;
+                    let chunk = headsArray.slice(p*ROWS_PER_PAGE, (p+1)*ROWS_PER_PAGE);
+                    chunk.forEach((h, i) => { 
+                        let globalIdx = p*ROWS_PER_PAGE + i + 1; let exp = grouped[h]; 
+                        html += `<tr class="border-b border-slate-400 border-print hover:bg-slate-50"><td class="p-2 border-r border-slate-400 border-print text-center">${globalIdx}</td><td class="p-2 border-r border-slate-400 border-print font-bold text-slate-600 text-center">SSA / GOG</td><td class="p-2 border-r border-slate-400 border-print text-right font-black text-indigo-700">${formatINR(exp)}</td><td class="p-2 border-r border-slate-400 border-print font-bold text-slate-800 text-xs">${escapeHtml(getGujHeadName(h))}</td><td class="p-2 border-r border-slate-400 border-print text-center font-mono text-[10px]">Virtual Limit</td><td class="p-2 border-r border-slate-400 border-print text-center font-bold text-[10px]">PFMS / IFMS</td><td class="p-2 border-r border-slate-400 border-print text-center font-bold text-slate-600">SMC (SNA)</td><td class="p-2 border-r border-slate-400 border-print text-right font-bold text-rose-600">${formatINR(exp)}</td><td class="p-2 border-r border-slate-400 border-print text-right font-black text-slate-400">0.00</td><td class="p-2 border-print"></td></tr>`; 
+                    });
+                    if(p === totalPages - 1) { html += `<tr class="bg-slate-100 print-no-bg border-t-2 border-slate-800 border-print"><td colspan="2" class="p-2 border-r border-slate-400 border-print text-right text-sm font-bold">કુલ રકમ :</td><td class="p-2 border-r border-slate-400 border-print text-right font-black text-indigo-700 text-lg">${formatINR(grandTotal)}</td><td colspan="4" class="p-2 border-r border-slate-400 border-print"></td><td class="p-2 border-r border-slate-400 border-print text-right font-black text-rose-600 text-lg">${formatINR(grandTotal)}</td><td class="p-2 border-r border-slate-400 border-print text-right font-black text-slate-500 text-lg">0.00</td><td class="p-2 border-print"></td></tr>`; }
+                    html += `</tbody></table></div>`;
+                }
+            }
+            // 🚀 P10 (ROWS_PER_PAGE = 14 + SMART AUTO CAPTURE)
+            else if (currentReportType === 'p10') {
+                let grouped = {}; displayData.forEach(r => { let h = r.componentName||"Unknown"; if(!grouped[h]) grouped[h]=0; grouped[h]+=(parseFloat(r.amount)||0); });
+                let headsArray = Object.keys(grouped); let expTotal = 0; headsArray.forEach(h => expTotal += grouped[h]);
+                
+                let dashGrantEl = document.getElementById('dashGrant');
+                let realDashboardGrant = dashGrantEl ? parseFloat(dashGrantEl.innerText.replace(/[^0-9.-]/g, '')) : 0;
+                
+                let autoMotherSanction = window.totalVirtualLimit || window.motherSanctionAmount || realDashboardGrant;
+                if(autoMotherSanction < expTotal) autoMotherSanction = expTotal;
+                
+                let headOptions = headsArray.map(h => `<option value="${escapeHtml(getGujHeadName(h))}"></option>`).join('');
+                headOptions += `<option value="રોકડ ખાતું/અનામત ખાતે"></option>`;
+
+                let remTotal = autoMotherSanction - expTotal;
+                if (remTotal < 0) remTotal = 0;
+
+                let smartPanel = `
+                <div class="no-print bg-amber-50 border border-amber-300 p-4 mb-6 rounded-lg shadow-md w-full lg:w-[90%] mx-auto">
+                    <div class="font-black text-amber-800 text-base mb-3">⚡ SMART SETUP (P10) :</div>
+                    
+                    <div class="flex flex-wrap gap-4 items-center mb-4">
+                        <div>
+                            <label class="text-sm font-bold text-slate-700">Mother Sanction (કુલ ગ્રાન્ટ): </label>
+                            <input type="number" id="inpTotalGrant" class="ml-1 p-2 border-2 border-indigo-400 rounded w-40 font-black text-indigo-700 text-lg" 
+                                value="${autoMotherSanction}" 
+                                onkeyup="updateSmartP10(${expTotal}, '${reportEndDate}', '${fyYear}')" 
+                                onchange="updateSmartP10(${expTotal}, '${reportEndDate}', '${fyYear}')">
+                        </div>
+                        <div class="text-xs text-slate-500 font-bold bg-white p-2 rounded border border-amber-200">
+                            * Auto: ₹ ${formatINR(autoMotherSanction)} | Spent: ₹ ${formatINR(expTotal)} | Remaining: ₹ <span id="lblRemTotal">${formatINR(remTotal)}</span>
+                        </div>
+                    </div>
+
+                    <div class="font-bold text-slate-700 text-sm mb-2">બચતનું વિભાજન (Remaining Split) — Dynamic:</div>
+                    
+                    <div class="space-y-2" id="remSplitBox">
+                        <!-- Dynamic rows will be added here -->
+                    </div>
+
+                    <div class="mt-3 flex gap-2">
+                        <button type="button" onclick="addRemHeadRow(${expTotal}, '${reportEndDate}', '${fyYear}')" 
+                            class="bg-indigo-600 text-white px-4 py-1.5 rounded-lg text-xs font-bold hover:bg-indigo-700">
+                            + Add Head
+                        </button>
+                        <div class="text-xs text-slate-500 font-bold self-center">
+                            કુલ Remaining Amount = Mother Sanction − Spent હોવું જોઈએ
+                        </div>
+                    </div>
+                    
+                    <datalist id="remHeadList">${headOptions}</datalist>
+                    
+                    <div id="p10YearEndWarning" class="mt-3 p-3 rounded-lg border-2 border-rose-400 bg-rose-50 text-rose-800 text-sm font-bold hidden">
+                        ⚠️ 31 March ના રોજ આ બચત આપોઆપ શૂન્ય થઈ જશે (Grant Lapse). આ મેસેજ ફક્ત સૂચના છે – સર્ટિફિકેટમાં છપાશે નહીં.
+                    </div>
+                </div>`;
+                
+                let certHtml = `આથી પ્રમાણપત્ર આપવામાં આવે છે કે સને ${fyYear} નાણાકીય વર્ષમાં કુલ રૂ. <span class="font-black text-indigo-700 dyn-total-grant">${formatINR(autoMotherSanction)}</span> (અંકે <span class="dyn-words">${(typeof getGujaratiWords === 'function' ? getGujaratiWords(autoMotherSanction) : formatINR(autoMotherSanction))}</span>) મળેલ છે. જે પૈકી રૂપિયા <span class="font-black">${formatINR(expTotal)}</span> (અંકે ${(typeof getGujaratiWords === 'function' ? getGujaratiWords(expTotal) : formatINR(expTotal))}) પુરા ખર્ચ થયેલ છે. અગાઉના વર્ષની બચત સહિત ${reportEndDate} ના રોજ રૂપિયા <span class="font-black text-rose-600 dyn-rem-amt">0.00</span> બચત રહેલ છે. આ ઉપરાંત આવક અને ખર્ચના આંકડા સંબંધિત હિસાબી રેકર્ડ સાથે ચકાસણી કરીને દર્શાવેલા છે.`;
+
+                const ROWS_PER_PAGE = 14; let totalPages = Math.ceil((headsArray.length+1) / ROWS_PER_PAGE) || 1;
+                html += smartPanel;
+                
+                for(let p=0; p<totalPages; p++) {
+                    html += `<div class="page-chunk"><div class="mb-6 text-center print-no-bg w-full lg:w-[90%] mx-auto"><h2 class="font-bold text-2xl mb-1 text-slate-800">પરિશિષ્ટ -૧૦ (Page ${p+1}/${totalPages})</h2><h3 class="font-bold text-lg mb-4 text-slate-600">ગ્રાન્ટ વપરાશ પ્રમાણપત્ર (વર્ષ : ${fyYear})</h3>`;
+                    if(p===0) html += `<p class="text-base font-bold text-slate-700 leading-relaxed text-justify indent-8 mb-6 font-normal whitespace-normal dyn-cert-text">${certHtml}</p>`;
+                    html += `<div class="flex justify-between text-base font-bold text-slate-700 border-b-2 border-slate-800 pb-2 mb-4"><div class="text-left">${escapeHtml(currentSchool.name)}<br>A/C: SNA Virtual Limit</div><div class="text-right">Route: IFMS / PFMS</div></div></div><table class="tally-table border-2 border-slate-800 border-print w-full lg:w-[90%] mx-auto"><thead class="bg-slate-100 print-no-bg border-b-2 border-slate-800 border-print"><tr class="text-center"><th class="p-2 border-r border-slate-800 border-print">ક્રમ</th><th class="p-2 border-r border-slate-800 border-print">ગ્રાન્ટ / હેડની વિગત</th><th class="p-2 border-r border-slate-800 border-print">શરૂઆતની સિલક (Limit)</th><th class="p-2 border-r border-slate-800 border-print">આ વર્ષ દરમ્યાન<br>મળેલ ગ્રાન્ટ (Limit)</th><th class="p-2 border-r border-slate-800 border-print">કુલ ગ્રાન્ટ<br>(4+5)</th><th class="p-2 border-r border-slate-800 border-print">SNA SPARSH દ્વારા<br>ખર્ચ / પરત કરેલ ગ્રાન્ટ</th><th class="p-2 border-r border-slate-800 border-print">રોકડ<br>(3+8-9)</th><th class="p-2 border-r border-slate-800 border-print">કુલ બંધ સિલક (લિમિટ)<br>(6-7)</th><th class="p-2 border-print">કુલ<br>(10+11)</th></tr><tr class="text-[10px] text-slate-500 bg-slate-200 border-b-2 border-slate-800 border-print print-no-bg"><th class="p-1 border-r border-slate-800 border-print">1</th><th class="p-1 border-r border-slate-800 border-print">2</th><th class="p-1 border-r border-slate-800 border-print">4</th><th class="p-1 border-r border-slate-800 border-print">5</th><th class="p-1 border-r border-slate-800 border-print">6</th><th class="p-1 border-r border-slate-800 border-print">7</th><th class="p-1 border-r border-slate-800 border-print">10</th><th class="p-1 border-r border-slate-800 border-print">11</th><th class="p-1 border-print">12</th></tr></thead><tbody>`;
+                    
+                    let chunk = headsArray.slice(p*ROWS_PER_PAGE, (p+1)*ROWS_PER_PAGE);
+                    chunk.forEach((h, i) => { 
+                        let globalIdx = p*ROWS_PER_PAGE + i + 1; let exp = grouped[h]; 
+                        html += `<tr class="border-b border-slate-400 border-print hover:bg-slate-50"><td class="p-2 border-r border-slate-400 border-print text-center">${globalIdx}</td><td class="p-2 border-r border-slate-400 border-print font-bold text-indigo-700 text-sm p-2 text-left">${escapeHtml(getGujHeadName(h))}</td><td class="p-2 border-r border-slate-400 border-print text-right p-2">0.00</td><td class="p-2 border-r border-slate-400 border-print text-right p-2">${formatINR(exp)}</td><td class="p-2 border-r border-slate-400 border-print text-right font-black p-2">${formatINR(exp)}</td><td class="p-2 border-r border-slate-400 border-print text-right font-bold text-rose-600 p-2">${formatINR(exp)}</td><td class="p-2 border-r border-slate-400 border-print text-right p-2">0.00</td><td class="p-2 border-r border-slate-400 border-print text-right font-black text-slate-400 p-2">0.00</td><td class="p-2 border-print text-right font-black text-slate-400 p-2">0.00</td></tr>`; 
+                    });
+                    
+                    if(p === totalPages - 1) {
+                        let remSplits = window._p10RemSplits || [];
+                        if (remSplits.length === 0 && (window._p10TotalRem || 0) > 0 && !window._p10IsYearEnd) {
+                            remSplits = [{ head: 'રોકડ ખાતું/અનામત ખાતે', amount: window._p10TotalRem }];
+                        }
+
+                        let existingMap = {};
+                        headsArray.forEach((h, i) => {
+                            existingMap[String(getGujHeadName(h)).trim()] = i; 
+                        });
+
+                        let newHeads = [];
+                        remSplits.forEach(s => {
+                            let clean = String(s.head).trim();
+                            if (!existingMap.hasOwnProperty(clean)) {
+                                newHeads.push(s);
+                            }
+                        });
+
+                        newHeads.forEach((s, idx) => {
+                            let srNo = headsArray.length + idx + 1;
+                            html += `<tr class="border-b border-slate-400 border-print p10-rem-row">
+                                <td class="p-2 border-r border-slate-400 border-print text-center font-bold text-emerald-700">${srNo}</td>
+                                <td class="p-2 border-r border-slate-400 border-print font-bold text-emerald-700 text-sm text-left">${escapeHtml(s.head)}</td>
+                                <td class="p-2 border-r border-slate-400 border-print text-right">0.00</td>
+                                <td class="p-2 border-r border-slate-400 border-print text-right font-bold text-emerald-700">${formatINR(s.amount)}</td>
+                                <td class="p-2 border-r border-slate-400 border-print text-right font-black text-emerald-700">${formatINR(s.amount)}</td>
+                                <td class="p-2 border-r border-slate-400 border-print text-right">0.00</td>
+                                <td class="p-2 border-r border-slate-400 border-print"></td>
+                                <td class="p-2 border-r border-slate-400 border-print text-right font-black text-emerald-700">${formatINR(s.amount)}</td>
+                                <td class="p-2 border-print text-right font-black text-emerald-700">${formatINR(s.amount)}</td>
+                            </tr>`;
+                        });
+
+                        html += `<tr class="bg-slate-100 print-no-bg border-t-2 border-slate-800 border-print">
+                            <th colspan="2" class="p-2 border-r border-slate-400 border-print text-right text-base">કુલ :</th>
+                            <th class="p-2 border-r border-slate-400 border-print text-right">0.00</th>
+                            <th class="p-2 border-r border-slate-400 border-print text-right text-xl text-indigo-700 dyn-total-grant">${formatINR(autoMotherSanction)}</th>
+                            <th class="p-2 border-r border-slate-400 border-print text-right text-xl text-indigo-700 dyn-total-grant">${formatINR(autoMotherSanction)}</th>
+                            <th class="p-2 border-r border-slate-400 border-print text-right text-xl text-rose-600">${formatINR(expTotal)}</th>
+                            <th class="p-2 border-r border-slate-400 border-print text-right">0.00</th>
+                            <th class="p-2 border-r border-slate-400 border-print text-right text-xl text-emerald-600 dyn-rem-amt">${formatINR(window._p10TotalRem || 0)}</th>
+                            <th class="p-2 border-print text-right text-xl text-emerald-600 dyn-rem-amt">${formatINR(window._p10TotalRem || 0)}</th>
+                        </tr>`;
+                    }
+                    html += `</tbody></table></div>`;
+                }
+                setTimeout(() => { 
+                    initRemSplitBox(expTotal, reportEndDate, fyYear, (autoMotherSanction - expTotal) > 0 ? (autoMotherSanction - expTotal) : 0);
+                    updateSmartP10(expTotal, reportEndDate, fyYear); 
+                }, 50);
+            }
+            // 🚀 P9 (SMART LIMIT LINK)
+            else if (currentReportType === 'p9') {
+                let expTotal = 0; displayData.forEach(r => expTotal += (parseFloat(r.amount)||0));
+                
+                let dashGrantEl = document.getElementById('dashGrant');
+                let realDashboardGrant = dashGrantEl ? parseFloat(dashGrantEl.innerText.replace(/[^0-9.-]/g, '')) : 0;
+                
+                let autoMotherSanction = window.totalVirtualLimit || window.motherSanctionAmount || realDashboardGrant;
+                if(autoMotherSanction < expTotal) autoMotherSanction = expTotal;
+                
+                let smartPanel = `
+                <div class="no-print bg-amber-50 border border-amber-300 p-4 mb-6 rounded-lg flex flex-wrap gap-4 items-center shadow-md w-full lg:w-[80%] mx-auto">
+                    <div class="font-black text-amber-800 text-base">⚡ SMART SETUP (P9) :</div>
+                    <div><label class="text-sm font-bold text-slate-700">Mother Sanction (કુલ ગ્રાન્ટ): </label>
+                        <input type="number" id="inpTotalGrant" class="ml-1 p-1.5 border-2 border-indigo-400 rounded w-40 font-black text-indigo-700" value="${autoMotherSanction}" onkeyup="document.querySelector('.dyn-rem-amt').innerText = parseFloat((parseFloat(this.value)||0) - ${expTotal}).toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2})" onchange="document.querySelector('.dyn-rem-amt').innerText = parseFloat((parseFloat(this.value)||0) - ${expTotal}).toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2})">
+                    </div>
+                </div>`;
+
+                html += `<div class="page-chunk">
+                ${smartPanel}
+                <div class="mb-8 text-center print-no-bg w-full lg:w-[80%] mx-auto">
+                    <h2 class="font-bold text-3xl text-slate-800 mb-2 text-center">પરિશિષ્ટ –9</h2>
+                    <h3 class="font-bold text-xl text-slate-600 text-center">SNA લિમિટ મેળવણું (Limit Reconciliation)</h3>
+                    <div class="text-base font-bold text-slate-700 mt-4 border-b-2 border-slate-800 pb-2 flex justify-between"><div class="text-left">વર્ષ : ${fyYear}</div><div class="text-center">School: ${escapeHtml(currentSchool.name)}</div><div class="text-right">Account: Virtual Limit (PFMS)</div></div>
+                </div>
+                <table class="tally-table border-2 border-slate-800 border-print w-full mx-auto text-sm lg:w-[80%]"><thead class="print-no-bg bg-slate-100 border-b-2 border-slate-800 border-print">
+                <tr><th class="p-3 border-r border-slate-800 border-print text-sm">ક્રમ</th><th class="p-3 border-r border-slate-800 border-print text-sm">વિગત</th><th class="text-right p-3 border-r border-slate-800 border-print text-sm">પેટા રકમ</th><th class="text-right bg-indigo-50 print-no-bg p-3 text-sm border-print">કુલ રકમ</th></tr></thead><tbody>
+                <tr class="border-b border-slate-400 border-print"><td class="p-3 border-r border-slate-400 border-print"></td><td class="font-bold text-indigo-700 p-3 text-base border-r border-slate-400 border-print text-left">રોજમેળ પ્રમાણે તા. ${openingBalDate} ની સિલક</td><td class="p-3 border-r border-slate-400 border-print"></td><td class="text-right font-bold p-3 text-base border-print">0.00</td></tr>
+                <tr class="border-b border-slate-400 border-print"><td class="font-bold text-emerald-600 p-3 text-base border-r border-slate-400 border-print text-center">(+)</td><td class="font-bold text-emerald-600 p-3 text-base border-r border-slate-400 border-print text-left">ઉમેરવું</td><td class="p-3 border-r border-slate-400 border-print"></td><td class="p-3 border-print"></td></tr>
+                <tr class="border-b border-slate-400 border-print"><td class="p-3 text-base text-center border-r border-slate-400 border-print">૧</td><td class="p-3 text-base border-r border-slate-400 border-print text-left">SNA ઓર્ડર જનરેટ થયો હોય પરંતુ PFMS માં સેટલ ન થયો હોય.</td><td class="text-right p-3 text-base border-r border-slate-400 border-print">0.00</td><td class="p-3 border-print"></td></tr>
+                <tr class="border-b border-slate-400 border-print"><td class="p-3 text-base text-center border-r border-slate-400 border-print">૨</td><td class="p-3 text-base border-r border-slate-400 border-print text-left">પોર્ટલ પર લિમિટ જમા થઇ હોય પરંતુ રોજમેળમાં દર્શાવેલ ન હોય.</td><td class="text-right p-3 text-base border-r border-slate-400 border-print">0.00</td><td class="text-right font-bold text-emerald-700 p-3 text-base border-print">0.00</td></tr>
+                <tr class="border-b border-slate-400 border-print"><td class="font-bold text-rose-600 p-3 text-base border-r border-slate-400 border-print text-center">(-)</td><td class="font-bold text-rose-600 p-3 text-base border-r border-slate-400 border-print text-left">બાદ કરવું.</td><td class="p-3 border-r border-slate-400 border-print"></td><td class="p-3 border-print"></td></tr>
+                <tr class="border-b border-slate-400 border-print"><td class="p-3 text-base text-center border-r border-slate-400 border-print">૧</td><td class="p-3 text-base border-r border-slate-400 border-print text-left">SNA માં ખર્ચ એડવાન્સ બુક કર્યો હોય પરંતુ પોર્ટલ પર પેમેન્ટ બાકી હોય.</td><td class="text-right p-3 text-base border-r border-slate-400 border-print">0.00</td><td class="p-3 border-print"></td></tr>
+                <tr class="border-b border-slate-400 border-print"><td class="p-3 text-base text-center border-r border-slate-400 border-print">૨</td><td class="p-3 text-base border-r border-slate-400 border-print text-left">પોર્ટલ પર રકમ ડેબિટ (ઉધાર) થઈ હોય પરંતુ તે રોજમેળમાં ઉલ્લેખ થયેલ ન હોય.</td><td class="text-right p-3 text-base border-r border-slate-400 border-print">0.00</td><td class="text-right font-bold text-rose-600 p-3 text-base border-print">0.00</td></tr>
+                <tr class="bg-indigo-50/50 print-no-bg border-t-2 border-slate-800 border-print"><td class="p-4 border-r border-slate-400 border-print"></td><td class="font-bold text-slate-800 text-xl p-4 border-r border-slate-400 border-print text-left">SNA / PFMS પોર્ટલ પ્રમાણે લિમિટ બેલેન્સ</td><td class="p-4 border-r border-slate-400 border-print"></td><td class="text-right font-black text-2xl text-emerald-600 p-4 border-print dyn-rem-amt">${formatINR(autoMotherSanction - expTotal)}</td></tr></tbody></table></div>`;
+            }
+
+            wrapper.innerHTML = html;
+        } catch(e) {
+            console.error("Report Generation Error: ", e);
+            wrapper.innerHTML = `<div class="text-center py-16 font-bold text-rose-500">રિપોર્ટ બનાવતી વખતે ભૂલ આવી: ${e.message}</div>`;
+        }
+    }, 1);
+}
