@@ -14,5 +14,13 @@
     "expiry": "27-09-2026",
     "pin": "4110",
     "sig": "52C613"
+  },
+  "24160401301": {
+    "name": "KAJIPURA PS",
+    "planType": "3-Day Free Demo (COMBO) - ₹0",
+    "schemes": "GJ302, GJ209, LOCAL, PRIMARY_SCHOOL",
+    "expiry": "05-10-2026",
+    "pin": "3692",
+    "sig": "3C74D5"
   }
 }
