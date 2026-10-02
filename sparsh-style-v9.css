@@ -85,3 +85,10 @@ body .driver-popover-close-btn { color: #94a3b8 !important; top: 16px !important
 body .driver-popover-close-btn:hover { color: #e11d48 !important; transform: rotate(90deg) scale(1.1) !important; }
 body .driver-popover-progress-text { font-family: 'Inter', sans-serif !important; font-weight: 800 !important; color: #64748b !important; font-size: 13px !important; }
 path.driver-overlay-path { fill: rgba(15, 23, 42, 0.65) !important; }
+/* Local Fund Folio Print Grid */
+.folio-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    width: 100%;
+}
