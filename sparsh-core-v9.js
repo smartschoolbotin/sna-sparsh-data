@@ -3569,6 +3569,21 @@ window.matchMedia('print').addListener(function(mql) {
 // =========================================================================================
 // 🚀 ACCOUNTING REPORTS GENERATOR (100% CRASH-PROOF & FAST)
 // =========================================================================================
+function selectReport(reportType, element) {
+    currentReportType = reportType;
+    document.querySelectorAll('.report-card').forEach(c => {
+        c.classList.remove('border-indigo-500', 'bg-indigo-50', 'ring-2', 'ring-indigo-300');
+        c.classList.add('border-slate-200');
+    });
+    
+    if (element) {
+        element.classList.remove('border-slate-200');
+        element.classList.add('border-indigo-500', 'bg-indigo-50', 'ring-2', 'ring-indigo-300');
+    }
+    
+    generateAccountingReport();
+}
+
 function generateAccountingReport() {
     const wrapper = document.getElementById('tableWrapper'); 
     if(!wrapper) return;
@@ -3625,7 +3640,6 @@ function generateAccountingReport() {
 
             let reportEndDate = closingBalDate;
             
-            // 🚀 100% CRASH-PROOF DATE FIX (જો તારીખ ન હોય તો એરર નહિ આવે)
             let validDates = displayData.map(r => String(r.date || "")).filter(d => d && d !== "-" && d.includes("-"));
             if (validDates.length > 0) {
                 let maxDateStr = validDates.reduce((max, curr) => { 
@@ -3646,7 +3660,6 @@ function generateAccountingReport() {
                 return; 
             }
 
-            // 🚀 SMART SORTING (ખરાબ તારીખ હોય તો પણ નહિ અટકે)
             let uniqueDates = [...new Set(displayData.map(item => String(item.date || "-")))]; 
             uniqueDates.sort((a, b) => { 
                 let pA = a.split('-'); let pB = b.split('-');
@@ -3668,7 +3681,6 @@ function generateAccountingReport() {
               </button>
             </div>`;
 
-            // 🚀 પત્રક-C (ROWS_PER_PAGE = 9)
             if (currentReportType === 'patrak-c') {
                 let grandPatrakTotal = 0; displayData.forEach(r => grandPatrakTotal += (parseFloat(r.amount)||0));
                 const ROWS_PER_PAGE = 9; 
@@ -3685,7 +3697,6 @@ function generateAccountingReport() {
                     html += `</tbody></table></div>`;
                 }
             }
-            // 🚀 કેશબુક (ROWS_PER_PAGE = 12)
             else if (currentReportType === 'cashbook') {
                 html += `<div class="folio-grid-container">`;
                 let leftRowsHtml = [];
@@ -3758,7 +3769,6 @@ function generateAccountingReport() {
                     html += `</tbody></table></div></div>`;
                 }
             }
-            // 🚀 ખાતાવહી (ROWS_PER_PAGE = 13)
             else if (currentReportType === 'ledger') {
                 let dailyHeadTotals = {}; displayData.forEach(r => { let key = r.date + "||" + (r.componentName || "-"); if(!dailyHeadTotals[key]) dailyHeadTotals[key] = 0; dailyHeadTotals[key] += (parseFloat(r.amount) || 0); });
                 let headGroups = {}; for(let key in dailyHeadTotals) { let [d, h] = key.split("||"); let dayGrant = dailyHeadTotals[key]; if(selectedHead !== 'ALL' && h !== selectedHead) continue; if(!headGroups[h]) headGroups[h] = []; headGroups[h].push({d: d, grant: dayGrant}); }
@@ -3804,7 +3814,6 @@ function generateAccountingReport() {
                     }
                 }
             }
-            // 🚀 SNA Passbook (ROWS_PER_PAGE = 12)
             else if (currentReportType === 'epayment') {
                 const ROWS_PER_PAGE = 12; let totalPages = Math.ceil(displayData.length / ROWS_PER_PAGE) || 1;
                 for(let p=0; p<totalPages; p++) {
@@ -3834,7 +3843,6 @@ function generateAccountingReport() {
                     html += `</tbody></table></div>`; 
                 }
             }
-            // 🚀 Bill Register (ROWS_PER_PAGE = 15)
             else if (currentReportType === 'bill') {
                 const ROWS_PER_PAGE = 15; let totalPages = Math.ceil(displayData.length / ROWS_PER_PAGE) || 1;
                 for(let p=0; p<totalPages; p++) {
@@ -3847,7 +3855,6 @@ function generateAccountingReport() {
                     html += `</tbody></table></div>`; 
                 }
             }
-            // 🚀 FTO Register (ROWS_PER_PAGE = 9)
             else if (currentReportType === 'cheque') {
                 const ROWS_PER_PAGE = 9; let totalPages = Math.ceil(displayData.length / ROWS_PER_PAGE) || 1;
                 for(let p=0; p<totalPages; p++) {
@@ -3861,7 +3868,6 @@ function generateAccountingReport() {
                     html += `</tbody></table></div>`; 
                 }
             }
-            // 🚀 Grant Register (ROWS_PER_PAGE = 13)
             else if (currentReportType === 'grant') {
                 let grouped = {}; displayData.forEach(r => { let h = r.componentName||"Unknown"; if(!grouped[h]) grouped[h]=0; grouped[h]+=(parseFloat(r.amount)||0); });
                 let headsArray = Object.keys(grouped); let grandTotal = 0; headsArray.forEach(h => grandTotal += grouped[h]);
@@ -3877,7 +3883,6 @@ function generateAccountingReport() {
                     html += `</tbody></table></div>`;
                 }
             }
-            // 🚀 P10 (ROWS_PER_PAGE = 14 + SMART AUTO CAPTURE)
             else if (currentReportType === 'p10') {
                 let grouped = {}; displayData.forEach(r => { let h = r.componentName||"Unknown"; if(!grouped[h]) grouped[h]=0; grouped[h]+=(parseFloat(r.amount)||0); });
                 let headsArray = Object.keys(grouped); let expTotal = 0; headsArray.forEach(h => expTotal += grouped[h]);
@@ -4002,7 +4007,6 @@ function generateAccountingReport() {
                     updateSmartP10(expTotal, reportEndDate, fyYear); 
                 }, 50);
             }
-            // 🚀 P9 (SMART LIMIT LINK)
             else if (currentReportType === 'p9') {
                 let expTotal = 0; displayData.forEach(r => expTotal += (parseFloat(r.amount)||0));
                 
