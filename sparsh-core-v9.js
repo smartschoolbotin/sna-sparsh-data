@@ -612,40 +612,43 @@ function refreshAllVendorDropdowns() {
     });
 }
 
+// 🚀 CRASH-PROOF HELPER FUNCTIONS
 function getGujHeadName(enName) {
-    if(!enName || enName === "-" || enName === "SNA Grant") return enName;
-    let cleanEn = String(enName).toUpperCase().trim();
+    if(!enName || enName === "-" || enName === "SNA Grant") return String(enName || "-");
+    let safeName = String(enName);
+    let cleanEn = safeName.toUpperCase().trim();
     if(customHeadsMap && customHeadsMap[cleanEn]) return customHeadsMap[cleanEn];
     if(dynamicComps && dynamicComps.length > 0) {
-        let found = dynamicComps.find(c => String(c.nameEn).toUpperCase().trim() === cleanEn || String(c.code).toUpperCase().trim() === cleanEn);
+        let found = dynamicComps.find(c => String(c.nameEn || "").toUpperCase().trim() === cleanEn || String(c.code || "").toUpperCase().trim() === cleanEn);
         if(found && found.nameGu) return found.nameGu;
     }
-    let preProcessed = enName.replace(/\bClass VI XII\b/gi, 'ધોરણ ૬ થી ૧૨').replace(/\bClass I V\b/gi, 'ધોરણ ૧ થી ૫').replace(/\bClass I VIII\b/gi, 'ધોરણ ૧ થી ૮').replace(/\bFacility\b/gi, 'સુવિધા');
-    return preProcessed; 
+    return safeName.replace(/\bClass VI XII\b/gi, 'ધોરણ ૬ થી ૧૨').replace(/\bClass I V\b/gi, 'ધોરણ ૧ થી ૫').replace(/\bClass I VIII\b/gi, 'ધોરણ ૧ થી ૮').replace(/\bFacility\b/gi, 'સુવિધા'); 
 }
 
 function getEnHeadName(guName) {
-    if(!guName || guName === "-" || guName === "SNA Grant") return guName;
-    let cleanName = String(guName).toUpperCase().trim();
+    if(!guName || guName === "-" || guName === "SNA Grant") return String(guName || "-");
+    let safeName = String(guName);
+    let cleanName = safeName.toUpperCase().trim();
     for(let enKey in customHeadsMap) {
-        if(customHeadsMap[enKey].toUpperCase().trim() === cleanName || enKey.toUpperCase().trim() === cleanName) return enKey;
+        if(String(customHeadsMap[enKey]).toUpperCase().trim() === cleanName || String(enKey).toUpperCase().trim() === cleanName) return enKey;
     }
     if(dynamicComps && dynamicComps.length > 0) {
-        let found = dynamicComps.find(c => String(c.nameGu).toUpperCase().trim() === cleanName || String(c.nameEn).toUpperCase().trim() === cleanName || String(c.code).toUpperCase().trim() === cleanName);
+        let found = dynamicComps.find(c => String(c.nameGu || "").toUpperCase().trim() === cleanName || String(c.nameEn || "").toUpperCase().trim() === cleanName || String(c.code || "").toUpperCase().trim() === cleanName);
         if(found && found.nameEn) return found.nameEn;
     }
-    return guName; 
+    return safeName; 
 }
 
 function formatClaimDisplay(rawClaim) {
-    if(!rawClaim || rawClaim === "MANUAL-ENTRY" || rawClaim === "-") return rawClaim || "-";
-    let parts = rawClaim.split("/");
+    if(!rawClaim || rawClaim === "MANUAL-ENTRY" || rawClaim === "-") return String(rawClaim || "-");
+    let safeClaim = String(rawClaim);
+    let parts = safeClaim.split("/");
     if(parts.length === 2) {
-        return `<div class="text-[9px] leading-tight mt-1"><span class="text-blue-700 font-bold bg-blue-50 px-1 rounded border border-blue-200">C(60%): ${parts[0].trim()}</span><br><span class="text-emerald-700 font-bold bg-emerald-50 px-1 rounded border border-emerald-200 mt-1 inline-block">S(40%): ${parts[1].trim()}</span></div>`;
-    } else if (rawClaim.includes("|")) {
-        return rawClaim.split("|").join("<br>");
+        return `<div class="text-[9px] leading-tight mt-1"><span class="text-blue-700 font-bold bg-blue-50 px-1 rounded border border-blue-200">C(60%): ${String(parts[0]).trim()}</span><br><span class="text-emerald-700 font-bold bg-emerald-50 px-1 rounded border border-emerald-200 mt-1 inline-block">S(40%): ${String(parts[1]).trim()}</span></div>`;
+    } else if (safeClaim.includes("|")) {
+        return safeClaim.split("|").join("<br>");
     }
-    return escapeHtml(rawClaim);
+    return escapeHtml(safeClaim);
 }
 
 function initSchemes() {
