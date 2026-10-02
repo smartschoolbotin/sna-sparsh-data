@@ -92,3 +92,11 @@ path.driver-overlay-path { fill: rgba(15, 23, 42, 0.65) !important; }
     gap: 12px;
     width: 100%;
 }
+/* 🚀 WORKSPACE LANDING PAGE CSS */
+body { font-family: 'Anek Gujarati', sans-serif; background: #0f172a; color: white; margin: 0; min-height: 100vh; display: flex; flex-direction: column; overflow-x: hidden; line-height: 1.6; }
+h1, h2, h3, h4, h5, h6 { padding-top: 0.1em; padding-bottom: 0.1em; line-height: 1.4 !important; }
+.glass-card { background: rgba(30, 41, 59, 0.65); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.05); box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.1); }
+.hover-glow:hover { box-shadow: 0 0 40px rgba(99, 102, 241, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.2); transform: translateY(-5px) scale(1.02); border-color: rgba(129, 140, 248, 0.5); }
+.app-icon { background: linear-gradient(135deg, #6366f1, #a855f7); }
+.local-icon { background: linear-gradient(135deg, #059669, #3b82f6); }
+.bg-animated { background: radial-gradient(circle at top left, #1e1b4b 0%, #0f172a 40%), radial-gradient(circle at bottom right, #064e3b 0%, #0f172a 40%); }
