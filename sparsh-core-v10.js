@@ -4050,3 +4050,24 @@ function generateAccountingReport() {
         }
     }, 1);
 }
+
+// =========================================================================================
+// 🖨️ SMART PRINT FUNCTION (COLOR & B/W)
+// =========================================================================================
+window.prepareProfessionalPrint = function(isBw) {
+    if (isBw) {
+        // Black & White (Ink Saver) Mode
+        document.body.classList.add('grayscale', 'contrast-125');
+    } else {
+        // Color Mode
+        document.body.classList.remove('grayscale', 'contrast-125');
+    }
+    
+    // બ્રાઉઝરની પ્રિન્ટ વિન્ડો ખોલો
+    window.print();
+    
+    // પ્રિન્ટ ડાયલોગ બંધ થાય એટલે પાછો કલર નોર્મલ કરી દો
+    setTimeout(() => {
+        document.body.classList.remove('grayscale', 'contrast-125');
+    }, 2000);
+};
