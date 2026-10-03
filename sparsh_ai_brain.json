@@ -1,94 +1,97 @@
 [
   {
     "keywords": [
-      "SNA SPARSH",
-      "પરિચય",
-      "e-Kuber",
+      "કમ્પોઝીટ સ્કૂલ ગ્રાન્ટ",
+      "Composite School Grant",
+      "CSG",
+      "વિદ્યાર્થી સંખ્યા સ્લેબ",
+      "ગ્રાન્ટ લિમિટ",
+      "grant limit"
+    ],
+    "question": "શાળાને કમ્પોઝીટ સ્કૂલ ગ્રાન્ટ (Composite School Grant) કયા ધોરણે અને કેટલી મળવાપાત્ર છે?",
+    "answer": "<b>કમ્પોઝીટ સ્કૂલ ગ્રાન્ટના સ્લેબ (વિદ્યાર્થી સંખ્યા મુજબ):</b><br><ul><li><b>૧ થી ૩૦ વિદ્યાર્થીઓ:</b> ₹૧૦,૦૦૦/-</li><li><b>૩૧ થી ૧૦૦ વિદ્યાર્થીઓ:</b> ₹૨૫,૦૦૦/-</li><li><b>૧૦૧ થી ૨૫૦ વિદ્યાર્થીઓ:</b> ₹૫૦,૦૦૦/-</li><li><b>૨૫૧ થી ૧૦૦૦ વિદ્યાર્થીઓ:</b> ₹૭૫,૦૦૦/-</li><li><b>૧૦૦૦ થી વધુ વિદ્યાર્થીઓ:</b> ₹૧,૦૦,૦૦૦/-</li></ul><br><b>નોંધ:</b> આ ગ્રાન્ટ રાજ્ય અને કેન્દ્ર સરકારના નિયમાનુસાર સમગ્ર શિક્ષા અંતર્ગત ફાળવવામાં આવે છે.",
+    "component_match": "Composite School Grant",
+    "pdfUrl": "https://drive.google.com/file/d/1S7_bgAvu8On_FRSp4Fb2ycthUqVz4V33/view",
+    "category": "PM SHRI",
+    "date": "2026-07-08",
+    "district": "ALL"
+  },
+  {
+    "keywords": [
+      "સ્વચ્છતા એક્શન પ્લાન",
+      "SAP",
+      "Swachhta Action Plan",
+      "ટોઇલેટ સફાઈ",
+      "સ્વચ્છતા ખર્ચ ટકાવારી"
+    ],
+    "question": "કમ્પોઝીટ ગ્રાન્ટમાંથી સ્વચ્છતા (Sanitation / Toilet Cleanliness) પાછળ કેટલી રકમ ખર્ચવી ફરજિયાત છે?",
+    "answer": "<b>નિયમ:</b> શાળાને મળવાપાત્ર કમ્પોઝીટ સ્કૂલ ગ્રાન્ટમાંથી <b>ઓછામાં ઓછા ૧૦% રકમ</b> સ્વચ્છતા એક્શન પ્લાન (SAP - Swachhta Action Plan) અંતર્ગત શૌચાલય સફાઈ, ફિનાઇલ, બ્રશ, સાબુ અને હેન્ડવોશ જેવી સ્વચ્છતા સામગ્રી માટે ખર્ચ કરવી ફરજિયાત છે.",
+    "component_match": "Swachhta Action Plan (SAP) / Composite School Grant",
+    "pdfUrl": "https://drive.google.com/file/d/1S7_bgAvu8On_FRSp4Fb2ycthUqVz4V33/view",
+    "category": "PM SHRI",
+    "date": "2026-07-08",
+    "district": "ALL"
+  },
+  {
+    "keywords": [
+      "60-40 નિયમ",
+      "ખર્ચ ગુણોત્તર",
+      "મેઇન્ટેનન્સ ગ્રાન્ટ",
+      "શૈક્ષણિક સામગ્રી 60 40"
+    ],
+    "question": "શાળા અનુદાનમાં 60-40 નો રેશિયો (ગુણોત્તર) કઈ રીતે લાગુ પડે છે?",
+    "answer": "<b>૬૦:૪૦ નો ફાઇનાન્સિયલ રેશિયો:</b><br>૧. <b>૬૦% રકમ:</b> શાળાની ભૌતિક સુવિધાઓ, મરામત, જાળવણી, પીવાના પાણી અને ઇન્ફ્રાસ્ટ્રક્ચર રિપેરિંગ કાર્ય પાછળ ખર્ચી શકાય છે.<br>૨. <b>૪૦% રકમ:</b> શૈક્ષણિક સાધન-સામગ્રી, સ્ટેશનરી, દૈનિક શિક્ષણ સહાયક ઉપકરણો અને વહીવટી જરૂરિયાતો માટે ઉપયોગમાં લેવાની રહે છે.<br><i>(સૂચના: કોઈ ચોક્કસ પરિપત્રમાં આ રેશિયો ૬૦% કેન્દ્ર અને ૪૦% રાજ્ય હિસ્સો દર્શાવતો હોઈ શકે છે, જ્યારે શાળા સ્તરે આ ગુણોત્તર મરામત અને શૈક્ષણિક ખર્ચના નિયોજન માટે નિર્ધારિત હોય છે.)</i>",
+    "component_match": "School Maintenance and Infrastructure",
+    "pdfUrl": "https://drive.google.com/file/d/1S7_bgAvu8On_FRSp4Fb2ycthUqVz4V33/view",
+    "category": "PM SHRI",
+    "date": "2026-07-08",
+    "district": "ALL"
+  },
+  {
+    "keywords": [
+      "TDS",
+      "આવકવેરો",
+      "ઇનકમ ટેક્સ",
+      "194C",
+      "ટેક્સ કપાત"
+    ],
+    "question": "શાળા દ્વારા થતા કોન્ટ્રાક્ટ અથવા મજૂરી કામ પર TDS કઈ રીતે કાપવો?",
+    "answer": "<b>ઇન્કમટેક્સ કલમ 194C મુજબ TDS નિયમો:</b><br><ul><li>જો એક બિલ <b>₹૩૦,૦૦૦/-</b> થી વધુ હોય અથવા સમગ્ર નાણાકીય વર્ષ દરમિયાન કુલ ચૂકવણી <b>₹૧,૦૦,૦૦૦/-</b> થી વધુ થતી હોય ત્યારે TDS કાપવો ફરજિયાત છે.</li><li><b>વ્યક્તિગત/HUF (Individual/Proprietor):</b> ૧% TDS કાપવો.</li><li><b>કંપની/પેઢી (Firm/Company):</b> ૨% TDS કાપવો.</li><li>જો વિક્રેતા પાસે <b>PAN Card ન હોય</b>, તો સીધો <b>૨૦%</b> TDS કાપવાનો રહે છે.</li></ul>",
+    "component_match": "Income Tax TDS / Section 194C",
+    "pdfUrl": "https://drive.google.com/file/d/1S7_bgAvu8On_FRSp4Fb2ycthUqVz4V33/view",
+    "category": "PM SHRI",
+    "date": "2026-07-08",
+    "district": "ALL"
+  },
+  {
+    "keywords": [
+      "GST TDS",
+      "જીએસટી કપાત",
+      "2.5 લાખ લિમિટ",
+      "GST નિયમ"
+    ],
+    "question": "ખરીદી કે સેવા પર GST TDS ક્યારે અને કેટલો કાપવો પડે?",
+    "answer": "<b>GST TDS નિયમ:</b><br>જ્યારે કોઈ સપ્લાયર કે કોન્ટ્રાક્ટર સાથેનો સિંગલ કોન્ટ્રેક્ટ <b>₹૨,૫૦,૦૦૦/- (ટેક્સ સિવાય)</b> થી વધુ રકમનો હોય, ત્યારે કૂલ ચૂકવણીમાંથી <b>૨% GST TDS</b> (૧% CGST + ૧% SGST અથવા ૨% IGST) કાપી સરકારી તિજોરીમાં જમા કરાવવો ફરજિયાત બને છે. ₹૨,૫૦,૦૦૦ સુધીના સિંગલ બિલ પર GST TDS કપાત લાગુ પડતી નથી.",
+    "component_match": "GST TDS Compliance",
+    "pdfUrl": "https://drive.google.com/file/d/1S7_bgAvu8On_FRSp4Fb2ycthUqVz4V33/view",
+    "category": "PM SHRI",
+    "date": "2026-07-08",
+    "district": "ALL"
+  },
+  {
+    "keywords": [
+      "SMC ઠરાવ",
       "PFMS",
-      "Just-in-Time"
+      "SNA",
+      "કેશલેસ ચૂકવણી",
+      "વાઉચર ઓડિટ"
     ],
-    "question": "SNA-SPARSH શું છે અને તે શાળા કક્ષાએ કેવી રીતે ઉપયોગી છે?",
-    "answer": "<b>SNA-SPARSH</b> (Real-time System of Integrated Quick Transfers) એ કેન્દ્ર પુરસ્કૃત યોજનાઓ (Centrally Sponsored Schemes) માટે <b>\"Just-in-Time\"</b> ધોરણે ગ્રાન્ટ રીલીઝ અને ચૂકવણી કરવાની એક સંકલિત ઓનલાઇન સિસ્ટમ છે. આ સિસ્ટમ PFMS, રાજ્ય સરકાર અને RBI ના e-Kuber પ્લેટફોર્મને સીધું જોડે છે, જેથી શાળાઓ (SMC/Implementing Agency) વતી સીધા જ વેન્ડર કે લાભાર્થીના ખાતામાં ચૂકવણી રિયલ-ટાઇમ ટ્રેકિંગ સાથે સુરક્ષિત રીતે થઈ શકે.",
-    "component_match": "",
-    "pdfUrl": "https://drive.google.com/file/d/1_shoK4__dbzAJgqVm18zBR-erZrPzZJW/view",
-    "category": "SMC Rules",
-    "date": "2026-09-22"
-  },
-  {
-    "keywords": [
-      "40%",
-      "60%",
-      "નિયમ",
-      "બિલ વિભાજન",
-      "HOA Code",
-      "બજેટ હેડ"
-    ],
-    "question": "SNA-SPARSH માં 40% અને 60% નો બિલ વિભાજનનો નિયમ શું છે? કોઈ ઉદાહરણ આપીને સમજાવો.",
-    "answer": "<b>નિયમ:</b> શાળાના કોઈ પણ ખર્ચના બિલ માટે ફરજિયાતપણે બે અલગ-અલગ ક્લેમ (Claim) જનરેટ કરવાના રહેશે, જેમાં 60% કેન્દ્રીય હિસ્સો અને 40% રાજ્યનો હિસ્સો રહેશે.<br><br><b>ઉદાહરણ:</b> ધારો કે બિલ ₹5,000 નું છે તો તેના આ મુજબ બે ભાગ પડશે:<br><ul><li><b>60% ક્લેમ (₹3,000):</b> Recurring માટે HOA Code: <code>220201113050004009MVT38 – C</code> અથવા Non-Recurring માટે HOA Code: <code>420201201180004009MVT38 – C</code> નો ઉપયોગ કરવો.</li><li><b>40% ક્લેમ (₹2,000):</b> Recurring માટે HOA Code: <code>220201113060004009MVT38 – S</code> અથવા Non-Recurring માટે HOA Code: <code>420201201190004009MVT38 – S</code> નો ઉપયોગ કરવો.</li></ul>",
-    "component_match": "220201113050004009MVT38",
-    "pdfUrl": "https://drive.google.com/file/d/1_shoK4__dbzAJgqVm18zBR-erZrPzZJW/view",
-    "category": "SMC Rules",
-    "date": "2026-09-22"
-  },
-  {
-    "keywords": [
-      "બેલેન્સ",
-      "balance check",
-      "mother sanction",
-      "ગ્રાન્ટ",
-      "રિપોર્ટ"
-    ],
-    "question": "ક્લેમ જનરેટ કરતાં પહેલાં ઉપલબ્ધ ગ્રાન્ટનું બેલેન્સ અને તેની સક્રિયતા (Active Status) કેવી રીતે તપાસવી?",
-    "answer": "<b>ગ્રાન્ટનું બેલેન્સ ચેક કરવાની રીત:</b><br>1. IA Portal પર લોગિન કરો.<br>2. <b>Reports</b> વિભાગમાં જઈને <b>Mother Sanction Available</b> પર ક્લિક કરો.<br>3. ચાલુ નાણાકીય વર્ષ અને તમારી રાજ્ય સ્કીમનો કોડ (દા.ત. PM SHRI માટે GJ302 અથવા સમગ્ર શિક્ષા માટે GJ209) પસંદ કરો.<br>4. <b>Generate Report</b> પર ક્લિક કરો.<br>5. જો બજેટ હેડ સામે <b>Status = Active</b> બતાવે તો જ તેમાં ઉપલબ્ધ બેલેન્સ (Available Amount) માંથી ચુકવણી થઈ શકશે. જો Status <b>Inactive</b> હોય તો ચુકવણી થઈ શકશે નહીં.",
-    "component_match": "",
-    "pdfUrl": "https://drive.google.com/file/d/1_shoK4__dbzAJgqVm18zBR-erZrPzZJW/view",
-    "category": "SMC Rules",
-    "date": "2026-09-22"
-  },
-  {
-    "keywords": [
-      "EDP Code",
-      "Object Class",
-      "recurring",
-      "non-recurring",
-      "કોડ"
-    ],
-    "question": "રિકરિંગ (Recurring) અને નોન-રિકરિંગ (Non-Recurring) ખર્ચ માટે કયા EDP કોડ અને ઓબ્જેક્ટ ક્લાસ વાપરવા?",
-    "answer": "ખર્ચના પ્રકાર મુજબ નીચે દર્શાવેલા સચોટ કોડનો ઉપયોગ કરવાનો રહેશે:<br><ul><li><b>રિકરિંગ (Recurring Expenditure):</b> EDP Code: <code>3135 – 3135</code> અને Object Class: <code>C4: Grants Etc</code></li><li><b>નોન-રિકરિંગ (Non-Recurring Expenditure):</b> EDP Code: <code>6001 – 6000</code> અને Object Class: <code>C6: Capital Expenditure / Acquisition of Capital Assets</code></li></ul>",
-    "component_match": "",
-    "pdfUrl": "https://drive.google.com/file/d/1_shoK4__dbzAJgqVm18zBR-erZrPzZJW/view",
-    "category": "SMC Rules",
-    "date": "2026-09-22"
-  },
-  {
-    "keywords": [
-      "beneficiary",
-      "vendor",
-      "registration",
-      "રજીસ્ટ્રેશન",
-      "maker",
-      "checker"
-    ],
-    "question": "પોર્ટલ પર નવા લાભાર્થી કે વેન્ડર રજીસ્ટર અને અપ્રૂવ કરવાની સાચી પ્રક્રિયા કઈ છે?",
-    "answer": "<b>સ્ટેપ-બાય-સ્ટેપ પ્રક્રિયા:</b><br>1. <b>Maker ID</b> થી લોગિન કરો -> Admin -> Beneficiary Registration -> Registration પર જાઓ.<br>2. Beneficiary Type માં ફરજિયાત <b>\"Beneficiary\"</b> પસંદ કરો (Vendor નહીં).<br>3. જરૂરી વિગતો જેવી કે Name, Address, Bank A/c No, IFSC Code અને Mobile No (ન હોય તો 9999999999) ભરીને <b>Save</b> કરો.<br>4. સેવ કર્યા બાદ Worklist -> View Saved Beneficiary માં જઈને રેકોર્ડ સિલેક્ટ કરી <b>Forward to Checker</b> કરો.<br>5. <b>Checker ID</b> થી લોગિન કરી, Worklist -> View Saved Beneficiary માં જઈને રેકોર્ડ <b>Approve</b> કરો.",
-    "component_match": "",
-    "pdfUrl": "https://drive.google.com/file/d/1_shoK4__dbzAJgqVm18zBR-erZrPzZJW/view",
-    "category": "SMC Rules",
-    "date": "2026-09-22"
-  },
-  {
-    "keywords": [
-      "print",
-      "Voucher",
-      "DDO",
-      "દસ્તાવેજો",
-      "સેટ"
-    ],
-    "question": "ક્લેમ જનરેટ અને અપ્રૂવ થઈ ગયા પછી ડૉક્યુમેન્ટ્સ અને પ્રિન્ટ આઉટનું શું કરવાનું રહેશે?",
-    "answer": "ક્લેમ સફળતાપૂર્વક અપ્રૂવ થઈ ગયા બાદ શાળાના આચાર્યે નીચે મુજબની કાર્યવાહી કરવાની રહેશે:<br>1. Maker ID થી લોગિન કરી <b>Generate Claim Copy</b> પરથી પ્રિન્ટ મેળવો.<br>2. તેની સાથે અસલ વાઉચર અને બિલ જોડો.<br>3. આ રીતે કુલ <b>૪ (ચાર) કોપીના સેટ</b> તૈયાર કરો:<br><ul><li>૧ સેટ ચેકર (Checker) પાસે રાખવા માટે.</li><li>૨ સેટ જિલ્લા કક્ષાએ <b>DDO (District Drawing Officer)</b> ને સબમિટ કરવા માટે.</li><li>૧ સેટ શાળાના કચેરી રેકોર્ડ ફાઈલ માટે.</li></ul>",
-    "component_match": "",
-    "pdfUrl": "https://drive.google.com/file/d/1_shoK4__dbzAJgqVm18zBR-erZrPzZJW/view",
-    "category": "SMC Rules",
-    "date": "2026-09-22"
+    "question": "ગ્રાન્ટ ખર્ચ કરતી વખતે SMC મંજૂરી અને નાણાકીય વ્યવહારના કાયદાકીય નિયમો કયા છે?",
+    "answer": "<b>નાણાકીય નિયમો અને માર્ગદર્શિકા:</b><br><ul><li><b>SMC ઠરાવ:</b> કોઈપણ ખર્ચ કરતા પહેલા SMC ની બેઠકમાં ચર્ચા કરી ઠરાવ પસાર કરવો ફરજિયાત છે.</li><li><b>ચુકવણી પદ્ધતિ:</b> તમામ વ્યવહારો <b>PFMS / SNA</b> (Single Nodal Account) મારફત સીધા વેન્ડરના બેંક ખાતામાં જ કરવા. રોકડ વ્યવહાર સંપૂર્ણ પ્રતિબંધિત છે.</li><li><b>બિલ માન્યતા:</b> માત્ર પાકા <b>GST વાળા અસલ બિલ</b> જ માન્ય ગણાશે. બિલ પર સ્ટોક રજિસ્ટર નોંધ નંબર હોવો અનિવાર્ય છે.</li><li><b>વાઉચર્સ ફાઇલિંગ:</b> બિલ, પેમેન્ટ એડવાઈસ અને બેંક સ્ટેટમેન્ટ ઓડિટ હેતુ માટે ઓછામાં ઓછા ૫ થી ૧૦ વર્ષ સુધી સાચવવાના રહે છે.</li></ul>",
+    "component_match": "Financial Management & Procurement Rules",
+    "pdfUrl": "https://drive.google.com/file/d/1S7_bgAvu8On_FRSp4Fb2ycthUqVz4V33/view",
+    "category": "PM SHRI",
+    "date": "2026-07-08",
+    "district": "ALL"
   }
 ]
