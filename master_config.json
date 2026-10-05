@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T14:15:37.442Z",
+  "updatedAt": "2026-10-05T14:27:24.612Z",
   "latestVersion": 8.5,
   "minRequiredVersion": 8,
   "rules": {
@@ -5041,7 +5041,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.27.1.3",
       "NAME_EN": "Sanitary pad Vending and incinerator machines",
