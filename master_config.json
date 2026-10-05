@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T17:12:24.610Z",
+  "updatedAt": "2026-10-05T17:13:57.964Z",
   "latestVersion": 8.5,
   "minRequiredVersion": 8,
   "rules": {
@@ -1971,6 +1971,188 @@
     },
     {
       "STATE": "GUJARAT",
+      "SCHEME_TYPE": "PM_SHRI_SCHOOL",
+      "SLS_CODE": "GJ-302",
+      "CODE": "6.1.1.5",
+      "NAME_EN": "Providing Aids and Appliances",
+      "NAME_GU": "સહાય અને ઉપકરણો પૂરા પાડવા",
+      "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
+      "PARENT DESCRIPTION": "Student Oriented Component",
+      "LIST OF SCHOOL TYPES..": "",
+      "": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "SCHEME_TYPE": "PM_SHRI_SCHOOL",
+      "SLS_CODE": "GJ-302",
+      "CODE": "6.1.1.6",
+      "NAME_EN": "Reader Allowance For only VI and Low vision",
+      "NAME_GU": "ફક્ત છઠ્ઠી અને ઓછી દ્રષ્ટિ માટે વાચક ભથ્થું",
+      "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
+      "PARENT DESCRIPTION": "Student Oriented Component",
+      "LIST OF SCHOOL TYPES..": "",
+      "": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "SCHEME_TYPE": "PM_SHRI_SCHOOL",
+      "SLS_CODE": "GJ-302",
+      "CODE": "6.1.1.7",
+      "NAME_EN": "Scribe Facility",
+      "NAME_GU": "સ્ક્રાઇબ સુવિધા",
+      "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
+      "PARENT DESCRIPTION": "Student Oriented Component",
+      "LIST OF SCHOOL TYPES..": "",
+      "": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "SCHEME_TYPE": "PM_SHRI_SCHOOL",
+      "SLS_CODE": "GJ-302",
+      "CODE": "6.1.1.8",
+      "NAME_EN": "Stipend for Girls",
+      "NAME_GU": "છોકરીઓ માટે શિષ્યવૃત્તિ",
+      "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
+      "PARENT DESCRIPTION": "Student Oriented Component",
+      "LIST OF SCHOOL TYPES..": "",
+      "": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "SCHEME_TYPE": "PM_SHRI_SCHOOL",
+      "SLS_CODE": "GJ-302",
+      "CODE": "6.1.1.9",
+      "NAME_EN": "Identification and Assessment Medical Assessment Camps",
+      "NAME_GU": "ઓળખ અને મૂલ્યાંકન તબીબી મૂલ્યાંકન શિબિરો",
+      "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
+      "PARENT DESCRIPTION": "Student Oriented Component",
+      "LIST OF SCHOOL TYPES..": "",
+      "": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "SCHEME_TYPE": "PM_SHRI_SCHOOL",
+      "SLS_CODE": "GJ-302",
+      "CODE": "6.2.1.1",
+      "NAME_EN": "Self Defence Training",
+      "NAME_GU": "સ્વ-રક્ષા તાલીમ",
+      "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
+      "PARENT DESCRIPTION": "Self Defence Training",
+      "LIST OF SCHOOL TYPES..": "",
+      "": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "SCHEME_TYPE": "PM_SHRI_SCHOOL",
+      "SLS_CODE": "GJ-302",
+      "CODE": "6.2.1.2",
+      "NAME_EN": "Training to girls on self defence More than 50 girl children in VI to XII",
+      "NAME_GU": "છોકરીઓને સ્વરક્ષણની તાલીમ VI થી XII માં 50 થી વધુ છોકરીઓ.",
+      "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
+      "PARENT DESCRIPTION": "Self Defence Training",
+      "LIST OF SCHOOL TYPES..": "",
+      "": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "SCHEME_TYPE": "PM_SHRI_SCHOOL",
+      "SLS_CODE": "GJ-302",
+      "CODE": "6.2.2.1",
+      "NAME_EN": "Vending Machine",
+      "NAME_GU": "વેન્ડિંગ મશીન",
+      "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
+      "PARENT DESCRIPTION": "Special Equity Projects NR",
+      "LIST OF SCHOOL TYPES..": "",
+      "": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "SCHEME_TYPE": "PM_SHRI_SCHOOL",
+      "SLS_CODE": "GJ-302",
+      "CODE": "6.2.2.2",
+      "NAME_EN": "Incinerators",
+      "NAME_GU": "ભસ્મીકરણ યંત્રો",
+      "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
+      "PARENT DESCRIPTION": "Special Equity Projects NR",
+      "LIST OF SCHOOL TYPES..": "",
+      "": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "SCHEME_TYPE": "PM_SHRI_SCHOOL",
+      "SLS_CODE": "GJ-302",
+      "CODE": "6.2.2.3",
+      "NAME_EN": "Sanitory Pads",
+      "NAME_GU": "સેનિટરી પેડ્સ",
+      "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
+      "PARENT DESCRIPTION": "Special Equity Projects NR",
+      "LIST OF SCHOOL TYPES..": "",
+      "": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "SCHEME_TYPE": "PM_SHRI_SCHOOL",
+      "SLS_CODE": "GJ-302",
+      "CODE": "6.2.3.1",
+      "NAME_EN": "Adolescent Girls Programs",
+      "NAME_GU": "કિશોરીઓ માટે કાર્યક્રમો",
+      "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
+      "PARENT DESCRIPTION": "Special Equity Projects Recurring",
+      "LIST OF SCHOOL TYPES..": "",
+      "": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "SCHEME_TYPE": "PM_SHRI_SCHOOL",
+      "SLS_CODE": "GJ-302",
+      "CODE": "6.2.3.2",
+      "NAME_EN": "Career Guidance and Counselling of Students",
+      "NAME_GU": "વિદ્યાર્થીઓનું કારકિર્દી માર્ગદર્શન અને પરામર્શ",
+      "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
+      "PARENT DESCRIPTION": "Special Equity Projects Recurring",
+      "LIST OF SCHOOL TYPES..": "",
+      "": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "SCHEME_TYPE": "PM_SHRI_SCHOOL",
+      "SLS_CODE": "GJ-302",
+      "CODE": "6.2.3.3",
+      "NAME_EN": "Sanitary Pads",
+      "NAME_GU": "સેનિટરી પેડ્સ",
+      "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
+      "PARENT DESCRIPTION": "Special Equity Projects Recurring",
+      "LIST OF SCHOOL TYPES..": "",
+      "": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "SCHEME_TYPE": "PM_SHRI_SCHOOL",
+      "SLS_CODE": "GJ-302",
+      "CODE": "7.1.1.1",
+      "NAME_EN": "MMMER 1 percent",
+      "NAME_GU": "MMMER ૧ ટકા",
+      "STATUS": "ACTIVE",
+      "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
+      "PARENT DESCRIPTION": "Program Management MMMER",
+      "LIST OF SCHOOL TYPES..": "",
+      "": ""
+    },
+    {
+      "STATE": "GUJARAT",
       "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "1.6.2.8.1",
@@ -1978,7 +2160,7 @@
       "NAME_GU": "એસસીઇઆરટી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Assessment Cell",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -1991,7 +2173,7 @@
       "NAME_GU": "વ્યાવસાયિક સેવા માટે ચુકવણી સ્ટાફ કન્સલ્ટન્ટ વ્યાવસાયિકોનું પગાર વગેરે",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Remuneration of Staff",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2004,7 +2186,7 @@
       "NAME_GU": "ફર્નિચર",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Fixed Assets",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2017,7 +2199,7 @@
       "NAME_GU": "ઓફિસ મશીન અને સાધનો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Fixed Assets",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2030,7 +2212,7 @@
       "NAME_GU": "કર્મચારીઓના પગાર એટલે કે પટાવાળા, સુરક્ષા ગાર્ડ, ડીઈઓ, રિસેપ્શનિસ્ટ, ઓફિસ આસિસ્ટન્ટ વગેરેનો પગાર આઉટસોર્સ કરે છે.",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "General expenses",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2043,7 +2225,7 @@
       "NAME_GU": "મુસાફરી ખર્ચ સ્થાનિક અને આંતરરાષ્ટ્રીય મુસાફરી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "General expenses",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2056,7 +2238,7 @@
       "NAME_GU": "ઓફિસ ખર્ચ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "General expenses",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2069,7 +2251,7 @@
       "NAME_GU": "વિવિધ કાર્યક્રમ પ્રવૃત્તિ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Programme Activity Including Spill Over",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2082,7 +2264,7 @@
       "NAME_GU": "માનવ સંસાધન",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "PISA Project",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2095,7 +2277,7 @@
       "NAME_GU": "ઈન્ફ્રાસ્ટ્રક્ચર",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "PISA Project",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2108,7 +2290,7 @@
       "NAME_GU": "સ્ટેશનરી. પુસ્તકો અને અન્ય વસ્તુઓ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "PISA Project",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2121,7 +2303,7 @@
       "NAME_GU": "અનુવાદ અને અનુકૂલન",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "PISA Project",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2134,7 +2316,7 @@
       "NAME_GU": "મુસાફરી અને રોકાણ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "PISA Project",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2147,7 +2329,7 @@
       "NAME_GU": "છાપકામ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "PISA Project",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2160,7 +2342,7 @@
       "NAME_GU": "પોસ્ટેજ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "PISA Project",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2173,7 +2355,7 @@
       "NAME_GU": "પ્રચાર અને સામગ્રી વિકાસ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "PISA Project",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2186,7 +2368,7 @@
       "NAME_GU": "વિવિધ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "PISA Project",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2199,7 +2381,7 @@
       "NAME_GU": "શિક્ષકો અને વિદ્યાર્થીઓની ક્ષમતા નિર્માણ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "PISA Project",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2212,7 +2394,7 @@
       "NAME_GU": "નવી શાળાઓનો ઉદઘાટન NR પ્રાથમિક શાળા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Opening of New Upgraded Schools",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2225,7 +2407,7 @@
       "NAME_GU": "નવી શાળાઓનું ઉદઘાટન આર પ્રાથમિક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Opening of New Upgraded Schools",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2238,7 +2420,7 @@
       "NAME_GU": "રહેણાંક શાળાઓ NR",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Residential Schools",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2251,7 +2433,7 @@
       "NAME_GU": "રિકરિંગ રહેણાંક શાળાઓ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Residential Schools",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2264,7 +2446,7 @@
       "NAME_GU": "રહેણાંક શાળાઓ એનઆર રહેણાંક છાત્રાલય",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Residential Schools",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2277,7 +2459,7 @@
       "NAME_GU": "રહેણાંક શાળાઓ રિકરિંગ રહેણાંક છાત્રાલય",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Residential Schools",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2290,7 +2472,7 @@
       "NAME_GU": "ધોરણ VIII સુધીના વધારાના વર્ગખંડો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Strengthening of Schools NR up to Highest Class VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2303,7 +2485,7 @@
       "NAME_GU": "જર્જરિત ઇમારત ઉચ્ચ પ્રાથમિક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Strengthening of Schools NR up to Highest Class VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2316,7 +2498,7 @@
       "NAME_GU": "છોકરાઓના શૌચાલય",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Strengthening of Schools NR up to Highest Class VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2329,7 +2511,7 @@
       "NAME_GU": "ધોરણ આઠ સુધીના કન્યા શૌચાલય",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Strengthening of Schools NR up to Highest Class VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2342,7 +2524,7 @@
       "NAME_GU": "ધોરણ VIII સુધીના CWSN શૌચાલયો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Strengthening of Schools NR up to Highest Class VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2355,7 +2537,7 @@
       "NAME_GU": "મુખ્ય સમારકામ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Strengthening of Schools NR up to Highest Class VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2368,7 +2550,7 @@
       "NAME_GU": "બિલ્ડીંગ લેસ સ્કૂલ્સ પ્રાથમિક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Strengthening of Schools NR up to Highest Class VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2381,7 +2563,7 @@
       "NAME_GU": "જર્જરિત પ્રાથમિક ઇમારત",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Strengthening of Schools NR up to Highest Class VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2394,7 +2576,7 @@
       "NAME_GU": "નાની મરામત",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Strengthening of Schools NR up to Highest Class VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2407,7 +2589,7 @@
       "NAME_GU": "મકાન વગરની શાળાઓ ઉચ્ચ પ્રાથમિક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Strengthening of Schools NR up to Highest Class VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2420,7 +2602,7 @@
       "NAME_GU": "બીઆરસી યુઆરસી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Strengthening of Existing BRC URC CRC Elementary Schools",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2433,7 +2615,7 @@
       "NAME_GU": "ઉચ્ચતમ ધોરણ VIII સુધી રહેણાંક શાળાઓનું મજબૂતીકરણ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Strengthening of Existing Schools",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2446,7 +2628,7 @@
       "NAME_GU": "શહેરી વંચિત બાળકો પુખ્ત સુરક્ષા વિનાના બાળકો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Transport Escort Facility Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2459,7 +2641,7 @@
       "NAME_GU": "દૂરના રહેઠાણમાં રહેતા બાળકો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Transport Escort Facility Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2472,7 +2654,7 @@
       "NAME_GU": "બધી છોકરીઓનો ગણવેશ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Free Uniform",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2485,7 +2667,7 @@
       "NAME_GU": "ST છોકરાઓનો ગણવેશ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Free Uniform",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2498,7 +2680,7 @@
       "NAME_GU": "એસસી છોકરાઓનો ગણવેશ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Free Uniform",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2511,7 +2693,7 @@
       "NAME_GU": "બીપીએલ છોકરાઓનો ગણવેશ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Free Uniform",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2524,7 +2706,7 @@
       "NAME_GU": "બ્રેઇલ પુસ્તકો વર્ગ I II",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Free Textbooks",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2537,7 +2719,7 @@
       "NAME_GU": "મોટા છાપેલા પુસ્તકો વર્ગ I II",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Free Textbooks",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2550,7 +2732,7 @@
       "NAME_GU": "બ્રેઇલ પુસ્તકો વર્ગ III V",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Free Textbooks",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2563,7 +2745,7 @@
       "NAME_GU": "મોટા છાપેલા પુસ્તકો વર્ગ III V",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Free Textbooks",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2576,7 +2758,7 @@
       "NAME_GU": "પાઠ્યપુસ્તકો ધોરણ VI VIII",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Free Textbooks",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2589,7 +2771,7 @@
       "NAME_GU": "બ્રેઇલ પુસ્તકો ધોરણ VI VIII",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Free Textbooks",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2602,7 +2784,7 @@
       "NAME_GU": "મોટા છાપેલા પુસ્તકો ધોરણ VI VIII",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Free Textbooks",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2615,7 +2797,7 @@
       "NAME_GU": "કલમ ૧૨૧સી આરટીઈ કાયદા હેઠળ પ્રવેશ માટે થયેલા ખર્ચ માટે ૨૫ ટકા વળતર",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "RTE Entitlements",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2628,7 +2810,7 @@
       "NAME_GU": "OoSC નોન રેસિડેન્શિયલ ફ્રેશ માટે ખાસ તાલીમ ૧ ૧૨ મહિનાનો નોન રેસિડેન્શિયલ ફ્રેશ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Training of Out of School Children OoSC",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2641,7 +2823,7 @@
       "NAME_GU": "OoSC રેસિડેન્શિયલ ફ્રેશ માટે ખાસ તાલીમ ૧ ૧૨ મહિનાના રેસિડેન્શિયલ ફ્રેશ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Training of Out of School Children OoSC",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2654,7 +2836,7 @@
       "NAME_GU": "OoSC નોન-રેસિડેન્શિયલ માટે ખાસ તાલીમ પાછલા વર્ષ 1 9 મહિના નોન-રેસિડેન્શિયલ પાછલા વર્ષ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Training of Out of School Children OoSC",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2667,7 +2849,7 @@
       "NAME_GU": "૧ ૬ મહિના માટે સ્થળાંતરિત બાળકો માટે બિન-રહેણાંક હસ્તક્ષેપ બિન-રહેણાંક સ્થળાંતરિત",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Training of Out of School Children OoSC",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2680,7 +2862,7 @@
       "NAME_GU": "સ્થળાંતરિત બાળકો માટે હસ્તક્ષેપ રહેણાંક ૧ ૬ મહિના રહેણાંક સ્થળાંતર",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Training of Out of School Children OoSC",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2693,7 +2875,7 @@
       "NAME_GU": "સ્થળાંતરિત બાળકો માટે હસ્તક્ષેપ રહેણાંક 1 9 મહિના રહેણાંક સ્થળાંતર",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Training of Out of School Children OoSC",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2706,7 +2888,7 @@
       "NAME_GU": "૧ ૩ મહિના માટે સ્થળાંતરિત બાળકો માટે બિન-રહેણાંક હસ્તક્ષેપ બિન-રહેણાંક સ્થળાંતરિત",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Training of Out of School Children OoSC",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2719,7 +2901,7 @@
       "NAME_GU": "ઉચ્ચતમ ધોરણ VIII સુધી SCPCR ને સમર્થન",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "RTE Entitlements",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2732,7 +2914,7 @@
       "NAME_GU": "પાઠ્યપુસ્તકો વર્ગ III V",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Free Textbooks",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2745,7 +2927,7 @@
       "NAME_GU": "OoSC નોન-રેસિડેન્શિયલ ફ્રેશ માટે ખાસ તાલીમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Training for age appropriate admission of Out of School Children OoSC at Elementary Level",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2758,7 +2940,7 @@
       "NAME_GU": "OoSC રેસિડેન્શિયલ ફ્રેશ માટે ખાસ તાલીમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Training for age appropriate admission of Out of School Children OoSC at Elementary Level",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2771,7 +2953,7 @@
       "NAME_GU": "OoSC નોન-રેસિડેન્શિયલ પાછલા વર્ષ માટે ખાસ તાલીમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Training for age appropriate admission of Out of School Children OoSC at Elementary Level",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2784,7 +2966,7 @@
       "NAME_GU": "OoSC રહેણાંક માટે પાછલા વર્ષ માટે ખાસ તાલીમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Training for age appropriate admission of Out of School Children OoSC at Elementary Level",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2797,7 +2979,7 @@
       "NAME_GU": "સ્થળાંતરિત બાળકો માટે હસ્તક્ષેપ મોસમી છાત્રાલય બિન-રહેણાંક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Training for age appropriate admission of Out of School Children OoSC at Elementary Level",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2810,7 +2992,7 @@
       "NAME_GU": "સ્થળાંતરિત બાળકો માટે હસ્તક્ષેપ મોસમી છાત્રાલય રહેણાંક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Training for age appropriate admission of Out of School Children OoSC at Elementary Level",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2823,7 +3005,7 @@
       "NAME_GU": "ધાર્મિક સંસ્થાઓનું કવરેજ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Training for age appropriate admission of Out of School Children OoSC at Elementary Level",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2836,7 +3018,7 @@
       "NAME_GU": "એસએમસી એસડીએમસીની તાલીમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Community Mobilization Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2849,7 +3031,7 @@
       "NAME_GU": "સમુદાય ગતિશીલતા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Community Mobilization Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2862,7 +3044,7 @@
       "NAME_GU": "બધી પ્રાથમિક શાળાઓ માટે લોગો અને ડિસ્પ્લે બોર્ડ સમગ્ર શિક્ષા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Media and Community Mobilization",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2875,7 +3057,7 @@
       "NAME_GU": "SMC SMDC પ્રાથમિક શાળાની તાલીમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "ELEMENTARY EDUCATION",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2888,7 +3070,7 @@
       "NAME_GU": "પ્રાથમિક શાળામાં સલામતી માર્ગદર્શિકા પર ડિસ્પ્લે બોર્ડ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Quality Components Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2901,7 +3083,7 @@
       "NAME_GU": "યુવા અને ઇકો ક્લબ પ્રાથમિક શાળા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2914,7 +3096,7 @@
       "NAME_GU": "યુવા અને ઇકો ક્લબ સ્ટેન્ડઅલોન પ્રાથમિક શાળાઓ પ્રાથમિક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2927,7 +3109,7 @@
       "NAME_GU": "ટ્રાન્સપોર્ટ બાલવાટિકા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2940,7 +3122,7 @@
       "NAME_GU": "સામાજિક વિજ્ઞાન કીટ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2953,7 +3135,7 @@
       "NAME_GU": "ઓર્ગેનિક ખેતી પ્રોજેક્ટ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2966,7 +3148,7 @@
       "NAME_GU": "બાલ સંસદ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2979,7 +3161,7 @@
       "NAME_GU": "વ્યાવસાયિક શિક્ષણ વર્ગ 6 8 નો સંપર્ક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -2992,7 +3174,7 @@
       "NAME_GU": "એક ભારત શ્રેષ્ઠ ભારત",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3005,7 +3187,7 @@
       "NAME_GU": "વિદ્યાંજલિની જાગૃતિ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3018,7 +3200,7 @@
       "NAME_GU": "મિશન જીવન માટે ઇકો ક્લબ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3031,7 +3213,7 @@
       "NAME_GU": "રાજ્ય સ્તરે BRC CRC તાલીમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3044,7 +3226,7 @@
       "NAME_GU": "વાંચન કાર્યક્રમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3057,7 +3239,7 @@
       "NAME_GU": "વિદ્યાંજલિ 2 ની જાગૃતિ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3070,7 +3252,7 @@
       "NAME_GU": "નિપુણોત્સવ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3083,7 +3265,7 @@
       "NAME_GU": "શિક્ષણમાં ટેકનોલોજીનો ઉપયોગ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3096,7 +3278,7 @@
       "NAME_GU": "HPC માટે અમલીકરણ માર્ગદર્શિકા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3109,7 +3291,7 @@
       "NAME_GU": "૬ થી ૮ ના વિદ્યાર્થીઓ માટે સાયકોમેટ્રિક ટેસ્ટ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3122,7 +3304,7 @@
       "NAME_GU": "FLN ઝુંબેશ બાલવાટિકા શાળા દીઠ 5 ટકાનો વધારો કરશે",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3135,7 +3317,7 @@
       "NAME_GU": "વિજ્ઞાન પ્રદર્શન પુસ્તક મેળો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3148,7 +3330,7 @@
       "NAME_GU": "હેડ ક્ષમતા નિર્માણ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3161,7 +3343,7 @@
       "NAME_GU": "FLN માટે DIET દ્વારા શાળાઓનું વાર્ષિક બાહ્ય મૂલ્યાંકન",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3174,7 +3356,7 @@
       "NAME_GU": "અંગ્રેજી ભાષા પ્રયોગશાળા પ્લેટફોર્મ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3187,7 +3369,7 @@
       "NAME_GU": "પ્રાથમિક શાળાના વિદ્યાર્થીઓ માટે હોલિસ્ટિક રિપોર્ટ કાર્ડ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3200,7 +3382,7 @@
       "NAME_GU": "માધ્યમિક શિક્ષણ CwSN સહાય ભથ્થું",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3213,7 +3395,7 @@
       "NAME_GU": "CWSN માટે રિસોર્સ રૂમ જાળવણી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Fund for Safety and Security at School Level",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3226,7 +3408,7 @@
       "NAME_GU": "શિક્ષકો માટે સલામતી અને સુરક્ષા પર ઓરિએન્ટેશન કાર્યક્રમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3239,7 +3421,7 @@
       "NAME_GU": "શાળા સ્તરે સલામતી અને સુરક્ષા માટે ભંડોળ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3252,7 +3434,7 @@
       "NAME_GU": "શાલા સિદ્ધિ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3265,7 +3447,7 @@
       "NAME_GU": "રમતગમત શિક્ષણને મજબૂત બનાવવું",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3278,7 +3460,7 @@
       "NAME_GU": "શાળાઓનું જોડિયાપણું",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3291,7 +3473,7 @@
       "NAME_GU": "LEP વર્ગ I II",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Funds for Quality LEP. Innovation. Guidance etc",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3304,7 +3486,7 @@
       "NAME_GU": "LEP વર્ગ III V",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Funds for Quality LEP. Innovation. Guidance etc",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3317,7 +3499,7 @@
       "NAME_GU": "શિક્ષણ વૃદ્ધિ સંવર્ધન કાર્યક્રમ ઉપચારાત્મક શિક્ષણ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "LEP Class VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3330,7 +3512,7 @@
       "NAME_GU": "રંગોત્સવ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Experiential Learning Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3343,7 +3525,7 @@
       "NAME_GU": "બીઆરસી માટે આઇસીટી સુવિધા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects NR Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3356,7 +3538,7 @@
       "NAME_GU": "શ્રવણશક્તિ ગુમાવતા વિદ્યાર્થી માટે ઇ લર્નિંગ સપોર્ટ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects NR Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3369,7 +3551,7 @@
       "NAME_GU": "સેન્ટર ઓફ એક્સેલન્સ સ્પોર્ટ્સ સ્કૂલ ઓફ એક્સેલન્સ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects NR Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3382,7 +3564,7 @@
       "NAME_GU": "શાળા ઓડિટ શગુનોત્સવ પ્રાથમિક શાળા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "ELEMENTARY EDUCATION",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3395,7 +3577,7 @@
       "NAME_GU": "નવીન શિક્ષણશાસ્ત્રના અમલીકરણ માટે શિક્ષણ સામગ્રી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Nipun Bharat Mission FLN",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3408,7 +3590,7 @@
       "NAME_GU": "ધોરણ I થી V નવા ના શિક્ષકોનું ક્ષમતા નિર્માણ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Nipun Bharat Mission FLN",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3421,7 +3603,7 @@
       "NAME_GU": "પીએમયુ પ્રાથમિક શાળાની રચના",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "State Level PMU Formation Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3434,7 +3616,7 @@
       "NAME_GU": "વિજ્ઞાન પ્રદર્શન પુસ્તક મેળો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Rashtriya Aavishkar Abhiyaan Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3447,7 +3629,7 @@
       "NAME_GU": "રાજ્યના વિદ્યાર્થીઓ માટે પર્યટન યાત્રા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Rashtriya Aavishkar Abhiyaan Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3460,7 +3642,7 @@
       "NAME_GU": "વિજ્ઞાન ગણિત ક્લબની રચના",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Rashtriya Aavishkar Abhiyaan Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3473,7 +3655,7 @@
       "NAME_GU": "બાળકો માટે પૂર્વ પ્રાથમિક રિકરિંગ TLM",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Early Childhood Care and Education ECCE",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3486,7 +3668,7 @@
       "NAME_GU": "બાળ મૈત્રીપૂર્ણ ફર્નિચર પૂર્વ પ્રાથમિક નોન રિકરિંગ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Early Childhood Care and Education ECCE",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3499,7 +3681,7 @@
       "NAME_GU": "BALA માં પ્રી-પ્રાયમરી નોન રિકરિંગની સુવિધા છે.",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Early Childhood Care and Education ECCE",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3512,7 +3694,7 @@
       "NAME_GU": "આઉટ ડોર પ્લે મટિરિયલ્સ પ્રી-પ્રાયમરી નોન રિકરિંગ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Early Childhood Care and Education ECCE",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3525,7 +3707,7 @@
       "NAME_GU": "પૂર્વ પ્રાથમિક નોન રિકરિંગ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Early Childhood Care and Education ECCE",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3538,7 +3720,7 @@
       "NAME_GU": "ધોરણ I થી II માટે શિક્ષક સંસાધન સામગ્રી પ્રવૃત્તિ હેન્ડબુક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Foundational Literacy and Numeracy",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3551,7 +3733,7 @@
       "NAME_GU": "પૂર્વ પ્રાથમિક ધોરણ I અને II ના શિક્ષકોની ક્ષમતા નિર્માણ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Foundational Literacy and Numeracy",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3564,7 +3746,7 @@
       "NAME_GU": "બાલવાટિકાથી ધોરણ 5 સુધી નવીન શિક્ષણશાસ્ત્રના અમલીકરણ માટે શિક્ષણ સામગ્રી શીખવવી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Foundational Literacy and Numeracy",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3577,7 +3759,7 @@
       "NAME_GU": "ધોરણ I થી V માટે શિક્ષક સંસાધન સામગ્રી પ્રવૃત્તિ હેન્ડબુક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Foundational Literacy and Numeracy",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3590,7 +3772,7 @@
       "NAME_GU": "જિલ્લા કક્ષાના પ્રાથમિક શિક્ષણ કેન્દ્રની રચના",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Foundational Literacy and Numeracy",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3603,7 +3785,7 @@
       "NAME_GU": "પ્રશ્નપત્રો અને OMR શીટ્સના શિક્ષણ વૃદ્ધિ પ્રિન્ટિંગ માટે ધોરણ 3 થી 8 માટે મોક ટેસ્ટ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Innovation Projects Elementary Recurring",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3616,7 +3798,7 @@
       "NAME_GU": "શાળા આધારિત મૂલ્યાંકન પ્રાથમિક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Assessment at National and State Level",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3629,7 +3811,7 @@
       "NAME_GU": "સરકારી શાળાઓમાં ધોરણ I થી V ના શિક્ષકો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Training for in service Teachers and Head Teachers Class I and II Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3642,7 +3824,7 @@
       "NAME_GU": "સરકારી શાળાઓમાં ધોરણ VI થી VII ના શિક્ષકો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Training for in service Teachers and Head Teachers Class I and II Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3655,7 +3837,7 @@
       "NAME_GU": "ઇન્ડક્શન તાલીમ પ્રાથમિક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Training for in service Teachers and Head Teachers Class I and II Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3668,7 +3850,7 @@
       "NAME_GU": "ઇન્ડક્શન તાલીમ ઉચ્ચ પ્રાથમિક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Training for in service Teachers and Head Teachers Class I and II Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3681,7 +3863,7 @@
       "NAME_GU": "PRASHAST પર એક દિવસીય તાલીમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Training for in service Teachers and Head Teachers Class I and II Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3694,7 +3876,7 @@
       "NAME_GU": "શિક્ષકો ધોરણ VI થી VII સરકારી શાળાઓ GJ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "In Service Training elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3707,7 +3889,7 @@
       "NAME_GU": "રિસોર્સ પર્સન અને માસ્ટર ટ્રેનર્સની તાલીમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "In Service Training elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3720,7 +3902,7 @@
       "NAME_GU": "સરકારી શાળાઓમાં શિક્ષક વર્ગ Vl થી Vlll",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "In Service Training elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3733,7 +3915,7 @@
       "NAME_GU": "ઇન્ડક્શન તાલીમ પ્રાથમિક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "In Service Training elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3746,7 +3928,7 @@
       "NAME_GU": "સમાવિષ્ટ શિક્ષણ પર સામાન્ય શિક્ષક માટે 5 દિવસનો શારીરિક તાલીમ કાર્યક્રમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "In Service Training elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3759,7 +3941,7 @@
       "NAME_GU": "શાળાઓમાં CWSN ની અસરકારક ઓળખ માટે મુખ્ય શિક્ષકો માટે PRASHST પર એક દિવસીય તાલીમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "In Service Training elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3772,7 +3954,7 @@
       "NAME_GU": "૧ શાળા ગ્રાન્ટ નોંધણી ૩૦ થી વધુ અને ૧૦૦ થી ઓછી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Composite School Grant Elementary Annual Grant up to Highest Class VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3785,7 +3967,7 @@
       "NAME_GU": "શાળા ગ્રાન્ટ નોંધણી ૧૦૦ થી વધુ અને ૨૫૦ થી ઓછી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Composite School Grant Elementary Annual Grant up to Highest Class VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3798,7 +3980,7 @@
       "NAME_GU": "શાળા ગ્રાન્ટ નોંધણી 250 થી વધુ અને 1000 થી ઓછી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Composite School Grant Elementary Annual Grant up to Highest Class VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3811,7 +3993,7 @@
       "NAME_GU": "શાળા ગ્રાન્ટ નોંધણી 1000 થી વધુ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Composite School Grant Elementary Annual Grant up to Highest Class VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3824,7 +4006,7 @@
       "NAME_GU": "શાળા ગ્રાન્ટ નોંધણી ૧ થી વધુ અને ૩૦ થી ઓછી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Composite School Grant Elementary Annual Grant up to Highest Class VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3837,7 +4019,7 @@
       "NAME_GU": "ઉચ્ચ પ્રાથમિક શાળાઓ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Library Grant upto Highest Class VIII Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3850,7 +4032,7 @@
       "NAME_GU": "પ્રાથમિક શાળાઓ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Library Grant upto Highest Class VIII Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3863,7 +4045,7 @@
       "NAME_GU": "રાષ્ટ્રીય આવિષ્કાર અભિયાન આરએએ પ્રાથમિક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "ELEMENTARY EDUCATION",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3876,7 +4058,7 @@
       "NAME_GU": "સ્માર્ટ ક્લાસરૂમ પ્રકાર II પ્રાથમિક શાળા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Digital Hardware and Software up to Highest Class VIII NR",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3889,7 +4071,7 @@
       "NAME_GU": "ડિજિટલ હાર્ડવેર અને સોફ્ટવેર પ્રકાર I પ્રાથમિક ૧૦૦ ૨૫૦",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Digital Hardware and Software up to Highest Class VIII NR",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3902,7 +4084,7 @@
       "NAME_GU": "ડિજિટલ હાર્ડવેર અને સોફ્ટવેર પ્રકાર I પ્રાથમિક 250 700",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Digital Hardware and Software up to Highest Class VIII NR",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3915,7 +4097,7 @@
       "NAME_GU": "પૂર્વ પ્રાથમિક નોન રિકરિંગ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Support at pre school level",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3928,7 +4110,7 @@
       "NAME_GU": "પૂર્વ પ્રાથમિક રિકરિંગ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Support at pre school level",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3941,7 +4123,7 @@
       "NAME_GU": "૧ એકાઉન્ટન્ટ કમ સપોર્ટ સ્ટાફ માટે નાણાકીય સહાય",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for BRCs URCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3954,7 +4136,7 @@
       "NAME_GU": "કારકિર્દી સલાહ માટે શૈક્ષણિક સંસાધન વ્યક્તિ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for BRCs URCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3967,7 +4149,7 @@
       "NAME_GU": "1 ડેટા એન્ટ્રી ઓપરેટર માટે નાણાકીય સહાય",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for BRCs URCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3980,7 +4162,7 @@
       "NAME_GU": "1 MIS કોઓર્ડિનેટર માટે નાણાકીય સહાય",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for BRCs URCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -3993,7 +4175,7 @@
       "NAME_GU": "BRC ખાતે 6 રિસોર્સ પર્સન માટે નાણાકીય સહાય",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for BRCs URCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4006,7 +4188,7 @@
       "NAME_GU": "જાળવણી અનુદાન",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for BRCs URCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4019,7 +4201,7 @@
       "NAME_GU": "TLE TLM ગ્રાન્ટ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for BRCs URCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4032,7 +4214,7 @@
       "NAME_GU": "મીટિંગ. ટીએ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for BRCs URCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4045,7 +4227,7 @@
       "NAME_GU": "આકસ્મિક ગ્રાન્ટ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for BRCs URCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4058,7 +4240,7 @@
       "NAME_GU": "બીઆરસી કોઓર્ડિનેટર માટે નાણાકીય સહાય",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for BRCs URCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4071,7 +4253,7 @@
       "NAME_GU": "ફર્નિચર ગ્રાન્ટ કમ્પ્યૂટર",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for CRCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4084,7 +4266,7 @@
       "NAME_GU": "જાળવણી અનુદાન",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for CRCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4097,7 +4279,7 @@
       "NAME_GU": "ટીએલએમ ગ્રાન્ટ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for CRCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4110,7 +4292,7 @@
       "NAME_GU": "મીટિંગ. ટીએ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for CRCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4123,7 +4305,7 @@
       "NAME_GU": "આકસ્મિક ગ્રાન્ટ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for CRCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4136,7 +4318,7 @@
       "NAME_GU": "સીઆરસી કોઓર્ડિનેટર એક માટે નાણાકીય સહાય",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Provision for CRCs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4149,7 +4331,7 @@
       "NAME_GU": "શિક્ષક પગાર મુખ્ય શિક્ષકો પ્રાથમિક શાળા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "ELEMENTARY EDUCATION",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4162,7 +4344,7 @@
       "NAME_GU": "KGBV પ્રકાર I NR નવા વર્ગો VI VIII",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Gender and Equity",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4175,7 +4357,7 @@
       "NAME_GU": "KGBV પ્રકાર I રિકરિંગ નવા વર્ગો VI VIII",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Gender and Equity",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4188,7 +4370,7 @@
       "NAME_GU": "KGBV પ્રકાર I NR પાછલા વર્ષના ધોરણ VI VIII",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Gender and Equity",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4201,7 +4383,7 @@
       "NAME_GU": "દર મહિને બાળક દીઠ ભોજન રહેવાની વ્યવસ્થા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4214,7 +4396,7 @@
       "NAME_GU": "તબીબી સંભાળ આકસ્મિકતાઓ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4227,7 +4409,7 @@
       "NAME_GU": "જાળવણી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4240,7 +4422,7 @@
       "NAME_GU": "વિવિધ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4253,7 +4435,7 @@
       "NAME_GU": "પીટીએ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4266,7 +4448,7 @@
       "NAME_GU": "ક્ષમતા નિર્માણ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4279,7 +4461,7 @@
       "NAME_GU": "પાર્ટ ટાઇમ શિક્ષકો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4292,7 +4474,7 @@
       "NAME_GU": "સપોર્ટ સ્ટાફ એકાઉન્ટન્ટ આસિસ્ટન્ટ. પટાવાળા. ચોકીદાર",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4305,7 +4487,7 @@
       "NAME_GU": "વીજળી પાણીના શુલ્ક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4318,7 +4500,7 @@
       "NAME_GU": "તૈયારી શિબિરો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4331,7 +4513,7 @@
       "NAME_GU": "ઇન્ફ્રાસ્ટ્રક્ચરલ અને સોફ્ટ સ્કિલ્સ માટે KGBV સેફ્ટી અને સિક્યોરિટીઝ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4344,7 +4526,7 @@
       "NAME_GU": "પ્રતિ છોકરી દીઠ માસિક શિષ્યવૃત્તિ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4357,7 +4539,7 @@
       "NAME_GU": "પુસ્તકાલય સુવિધાઓ માટે શીખવાની ક્ષમતા અને ભૌતિક માળખાગત સુવિધાઓ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4370,7 +4552,7 @@
       "NAME_GU": "પૂરક TLM. સ્ટેશનરી અને અન્ય શૈક્ષણિક સામગ્રી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4383,7 +4565,7 @@
       "NAME_GU": "વોર્ડન",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4396,7 +4578,7 @@
       "NAME_GU": "પૂર્ણ-સમય શિક્ષકો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4409,7 +4591,7 @@
       "NAME_GU": "પૂર્ણ સમય એકાઉન્ટન્ટ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4422,7 +4604,7 @@
       "NAME_GU": "હેડ કૂક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4435,7 +4617,7 @@
       "NAME_GU": "સહાયક રસોઈયા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4448,7 +4630,7 @@
       "NAME_GU": "છોકરી દીઠ ચોક્કસ કૌશલ્ય તાલીમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4461,7 +4643,7 @@
       "NAME_GU": "KGBV પ્રકાર II NR નવા વર્ગો VI X",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Gender and Equity",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4474,7 +4656,7 @@
       "NAME_GU": "KGBV પ્રકાર II રિકરિંગ નવા વર્ગો VI X",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Gender and Equity",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4487,7 +4669,7 @@
       "NAME_GU": "KGBV પ્રકાર II NR પાછલા વર્ષના વર્ગ VI X",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Gender and Equity",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4500,7 +4682,7 @@
       "NAME_GU": "દર મહિને બાળક દીઠ ખોરાક અને રહેવાની વ્યવસ્થા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4513,7 +4695,7 @@
       "NAME_GU": "વિવિધ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4526,7 +4708,7 @@
       "NAME_GU": "પીટીએ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4539,7 +4721,7 @@
       "NAME_GU": "ક્ષમતા નિર્માણ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4552,7 +4734,7 @@
       "NAME_GU": "પરીક્ષા ફી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4565,7 +4747,7 @@
       "NAME_GU": "પ્રતિ બાળક દર મહિને સ્ટાઈપેન્ડ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4578,7 +4760,7 @@
       "NAME_GU": "પૂર્ણ-સમય એકાઉન્ટન્ટ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4591,7 +4773,7 @@
       "NAME_GU": "સહાયક સ્ટાફ એકાઉન્ટન્ટ સહાયક. પટાવાળા. ચોકીદાર.",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4604,7 +4786,7 @@
       "NAME_GU": "વીજળી પાણીના શુલ્ક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4617,7 +4799,7 @@
       "NAME_GU": "તૈયારી શિબિરો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4630,7 +4812,7 @@
       "NAME_GU": "પરિવહન ભથ્થું",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4643,7 +4825,7 @@
       "NAME_GU": "પૂરક TLM. સ્ટેશનરી અને અન્ય શૈક્ષણિક સામગ્રી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4656,7 +4838,7 @@
       "NAME_GU": "નવમી અને દસમી છોકરીઓ માટે વધારાની વધારાની કોચિંગની જોગવાઈ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4669,7 +4851,7 @@
       "NAME_GU": "શીખવાની ક્ષમતા વધારવા માટે ભૌતિક માળખાગત સુવિધા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4682,7 +4864,7 @@
       "NAME_GU": "માળખાગત અને સોફ્ટ સ્કિલ માટે KGBV સલામતી અને સિક્યોરિટીઝ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4695,7 +4877,7 @@
       "NAME_GU": "વોર્ડનના સહાયક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4708,7 +4890,7 @@
       "NAME_GU": "વોર્ડન",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4721,7 +4903,7 @@
       "NAME_GU": "પાર્ટ ટાઇમ શિક્ષકો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4734,7 +4916,7 @@
       "NAME_GU": "હેડ કૂક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4747,7 +4929,7 @@
       "NAME_GU": "સહાયક રસોઈયા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4760,7 +4942,7 @@
       "NAME_GU": "ચોક્કસ કૌશલ્ય તાલીમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4773,7 +4955,7 @@
       "NAME_GU": "તબીબી સંભાળ આકસ્મિકતાઓ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4786,7 +4968,7 @@
       "NAME_GU": "જાળવણી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4799,7 +4981,7 @@
       "NAME_GU": "KGBV પ્રકાર III NR નવા વર્ગો VI XII",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Gender and Equity",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4812,7 +4994,7 @@
       "NAME_GU": "KGBV પ્રકાર III રિકરિંગ નવા વર્ગો VI XII",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Gender and Equity",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4825,7 +5007,7 @@
       "NAME_GU": "નવી ઇમારતનું બાંધકામ અપગ્રેડેશન",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III NR Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4838,7 +5020,7 @@
       "NAME_GU": "રસોડા સહિત ફર્નિચરના સાધનો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III NR Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4851,7 +5033,7 @@
       "NAME_GU": "TLM અને પુસ્તકાલયના પુસ્તકો સહિત સાધનો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III NR Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4864,7 +5046,7 @@
       "NAME_GU": "દર મહિને બાળક દીઠ ભોજન રહેવાની વ્યવસ્થા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4877,7 +5059,7 @@
       "NAME_GU": "છોકરી દીઠ ચોક્કસ કૌશલ્ય તાલીમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4890,7 +5072,7 @@
       "NAME_GU": "તબીબી સંભાળ આકસ્મિકતાઓ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4903,7 +5085,7 @@
       "NAME_GU": "જાળવણી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4916,7 +5098,7 @@
       "NAME_GU": "વિવિધ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4929,7 +5111,7 @@
       "NAME_GU": "પીટીએ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4942,7 +5124,7 @@
       "NAME_GU": "ક્ષમતા નિર્માણ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4955,7 +5137,7 @@
       "NAME_GU": "પરીક્ષા ફી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4968,7 +5150,7 @@
       "NAME_GU": "પ્રતિ છોકરી દીઠ માસિક શિષ્યવૃત્તિ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4981,7 +5163,7 @@
       "NAME_GU": "પૂર્ણ-સમય એકાઉન્ટન્ટ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -4994,7 +5176,7 @@
       "NAME_GU": "વીજળી પાણીના શુલ્ક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5007,7 +5189,7 @@
       "NAME_GU": "પૂરક TLM. સ્ટેશનરી અને અન્ય શૈક્ષણિક સામગ્રી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5020,7 +5202,7 @@
       "NAME_GU": "તૈયારી શિબિરો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5033,7 +5215,7 @@
       "NAME_GU": "નવમી અને દસમી છોકરીઓ માટે વધારાની વધારાની કોચિંગની જોગવાઈ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5046,7 +5228,7 @@
       "NAME_GU": "શીખવાની ક્ષમતા વધારવા માટે ભૌતિક માળખાગત સુવિધા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5059,7 +5241,7 @@
       "NAME_GU": "માળખાગત અને સોફ્ટ સ્કિલ માટે KGBV સલામતી અને સિક્યોરિટીઝ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5072,7 +5254,7 @@
       "NAME_GU": "વોર્ડનના સહાયક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5085,7 +5267,7 @@
       "NAME_GU": "પરિવહન ભથ્થું",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5098,7 +5280,7 @@
       "NAME_GU": "વોર્ડન",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5111,7 +5293,7 @@
       "NAME_GU": "ઉર્દૂ શિક્ષકો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5124,7 +5306,7 @@
       "NAME_GU": "પાર્ટ ટાઇમ શિક્ષકો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5137,7 +5319,7 @@
       "NAME_GU": "સપોર્ટ સ્ટાફ એકાઉન્ટન્ટ આસિસ્ટન્ટ. પટાવાળા. ચોકીદાર",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5150,7 +5332,7 @@
       "NAME_GU": "હેડ કૂક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5163,7 +5345,7 @@
       "NAME_GU": "સહાયક રસોઈયા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5176,7 +5358,7 @@
       "NAME_GU": "પૂર્ણ-સમય શિક્ષકો વ્યાખ્યાતા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5189,7 +5371,7 @@
       "NAME_GU": "રાણી લક્ષ્મીબાઈ આત્મા રક્ષા શિક્ષણ આઠમા ધોરણ સુધી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Rani Laxmibai Atma Raksha Prashikshan",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5202,7 +5384,7 @@
       "NAME_GU": "૧ પૂર્ણ-સમય એકાઉન્ટન્ટ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5215,7 +5397,7 @@
       "NAME_GU": "તબીબી સંભાળ આકસ્મિકતાઓ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5228,7 +5410,7 @@
       "NAME_GU": "વિવિધ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5241,7 +5423,7 @@
       "NAME_GU": "તૈયારી શિબિરો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5254,7 +5436,7 @@
       "NAME_GU": "પી.ટી.એ.",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5267,7 +5449,7 @@
       "NAME_GU": "છોકરી દીઠ ચોક્કસ કૌશલ્ય તાલીમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5280,7 +5462,7 @@
       "NAME_GU": "પ્રતિ છોકરી દીઠ માસિક શિષ્યવૃત્તિ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5293,7 +5475,7 @@
       "NAME_GU": "પૂરક TLM. સ્ટેશનરી અને અન્ય શૈક્ષણિક સામગ્રી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5306,7 +5488,7 @@
       "NAME_GU": "૨ સપોર્ટ સ્ટાફ એકાઉન્ટન્ટ આસિસ્ટન્ટ. પટાવાળા. ચોકીદાર",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5319,7 +5501,7 @@
       "NAME_GU": "૧ હેડ કુક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5332,7 +5514,7 @@
       "NAME_GU": "૧ વોર્ડન",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5345,7 +5527,7 @@
       "NAME_GU": "૨ મદદનીશ રસોઈયા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5358,7 +5540,7 @@
       "NAME_GU": "૩ પાર્ટ ટાઇમ શિક્ષકો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5371,7 +5553,7 @@
       "NAME_GU": "ક્ષમતા નિર્માણ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5384,7 +5566,7 @@
       "NAME_GU": "વીજળી પાણીના શુલ્ક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5397,7 +5579,7 @@
       "NAME_GU": "દર મહિને બાળક દીઠ ભોજન રહેવાની વ્યવસ્થા",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5410,7 +5592,7 @@
       "NAME_GU": "જાળવણી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Kasturba Gandhi Balika Vidyalaya KGBVs",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5423,7 +5605,7 @@
       "NAME_GU": "પ્રાથમિક શાળાની છોકરીઓ માટે સ્વ-રક્ષણ તાલીમ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "ELEMENTARY EDUCATION",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5436,7 +5618,7 @@
       "NAME_GU": "ઇન્સિનેરેટર મશીનો પ્રાથમિક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Projects for Equity NR Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5449,7 +5631,7 @@
       "NAME_GU": "વેન્ડિંગ મશીન્સ પ્રાથમિક",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Projects for Equity NR Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     },
@@ -5462,7 +5644,7 @@
       "NAME_GU": "સેનિટરી પેડ વેન્ડિંગ અને ઇન્સિનેરેટર મશીનો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
-      "PARENT DESCRIPTION": "",
+      "PARENT DESCRIPTION": "Special Projects for Equity NR Elementary",
       "LIST OF SCHOOL TYPES..": "",
       "": ""
     }
