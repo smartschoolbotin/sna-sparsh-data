@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T14:27:24.612Z",
+  "updatedAt": "2026-10-05T14:29:42.072Z",
   "latestVersion": 8.5,
   "minRequiredVersion": 8,
   "rules": {
@@ -1825,7 +1825,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "1.6.2.8.1",
       "NAME_EN": "SCERT",
@@ -1837,7 +1837,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "A.01",
       "NAME_EN": "Payment for professional service Renumeration of staff consultant professionals etc",
@@ -1849,7 +1849,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "B.01",
       "NAME_EN": "Furniture",
@@ -1861,7 +1861,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "B.02",
       "NAME_EN": "Office Machine and Equipments",
@@ -1873,7 +1873,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "C.01",
       "NAME_EN": "Wages outsource staff salary i.e. peon. security guards. DEOs. Receptionist. Office Assistant etc",
@@ -1885,7 +1885,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "C.02",
       "NAME_EN": "Travel Expenses Domestic and International Travels",
@@ -1897,7 +1897,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "C.03",
       "NAME_EN": "Office Expenses",
@@ -1909,7 +1909,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "D.01",
       "NAME_EN": "Miscellaneous Program Activity",
@@ -1921,7 +1921,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "E.01",
       "NAME_EN": "Human Resources",
@@ -1933,7 +1933,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "E.02",
       "NAME_EN": "Infrastructure",
@@ -1945,7 +1945,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "E.03",
       "NAME_EN": "Stationery. Books and other items",
@@ -1957,7 +1957,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "E.04",
       "NAME_EN": "Translation and adaptation",
@@ -1969,7 +1969,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "E.05",
       "NAME_EN": "Travel and Stay",
@@ -1981,7 +1981,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "E.06",
       "NAME_EN": "Printing",
@@ -1993,7 +1993,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "E.07",
       "NAME_EN": "Postage",
@@ -2005,7 +2005,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "E.08",
       "NAME_EN": "Publicity and Material development",
@@ -2017,7 +2017,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "E.09",
       "NAME_EN": "Miscellaneous",
@@ -2029,7 +2029,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "E.10",
       "NAME_EN": "Capacity building of teachers and students",
@@ -2041,7 +2041,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.01.01",
       "NAME_EN": "Opening of New Schools NR Elementary",
@@ -2053,7 +2053,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.01.02",
       "NAME_EN": "Opening of New Schools R Elementary",
@@ -2065,7 +2065,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.02.01",
       "NAME_EN": "Residential Schools NR",
@@ -2077,7 +2077,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.02.02",
       "NAME_EN": "Residential Schools Recurring",
@@ -2089,7 +2089,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.02.03",
       "NAME_EN": "Residential Schools NR Residential Hostel",
@@ -2101,7 +2101,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.02.04",
       "NAME_EN": "Residential Schools Recurring Residential Hostel",
@@ -2113,7 +2113,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.03.01.1",
       "NAME_EN": "Additional Classrooms Upto Class VIII",
@@ -2125,7 +2125,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.03.01.10",
       "NAME_EN": "Dilapidated Building Upper Primary",
@@ -2137,7 +2137,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.03.01.2",
       "NAME_EN": "Boys Toilets",
@@ -2149,7 +2149,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.03.01.3",
       "NAME_EN": "Girls Toilets Upto Class VIII",
@@ -2161,7 +2161,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.03.01.4",
       "NAME_EN": "CWSN Toilets Upto Class VIII",
@@ -2173,7 +2173,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.03.01.5",
       "NAME_EN": "Major Repair",
@@ -2185,7 +2185,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.03.01.6",
       "NAME_EN": "Building Less Schools Primary",
@@ -2197,7 +2197,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.03.01.7",
       "NAME_EN": "Dilapidated Building Primary",
@@ -2209,7 +2209,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.03.01.8",
       "NAME_EN": "Minor Repair",
@@ -2221,7 +2221,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.03.01.9",
       "NAME_EN": "Building Less Schools Upper Primary",
@@ -2233,7 +2233,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.03.02.1",
       "NAME_EN": "BRC URC",
@@ -2245,7 +2245,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.03.03",
       "NAME_EN": "Strengthening of Residential Schools NR up to Highest Class VIII",
@@ -2257,7 +2257,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.04.01.1",
       "NAME_EN": "Urban deprived children children without adult protection",
@@ -2269,7 +2269,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.04.01.2",
       "NAME_EN": "Children in remote habitation",
@@ -2281,7 +2281,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.05.1",
       "NAME_EN": "All Girls Uniform",
@@ -2293,7 +2293,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.05.2",
       "NAME_EN": "ST Boys Uniform",
@@ -2305,7 +2305,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.05.3",
       "NAME_EN": "SC Boys Uniform",
@@ -2317,7 +2317,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.05.4",
       "NAME_EN": "BPL Boys Uniform",
@@ -2329,7 +2329,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.06.1",
       "NAME_EN": "Braille Books Class I II",
@@ -2341,7 +2341,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.06.2",
       "NAME_EN": "Large Print Books Class I II",
@@ -2353,7 +2353,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.06.3",
       "NAME_EN": "Braille Books Class III V",
@@ -2365,7 +2365,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.06.4",
       "NAME_EN": "Large Print Books Class III V",
@@ -2377,7 +2377,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.06.5",
       "NAME_EN": "Text Books Class VI VIII",
@@ -2389,7 +2389,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.06.6",
       "NAME_EN": "Braille Books Class VI VIII",
@@ -2401,7 +2401,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.06.7",
       "NAME_EN": "Large Print Books Class VI VIII",
@@ -2413,7 +2413,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.07.1",
       "NAME_EN": "Reimbursement towards expenditure incurred for 25per. of Admission under 12 1 c RTE Act",
@@ -2425,7 +2425,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.07.2.1",
       "NAME_EN": "Special Training for OoSC Non Residential Fresh 1 12 Month Non Residential Fresh",
@@ -2437,7 +2437,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.07.2.2",
       "NAME_EN": "Special Training for OoSC Residential Fresh 1 12 Month Residential Fresh",
@@ -2449,7 +2449,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.07.2.3",
       "NAME_EN": "Special Training for OoSC Non Residential Previous year 1 9 Months Non Residential PrevYear",
@@ -2461,7 +2461,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.07.2.4",
       "NAME_EN": "1 6 Months Non Residential Intervention for Migrant Children Non Residential Migrant",
@@ -2473,7 +2473,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.07.2.5",
       "NAME_EN": "Intervention for Migrant Children Residential 1 6 Months Residential Migrant",
@@ -2485,7 +2485,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.07.2.6",
       "NAME_EN": "Intervention for Migrant Children Residential 1 9 Months Residential Migrant",
@@ -2497,7 +2497,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.07.2.7",
       "NAME_EN": "1 3 Months Non Residential Intervention for Migrant Children Non Residential Migrant",
@@ -2509,7 +2509,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.07.3",
       "NAME_EN": "Support to SCPCR Upto Highest Class VIII",
@@ -2521,7 +2521,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.07.4.1",
       "NAME_EN": "Text Books Class III V",
@@ -2533,7 +2533,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.08.01",
       "NAME_EN": "Special Training for OoSC Non Residential Fresh",
@@ -2545,7 +2545,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.08.02",
       "NAME_EN": "Special Training for OoSC Residential Fresh",
@@ -2557,7 +2557,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.08.03",
       "NAME_EN": "Special Training for OoSC Non Residential Previous Year",
@@ -2569,7 +2569,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.08.04",
       "NAME_EN": "Special Training for OoSC Residential Previous Year",
@@ -2581,7 +2581,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.08.05",
       "NAME_EN": "Intervention for Migrant Children Seasonal Hostel Non Residential",
@@ -2593,7 +2593,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.08.06",
       "NAME_EN": "Intervention for Migrant Children Seasonal Hostel Residential",
@@ -2605,7 +2605,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.08.07",
       "NAME_EN": "Coverage of Religious Intitutions",
@@ -2617,7 +2617,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.09.01.1",
       "NAME_EN": "Training of SMC SDMC",
@@ -2629,7 +2629,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.09.01.2",
       "NAME_EN": "Community Mobilization",
@@ -2641,7 +2641,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.09.02",
       "NAME_EN": "Logo and Display Board Samagra Shiksha for all Schools Elementary",
@@ -2653,7 +2653,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.10",
       "NAME_EN": "Training of SMC SMDC Elementary",
@@ -2665,7 +2665,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.11.01",
       "NAME_EN": "Display Board on Safety Guidelines Elementary",
@@ -2677,7 +2677,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.01",
       "NAME_EN": "Youth and Eco Club Elementary",
@@ -2689,7 +2689,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.02",
       "NAME_EN": "Youth and Eco Club Stand alone Primary Schools Elementary",
@@ -2701,7 +2701,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.10",
       "NAME_EN": "Transport Balvatika",
@@ -2713,7 +2713,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.11",
       "NAME_EN": "Social Science kit",
@@ -2725,7 +2725,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.12",
       "NAME_EN": "Organic Farming Project",
@@ -2737,7 +2737,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.13",
       "NAME_EN": "Bal Sansad",
@@ -2749,7 +2749,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.14",
       "NAME_EN": "Exposure to Vocational Education Class 6 8",
@@ -2761,7 +2761,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.15",
       "NAME_EN": "EK BHARAT SHRESTH BHARAT",
@@ -2773,7 +2773,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.16",
       "NAME_EN": "Awarness of Vidhyanjali",
@@ -2785,7 +2785,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.17",
       "NAME_EN": "Eco Clubs for mission life",
@@ -2797,7 +2797,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.18",
       "NAME_EN": "BRC CRC training at state level",
@@ -2809,7 +2809,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.19",
       "NAME_EN": "Readliness programme",
@@ -2821,7 +2821,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.20",
       "NAME_EN": "Awareness of Vidhyanjali 2",
@@ -2833,7 +2833,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.21",
       "NAME_EN": "Nipunotsav",
@@ -2845,7 +2845,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.22",
       "NAME_EN": "Use of technology in education",
@@ -2857,7 +2857,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.23",
       "NAME_EN": "Implementation guideline for HPC",
@@ -2869,7 +2869,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.24",
       "NAME_EN": "Psychometric Test for 6 to 8 Students",
@@ -2881,7 +2881,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.25",
       "NAME_EN": "FLN Campaign balvatika to gread 5 per school",
@@ -2893,7 +2893,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.26",
       "NAME_EN": "Science Exhibition Book Fair",
@@ -2905,7 +2905,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.27",
       "NAME_EN": "HEADS CAPACITY BUIDING",
@@ -2917,7 +2917,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.28",
       "NAME_EN": "Annual external evaluation of schools by DIET for FLN",
@@ -2929,7 +2929,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.29",
       "NAME_EN": "English Language Lab platform",
@@ -2941,7 +2941,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.3",
       "NAME_EN": "Holistic Report Card for Students Elementary",
@@ -2953,7 +2953,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.30",
       "NAME_EN": "Secondary education CwSN Support allowance",
@@ -2965,7 +2965,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.4.1",
       "NAME_EN": "Resource Room Maintenance For CWSN",
@@ -2977,7 +2977,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.5",
       "NAME_EN": "Orientation Programme for Teachers on Safety and Security",
@@ -2989,7 +2989,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.6",
       "NAME_EN": "Fund for Safety and Security at School Level",
@@ -3001,7 +3001,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.7",
       "NAME_EN": "Shaala Siddhi",
@@ -3013,7 +3013,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.8",
       "NAME_EN": "Strengthening of Sports Education",
@@ -3025,7 +3025,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.12.9",
       "NAME_EN": "Twinning of schools",
@@ -3037,7 +3037,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.13.01",
       "NAME_EN": "LEP Class I II",
@@ -3049,7 +3049,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.13.02",
       "NAME_EN": "LEP Class III V",
@@ -3061,7 +3061,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.13.03.1",
       "NAME_EN": "Learning Enhancement Enrichment Programme Remedial Teaching",
@@ -3073,7 +3073,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.13.4.1",
       "NAME_EN": "Rangotsav",
@@ -3085,7 +3085,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.13.5.1",
       "NAME_EN": "ICT Facility to BRCs",
@@ -3097,7 +3097,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.13.5.2",
       "NAME_EN": "E learning support for hearing impaired student",
@@ -3109,7 +3109,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.13.5.3",
       "NAME_EN": "Center of excellence sports school of excellence",
@@ -3121,7 +3121,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.14",
       "NAME_EN": "School Audit Shagunotsav Elementary",
@@ -3133,7 +3133,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.1.1",
       "NAME_EN": "Teaching Learning Materials for implementation of Innovative pedagogies",
@@ -3145,7 +3145,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.1.2",
       "NAME_EN": "Capacity building of Teachers of Grades I to V New",
@@ -3157,7 +3157,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.2.1",
       "NAME_EN": "Formation of PMU Elementary",
@@ -3169,7 +3169,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.3.1",
       "NAME_EN": "Science Exhibition Book Fair",
@@ -3181,7 +3181,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.3.2",
       "NAME_EN": "Excursion Trip for Students within State",
@@ -3193,7 +3193,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.3.3",
       "NAME_EN": "Formation of Science Maths Clubs",
@@ -3205,7 +3205,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.4.1",
       "NAME_EN": "Pre Primary Recurring TLM for Children",
@@ -3217,7 +3217,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.4.2",
       "NAME_EN": "Child Friendly Furniture Pre Primary Non Recurring",
@@ -3229,7 +3229,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.4.3",
       "NAME_EN": "BALA Features Pre Primary Non Recurring",
@@ -3241,7 +3241,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.4.4",
       "NAME_EN": "Out Door Play Materials Pre Primary Non Recurring",
@@ -3253,7 +3253,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.4.5",
       "NAME_EN": "Pre Primary Non Recurring",
@@ -3265,7 +3265,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.5.1",
       "NAME_EN": "Teacher Resource Material Activity Handbook of Grades I to II",
@@ -3277,7 +3277,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.5.2",
       "NAME_EN": "Capacity building of Teachers from Pre Primary Grades I and II",
@@ -3289,7 +3289,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.5.3",
       "NAME_EN": "Teaching lerning materials of implementation of innovative pedagogies from balvatika to grade 5",
@@ -3301,7 +3301,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.5.4",
       "NAME_EN": "Teacher Resource Material Activity Handbook of Grades I to V",
@@ -3313,7 +3313,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.5.5",
       "NAME_EN": "Formation of PMU Elementary District Level",
@@ -3325,7 +3325,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.15.6.1",
       "NAME_EN": "Mock Tests for class 3 to 8 for Learning Enhancement Printing of Question Papers and OMR Sheets",
@@ -3337,7 +3337,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.16.01",
       "NAME_EN": "School based Assessment Elementary",
@@ -3349,7 +3349,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.17.1",
       "NAME_EN": "Teachers Class I to V Government Schools",
@@ -3361,7 +3361,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.17.2",
       "NAME_EN": "Teachers Class VI to VII Government Schools",
@@ -3373,7 +3373,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.17.3",
       "NAME_EN": "Induction Training Primary",
@@ -3385,7 +3385,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.17.4",
       "NAME_EN": "Induction Training Upper Primary",
@@ -3397,7 +3397,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.17.5",
       "NAME_EN": "One Day Trainig on PRASHAST",
@@ -3409,7 +3409,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.17.6.1",
       "NAME_EN": "Teachers Class VI to VII Government Schools GJ",
@@ -3421,7 +3421,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.17.6.2",
       "NAME_EN": "Training of Resource person and master Trainers",
@@ -3433,7 +3433,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.17.6.3",
       "NAME_EN": "Teachers class Vl to Vlll Government Schools",
@@ -3445,7 +3445,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.17.6.4",
       "NAME_EN": "Induction training primary",
@@ -3457,7 +3457,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.17.6.5",
       "NAME_EN": "Physical training programm for genral teacher on inclusive education 5 days",
@@ -3469,7 +3469,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.17.6.6",
       "NAME_EN": "One day training on PRASHST for head masters for effective identification of CWSN in schools",
@@ -3481,7 +3481,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.18.1",
       "NAME_EN": "1 School Grant Enrol Greater than 30 and Less than equal to 100",
@@ -3493,7 +3493,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.18.2",
       "NAME_EN": "School Grant Enrol Greater than 100 and less than equal to 250",
@@ -3505,7 +3505,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.18.3",
       "NAME_EN": "School Grant Enrol Greater than 250 and less than equal to 1000",
@@ -3517,7 +3517,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.18.4",
       "NAME_EN": "School Grant Enrol Greater than 1000",
@@ -3529,7 +3529,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.18.5",
       "NAME_EN": "School Grant Enrol Greater than equal to 1 and less than equal to 30",
@@ -3541,7 +3541,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.19.1",
       "NAME_EN": "Upper Primary Schools",
@@ -3553,7 +3553,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.19.2",
       "NAME_EN": "Primary Schools",
@@ -3565,7 +3565,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.20",
       "NAME_EN": "Rashtriya Avishkar Abhiyan RAA Elementary",
@@ -3577,7 +3577,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.21.01.1",
       "NAME_EN": "Smart Classroom Type II Elementary",
@@ -3589,7 +3589,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.21.01.2",
       "NAME_EN": "Digital Hardware and Software Type I Elementary 100 250",
@@ -3601,7 +3601,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.21.01.3",
       "NAME_EN": "Digital Hardware and Software Type I Elementary 250 700",
@@ -3613,7 +3613,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.22.01",
       "NAME_EN": "Pre Primary Non Recurring",
@@ -3625,7 +3625,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.22.02",
       "NAME_EN": "Pre Primary Recurring",
@@ -3637,7 +3637,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.01.1",
       "NAME_EN": "Financial Support for 1 Accountant cum support staff",
@@ -3649,7 +3649,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.01.10",
       "NAME_EN": "Academic resource person for career counseling",
@@ -3661,7 +3661,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.01.2",
       "NAME_EN": "Financial Support for 1 Data Entry Operator in position",
@@ -3673,7 +3673,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.01.3",
       "NAME_EN": "Financial Support for 1 MIS Coordinator in position",
@@ -3685,7 +3685,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.01.4",
       "NAME_EN": "Financial Support for 6 Resource Persons at BRC",
@@ -3697,7 +3697,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.01.5",
       "NAME_EN": "Maintenance Grant",
@@ -3709,7 +3709,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.01.6",
       "NAME_EN": "TLE TLM Grant",
@@ -3721,7 +3721,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.01.7",
       "NAME_EN": "Meeting. TA",
@@ -3733,7 +3733,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.01.8",
       "NAME_EN": "Contingency Grant",
@@ -3745,7 +3745,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.01.9",
       "NAME_EN": "Financial Support for BRC Coordinator",
@@ -3757,7 +3757,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.02.01",
       "NAME_EN": "Furniture Grant Computer",
@@ -3769,7 +3769,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.02.2",
       "NAME_EN": "Maintenance Grant",
@@ -3781,7 +3781,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.02.3",
       "NAME_EN": "TLM Grant",
@@ -3793,7 +3793,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.02.4",
       "NAME_EN": "Meeting. TA",
@@ -3805,7 +3805,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.02.5",
       "NAME_EN": "Contingency Grant",
@@ -3817,7 +3817,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.02.6",
       "NAME_EN": "Financial Support for CRC Coordinator one",
@@ -3829,7 +3829,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.24",
       "NAME_EN": "Teacher Salary HMs Teachers Elementary",
@@ -3841,7 +3841,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.01",
       "NAME_EN": "KGBV Type I NR New Classes VI VIII",
@@ -3853,7 +3853,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.02",
       "NAME_EN": "KGBV Type I Recurring New Classes VI VIII",
@@ -3865,7 +3865,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.03",
       "NAME_EN": "KGBV Type I NR Previous Year Classes VI VIII",
@@ -3877,7 +3877,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.1",
       "NAME_EN": "Food Lodging per child per month",
@@ -3889,7 +3889,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.10",
       "NAME_EN": "Medical care Contingencies",
@@ -3901,7 +3901,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.11",
       "NAME_EN": "Maintenance",
@@ -3913,7 +3913,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.12",
       "NAME_EN": "Miscellaneous",
@@ -3925,7 +3925,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.13",
       "NAME_EN": "PTA",
@@ -3937,7 +3937,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.14",
       "NAME_EN": "Capacity Building",
@@ -3949,7 +3949,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.15",
       "NAME_EN": "Part Time Teachers",
@@ -3961,7 +3961,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.16",
       "NAME_EN": "Support Staff Accountant Assistant. Peon. Chowkidar",
@@ -3973,7 +3973,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.17",
       "NAME_EN": "Electricity Water Charges",
@@ -3985,7 +3985,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.18",
       "NAME_EN": "Preparatory Camps",
@@ -3997,7 +3997,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.19",
       "NAME_EN": "KGBV Saftey AND securities for Infrastructural AND soft skills",
@@ -4009,7 +4009,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.2",
       "NAME_EN": "Stipend per girl per month",
@@ -4021,7 +4021,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.20",
       "NAME_EN": "learning capacity and physical infrastructure for Library Facilities",
@@ -4033,7 +4033,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.3",
       "NAME_EN": "Supplementary TLM. Stationery and other educational material",
@@ -4045,7 +4045,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.4",
       "NAME_EN": "Warden",
@@ -4057,7 +4057,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.5",
       "NAME_EN": "Full Time Teachers",
@@ -4069,7 +4069,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.6",
       "NAME_EN": "Full Time Accountant",
@@ -4081,7 +4081,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.7",
       "NAME_EN": "Head Cook",
@@ -4093,7 +4093,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.8",
       "NAME_EN": "Assistant Cook",
@@ -4105,7 +4105,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.9",
       "NAME_EN": "Specific skill training per girl",
@@ -4117,7 +4117,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.05",
       "NAME_EN": "KGBV Type II NR New Classes VI X",
@@ -4129,7 +4129,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.06",
       "NAME_EN": "KGBV Type II Recurring New Classes VI X",
@@ -4141,7 +4141,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.07",
       "NAME_EN": "KGBV Type II NR Previous Year Classes VI X",
@@ -4153,7 +4153,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.1",
       "NAME_EN": "Food and Lodging per child per month",
@@ -4165,7 +4165,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.10",
       "NAME_EN": "Miscellaneous",
@@ -4177,7 +4177,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.11",
       "NAME_EN": "PTA",
@@ -4189,7 +4189,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.12",
       "NAME_EN": "Capacity Building",
@@ -4201,7 +4201,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.13",
       "NAME_EN": "Examination Fee",
@@ -4213,7 +4213,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.14",
       "NAME_EN": "Stipend per child per month",
@@ -4225,7 +4225,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.15",
       "NAME_EN": "Full time Accountant",
@@ -4237,7 +4237,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.16",
       "NAME_EN": "Support staff Accountant Assistant. Peon. Chowkidar",
@@ -4249,7 +4249,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.17",
       "NAME_EN": "Electricity Water Charges",
@@ -4261,7 +4261,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.18",
       "NAME_EN": "Preparatory Camps",
@@ -4273,7 +4273,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.19",
       "NAME_EN": "Transportation Allowance",
@@ -4285,7 +4285,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.2",
       "NAME_EN": "Supplementary TLM. Stationery and other educational material",
@@ -4297,7 +4297,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.20",
       "NAME_EN": "Additional Extra coaching provision for IX AND X girls",
@@ -4309,7 +4309,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.21",
       "NAME_EN": "Physical Infrastructure for Enhancing Learning Capacity",
@@ -4321,7 +4321,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.22",
       "NAME_EN": "KGBV Safety AND securities for Infrastructural AND soft skills",
@@ -4333,7 +4333,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.23",
       "NAME_EN": "Assistant to Warden",
@@ -4345,7 +4345,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.3",
       "NAME_EN": "Warden",
@@ -4357,7 +4357,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.4",
       "NAME_EN": "Part time teachers",
@@ -4369,7 +4369,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.5",
       "NAME_EN": "Head Cook",
@@ -4381,7 +4381,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.6",
       "NAME_EN": "Assistant Cook",
@@ -4393,7 +4393,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.7",
       "NAME_EN": "Specific Skill training",
@@ -4405,7 +4405,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.8",
       "NAME_EN": "Medical care Contingencies",
@@ -4417,7 +4417,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.9",
       "NAME_EN": "Maintenance",
@@ -4429,7 +4429,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.09",
       "NAME_EN": "KGBV Type III NR New Classes VI XII",
@@ -4441,7 +4441,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.10",
       "NAME_EN": "KGBV Type III Recurring New Classes VI XII",
@@ -4453,7 +4453,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.11.1",
       "NAME_EN": "Construction of building new Upgradation",
@@ -4465,7 +4465,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.11.2",
       "NAME_EN": "Furniture Equipment including kitchen",
@@ -4477,7 +4477,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.11.3",
       "NAME_EN": "TLM and equipment including library books",
@@ -4489,7 +4489,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.1",
       "NAME_EN": "Food Lodging per child per month",
@@ -4501,7 +4501,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.10",
       "NAME_EN": "Specific skill training per girl",
@@ -4513,7 +4513,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.11",
       "NAME_EN": "Medical care Contingencies",
@@ -4525,7 +4525,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.12",
       "NAME_EN": "Maintenance",
@@ -4537,7 +4537,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.13",
       "NAME_EN": "Miscellaneous",
@@ -4549,7 +4549,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.14",
       "NAME_EN": "PTA",
@@ -4561,7 +4561,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.15",
       "NAME_EN": "Capacity Building",
@@ -4573,7 +4573,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.16",
       "NAME_EN": "Examination Fee",
@@ -4585,7 +4585,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.17",
       "NAME_EN": "Stipend per girl per month",
@@ -4597,7 +4597,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.18",
       "NAME_EN": "Full time Accountant",
@@ -4609,7 +4609,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.19",
       "NAME_EN": "Electricity Water Charges",
@@ -4621,7 +4621,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.2",
       "NAME_EN": "Supplementary TLM. Stationery and other educational material",
@@ -4633,7 +4633,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.20",
       "NAME_EN": "Preparatory Camps",
@@ -4645,7 +4645,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.21",
       "NAME_EN": "Additional Extra coaching provision for IX AND X girls",
@@ -4657,7 +4657,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.22",
       "NAME_EN": "Physical Infrastructure for Enhancing Learning Capacity",
@@ -4669,7 +4669,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.23",
       "NAME_EN": "KGBV Safety AND securities for Infrastructural AND soft skills",
@@ -4681,7 +4681,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.24",
       "NAME_EN": "Assistant to Warden",
@@ -4693,7 +4693,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.25",
       "NAME_EN": "Transportation Allowance",
@@ -4705,7 +4705,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.3",
       "NAME_EN": "Warden",
@@ -4717,7 +4717,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.4",
       "NAME_EN": "Urdu Teachers",
@@ -4729,7 +4729,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.5",
       "NAME_EN": "Part time teachers",
@@ -4741,7 +4741,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.6",
       "NAME_EN": "Support Staff Accountant Assistant. Peon. Chowkidar",
@@ -4753,7 +4753,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.7",
       "NAME_EN": "Head Cook",
@@ -4765,7 +4765,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.8",
       "NAME_EN": "Assistant Cook",
@@ -4777,7 +4777,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.9",
       "NAME_EN": "Full Time Teachers Lecturer",
@@ -4789,7 +4789,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.13.1",
       "NAME_EN": "Rani Laxmibai Atma Raksha Prashikshan Upto Class VIII",
@@ -4801,7 +4801,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.1",
       "NAME_EN": "1 Full Time Accountant",
@@ -4813,7 +4813,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.10",
       "NAME_EN": "Medical care Contingencies",
@@ -4825,7 +4825,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.11",
       "NAME_EN": "Miscellaneous",
@@ -4837,7 +4837,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.12",
       "NAME_EN": "Preparatory Camps",
@@ -4849,7 +4849,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.13",
       "NAME_EN": "P.T.A.",
@@ -4861,7 +4861,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.14",
       "NAME_EN": "Specific skill training per girl",
@@ -4873,7 +4873,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.15",
       "NAME_EN": "Stipend per girl per month",
@@ -4885,7 +4885,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.16",
       "NAME_EN": "Supplementary TLM. Stationery and other educational material",
@@ -4897,7 +4897,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.17",
       "NAME_EN": "2 Support Staff Accountant Assistant. Peon. Chowkidar",
@@ -4909,7 +4909,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.2",
       "NAME_EN": "1 Head Cook",
@@ -4921,7 +4921,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.3",
       "NAME_EN": "1 Warden",
@@ -4933,7 +4933,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.4",
       "NAME_EN": "2 Assistant Cook",
@@ -4945,7 +4945,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.5",
       "NAME_EN": "3 Part Time Teachers",
@@ -4957,7 +4957,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.6",
       "NAME_EN": "Capacity Building",
@@ -4969,7 +4969,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.7",
       "NAME_EN": "Electricity Water Charges",
@@ -4981,7 +4981,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.8",
       "NAME_EN": "Food Lodging per child per month",
@@ -4993,7 +4993,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.14.9",
       "NAME_EN": "Maintenance",
@@ -5005,7 +5005,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.26",
       "NAME_EN": "Self Defence Training for Girls Elementary",
@@ -5017,7 +5017,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.27.1.1",
       "NAME_EN": "Incinerator Machines Elementary",
@@ -5029,7 +5029,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL.BRC,CRC,KGBV,URC",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.27.1.2",
       "NAME_EN": "Vending Machines Elementary",
@@ -5041,7 +5041,7 @@
     },
     {
       "STATE": "GUJARAT",
-      "SCHEME_TYPE": "PRIMARY_SCHOOL",
+      "SCHEME_TYPE": "PRIMARY_SCHOOL,HIGH_SCHOOL,BRC,CRC,KGBV,URC",
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.27.1.3",
       "NAME_EN": "Sanitary pad Vending and incinerator machines",
