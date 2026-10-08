@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T23:12:24.104Z",
+  "updatedAt": "2026-10-08T23:27:24.232Z",
   "latestVersion": 8.5,
   "minRequiredVersion": 8,
   "rules": {
@@ -337,7 +337,7 @@
       "SLS_CODE": "GJ-302",
       "CODE": "1.2.11",
       "NAME_EN": "Organize ‘Swachhta Pakhwada’ clean up drives",
-      "NAME_GU": "‘સ્વચ્છતા પખવાડા’ ક્લીન અપ ડ્રાઇવનું આયોજન કરો",
+      "NAME_GU": "'સ્વચ્છતા પખવાડા' ક્લીન અપ ડ્રાઇવનું આયોજન કરો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "PARENT DESCRIPTION": "Green School",
@@ -4003,7 +4003,7 @@
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.18.5",
       "NAME_EN": "School Grant Enrol Greater than equal to 1 and less than equal to 30",
-      "NAME_GU": "શાળા ગ્રાન્ટ નોંધણી ૧ થી વધારે અને ૩૦ થી ઓછી",
+      "NAME_GU": "શાળા ગ્રાન્ટ નોંધણી ૧ થી વધુ અને ૩૦ થી ઓછી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
       "PARENT DESCRIPTION": "Composite School Grant Elementary Annual Grant up to Highest Class VIII",
@@ -4081,7 +4081,7 @@
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.21.01.3",
       "NAME_EN": "Digital Hardware and Software Type I Elementary 250 700",
-      "NAME_GU": "ડિજિટલ હાર્ડવેર અને સોફ્ટવેર પ્રકાર I પ્રાથમિક શાળા 250 700",
+      "NAME_GU": "ડિજિટલ હાર્ડવેર અને સોફ્ટવેર પ્રકાર I પ્રાથમિક 250 700",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
       "PARENT DESCRIPTION": "Digital Hardware and Software up to Highest Class VIII NR",
