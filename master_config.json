@@ -1,6 +1,7 @@
 {
-  "updatedAt": "2026-10-12T02:27:25.026Z",
-  "latestVersion": 8.5,
+  "updatedAt": "2026-10-12T02:42:08.139Z",
+  "latestExtVersion": 8.5,
+  "latestLibVersion": 915,
   "minRequiredVersion": 8,
   "rules": {
     "workflows": {
