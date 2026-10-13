@@ -22,5 +22,13 @@
     "expiry": "13-10-2027",
     "pin": "6166",
     "sig": "EB9BDD"
+  },
+  "24160401901": {
+    "name": "MAHIJ KUMAR SHALA",
+    "planType": "3-Day Free Demo (COMBO) - ₹0",
+    "schemes": "GJ302, GJ209, LOCAL, PRIMARY_SCHOOL",
+    "expiry": "16-10-2026",
+    "pin": "3059",
+    "sig": "7CDAE8"
   }
 }
