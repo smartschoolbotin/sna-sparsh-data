@@ -30,5 +30,13 @@
     "expiry": "16-10-2026",
     "pin": "3059",
     "sig": "7CDAE8"
+  },
+  "24160403701": {
+    "name": "PRIMARY SCHOOL VASANAKHURD",
+    "planType": "SSA + LOCAL FUND (₹501)",
+    "schemes": "GJ209, LOCAL, PRIMARY_SCHOOL",
+    "expiry": "15-10-2027",
+    "pin": "3968",
+    "sig": "D190AE"
   }
 }
