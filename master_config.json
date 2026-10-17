@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T10:27:24.945Z",
+  "updatedAt": "2026-10-17T10:28:30.435Z",
   "latestExtVersion": 8.5,
   "latestLibVersion": 943,
   "minRequiredVersion": 8,
@@ -5653,8 +5653,8 @@
   "templates": [
     {
       "STATE": "GUJARAT",
-      "DISTRICT (ENGLISH)": "ALL",
-      "DISTRICT (REGIONAL LANGUAGE)": "ALL",
+      "DISTRICT (ENGLISH)": "AHMEDABAD",
+      "DISTRICT (REGIONAL LANGUAGE)": "અમદાવાદ",
       "INSTITUTION TYPE": "PM_SHRI_SCHOOL",
       "GRANT TYPE": "RECURRING",
       "TEMPLATE ID (GOOGLE DOC)": "1AN3l4hf0CCV3VOYJvpl5wySRrNIIiEBjA0nb1g6wDEw",
@@ -5668,8 +5668,8 @@
     },
     {
       "STATE": "GUJARAT",
-      "DISTRICT (ENGLISH)": "ALL",
-      "DISTRICT (REGIONAL LANGUAGE)": "ALL",
+      "DISTRICT (ENGLISH)": "AHMEDABAD",
+      "DISTRICT (REGIONAL LANGUAGE)": "અમદાવાદ",
       "INSTITUTION TYPE": "PM_SHRI_SCHOOL",
       "GRANT TYPE": "NON_RECURRING",
       "TEMPLATE ID (GOOGLE DOC)": "1AN3l4hf0CCV3VOYJvpl5wySRrNIIiEBjA0nb1g6wDEw",
@@ -5683,8 +5683,8 @@
     },
     {
       "STATE": "GUJARAT",
-      "DISTRICT (ENGLISH)": "ALL",
-      "DISTRICT (REGIONAL LANGUAGE)": "ALL",
+      "DISTRICT (ENGLISH)": "AHMEDABAD",
+      "DISTRICT (REGIONAL LANGUAGE)": "અમદાવાદ",
       "INSTITUTION TYPE": "PRIMARY_SCHOOL",
       "GRANT TYPE": "RECURRING",
       "TEMPLATE ID (GOOGLE DOC)": "1AN3l4hf0CCV3VOYJvpl5wySRrNIIiEBjA0nb1g6wDEw",
@@ -5698,8 +5698,8 @@
     },
     {
       "STATE": "GUJARAT",
-      "DISTRICT (ENGLISH)": "ALL",
-      "DISTRICT (REGIONAL LANGUAGE)": "ALL",
+      "DISTRICT (ENGLISH)": "AHMEDABAD",
+      "DISTRICT (REGIONAL LANGUAGE)": "અમદાવાદ",
       "INSTITUTION TYPE": "HIGH_SCHOOL",
       "GRANT TYPE": "RECURRING",
       "TEMPLATE ID (GOOGLE DOC)": "1AN3l4hf0CCV3VOYJvpl5wySRrNIIiEBjA0nb1g6wDEw",
