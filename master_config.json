@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T08:12:24.634Z",
+  "updatedAt": "2026-10-17T08:27:25.164Z",
   "latestExtVersion": 8.5,
   "latestLibVersion": 943,
   "minRequiredVersion": 8,
@@ -5709,6 +5709,21 @@
       "EXTRA TAGS (JSON)": "{\n  \"{{SCHEME_INTRO_PARAGRAPH}}\": \"સમગ્ર શિક્ષા  યોજના કેન્દ્રીય પુરસ્કૃત યોજના છે અને ગુજરાત રાજ્યના તમામ જિલ્લામાં આ યોજના અમલમાં છે.\",\n  \"{{SCHEME_NAME_GUJ}}\": \" સમગ્ર શિક્ષા (GJ-209)\",\"TABLE_COLUMNS\": [\"Sr. No.\", \"Party Name\", \"Account No\", \"Amount Rs.\"]\n}",
       "STATUS": "ACTIVE",
       "LIVE ENGINE VERSION": "1.1",
+      "REMARK": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "DISTRICT (ENGLISH)": "KHEDA",
+      "DISTRICT (REGIONAL LANGUAGE)": "ખેડા",
+      "INSTITUTION TYPE": "PM_SHRI_SCHOOL",
+      "GRANT TYPE": "RECURRING",
+      "TEMPLATE ID (GOOGLE DOC)": "1AN3l4hf0CCV3VOYJvpl5wySRrNIIiEBjA0nb1g6wDEw",
+      "HEAD DESIGNATION (હોદ્દો)": "આચાર્યશ્રી",
+      "CENTRAL BUDGET BLOCK": "Demand No – 09\nMajor head – 2202 General Education\nSub Major Head – 01 Elementary Education\nMinor Head – 113 Samagra Shiksha\nSub Head – 05 Elementary Education under PM SHRI (60% - Central Share) – GJ302\nHead Chargeable :- 09-2202-01-113-05",
+      "STATE BUDGET BLOCK": "Demand No – 09\nMajor head – 2202 General Education\nSub Major Head – 01 Elementary Education\nMinor Head – 113 Samagra Shiksha\nSub Head – 06 Elementary Education under PM SHRI (40% - State Share) – GJ302\nHead Chargeable :- 09-2202-01-113-06",
+      "EXTRA TAGS (JSON)": "{\n  \"{{SCHEME_INTRO_PARAGRAPH}}\": \"પી એમ શ્રી યોજના કેન્દ્રીય પુરસ્કૃત યોજના છે અને ગુજરાત રાજ્યના તમામ જિલ્લામાં આ યોજના અમલમાં છે.\",\n  \"{{SCHEME_NAME_GUJ}}\": \"પી એમ શ્રી(GJ-302)\",\"TABLE_COLUMNS\": [\"ક્રમ\", \"એજન્સી નામ\", \"બેંક ખાતા નંબર\",\" BANK NAME\",\"IFSC CODE\",\"રકમ (₹)\"]\n}",
+      "STATUS": "ACTIVE",
+      "LIVE ENGINE VERSION": "2.1",
       "REMARK": ""
     }
   ]
