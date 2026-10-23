@@ -5,7 +5,10 @@
     "schemes": "GJ302,LOCAL",
     "expiry": "19-08-2027",
     "pin": "6706",
-    "sig": "E71F4A"
+    "sig": "E71F4A",
+    "district": "KHEDA",
+    "taluka": "KHEDA",
+    "instType": "SPARSH-24160400401-6706-2C004C"
   },
   "24160400402": {
     "name": "PM SHRI CHANDANA PS",
@@ -13,7 +16,10 @@
     "schemes": "GJ302, LOCAL, PRIMARY_SCHOOL, GJ209",
     "expiry": "27-09-2026",
     "pin": "4110",
-    "sig": "52C613"
+    "sig": "52C613",
+    "district": "KHEDA",
+    "taluka": "KHEDA",
+    "instType": "PRIMARY_SCHOOL"
   },
   "24160401301": {
     "name": "KAJIPURA PS",
@@ -21,7 +27,10 @@
     "schemes": "GJ209, LOCAL, PRIMARY_SCHOOL",
     "expiry": "14-10-2027",
     "pin": "3903",
-    "sig": "3BEE9F"
+    "sig": "3BEE9F",
+    "district": "KHEDA",
+    "taluka": "KHEDA",
+    "instType": "PRIMARY_SCHOOL"
   },
   "24160401901": {
     "name": "MAHIJ KUMAR SHALA",
@@ -29,7 +38,10 @@
     "schemes": "GJ302, GJ209, LOCAL, PRIMARY_SCHOOL",
     "expiry": "16-10-2026",
     "pin": "3059",
-    "sig": "7CDAE8"
+    "sig": "7CDAE8",
+    "district": "KHEDA",
+    "taluka": "KHEDA",
+    "instType": "PRIMARY_SCHOOL"
   },
   "24160403701": {
     "name": "PRIMARY SCHOOL VASANAKHURD",
@@ -37,6 +49,9 @@
     "schemes": "GJ209, LOCAL, PRIMARY_SCHOOL",
     "expiry": "15-10-2027",
     "pin": "3968",
-    "sig": "D190AE"
+    "sig": "D190AE",
+    "district": "KHEDA",
+    "taluka": "KHEDA",
+    "instType": "PRIMARY_SCHOOL"
   }
 }
