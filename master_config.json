@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-29T06:27:24.603Z",
+  "updatedAt": "2026-10-29T06:42:26.030Z",
   "latestExtVersion": 8.5,
-  "latestLibVersion": 943,
+  "latestLibVersion": 32,
   "minRequiredVersion": 8,
-  "libraryVersionMessage": "\"Library 944 લાઈવ છે. અપડેટ કરો – નવા fixes સાથે.\"",
+  "libraryVersionMessage": "\"Library 32 લાઈવ છે. અપડેટ કરો – નવા fixes સાથે.\"",
   "rules": {
     "workflows": {
       "BENEFICIARIES": {
@@ -11,7 +11,7 @@
           "account",
           "ifsc"
         ],
-        "nextUrl": "https://cybertreasury.gujarat.gov.in/IAPortal/ifms.htm?actionFlag=claimGenerationList&elementId=898989920",
+        "nextUrl": "https://snasparsh.gujarat.gov.in/IAPortal/ifms.htm?actionFlag=claimGenerationList&elementId=898989920",
         "nextState": "STEP_2_CLAIMS"
       },
       "CLAIMS": {
@@ -19,7 +19,7 @@
           "claim",
           "amount"
         ],
-        "nextUrl": "https://cybertreasury.gujarat.gov.in/IAPortal/ifms.htm?actionFlag=agencyMotherSanctionUtilReport",
+        "nextUrl": "https://snasparsh.gujarat.gov.in/IAPortal/ifms.htm?actionFlag=agencyfetchDetailForMotherSancUtilReport&elementId=898989928",
         "nextState": "STEP_3_MOTHER_SANCTION_INIT"
       },
       "MOTHER_SANCTIONS": {
@@ -27,7 +27,7 @@
           "sanction",
           "amount"
         ],
-        "nextUrl": "https://cybertreasury.gujarat.gov.in/IAPortal/ifms.htm?actionFlag=fetchDetailForEpaymentReport&elementId=898989930",
+        "nextUrl": "https://snasparsh.gujarat.gov.in/IAPortal/ifms.htm?actionFlag=fetchDetailForEpaymentReport&elementId=898989930",
         "nextState": "STEP_4_EPAYMENT_INIT"
       },
       "EPAYMENTS": {
@@ -40,9 +40,11 @@
       }
     },
     "systemSettings": {
-      "chunkSize": 100,
+      "chunkSize": 50,
+      "apiMaxRetries": 4,
+      "pageLoadDelayMs": 2000,
       "maintenanceMode": false,
-      "maintenanceMessage": "અત્યારે સિસ્ટમમાં મેન્ટેનન્સ ચાલુ છે."
+      "maintenanceMessage": "🛠️ અત્યારે સિસ્ટમમાં મેન્ટેનન્સ ચાલુ છે. કૃપા કરીને થોડો સમય રાહ જુઓ."
     },
     "motherSanctionRules": {
       "1_semantic_column_discovery": {
