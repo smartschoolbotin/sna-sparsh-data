@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T10:12:25.102Z",
+  "updatedAt": "2026-10-31T10:27:25.220Z",
   "latestExtVersion": 8.5,
   "latestLibVersion": 32,
   "minRequiredVersion": 8,
@@ -5727,6 +5727,21 @@
       "EXTRA TAGS (JSON)": "{\n  \"{{SCHEME_INTRO_PARAGRAPH}}\": \"સમગ્ર શિક્ષા યોજના કેન્દ્રીય પુરસ્કૃત યોજના છે અને ગુજરાત રાજ્યના તમામ જિલ્લામાં આ યોજના અમલમાં છે.\",\n  \"{{SCHEME_NAME_GUJ}}\": \"સમગ્ર શિક્ષા\",\n  \"{{CODE_LABEL}}\": \"ડાયસ કોડ\",\n  \n  \"FORWARDING_TABLE_STYLE\": \"AMC_7_COL\",\n  \n  \"IS_HTML_ORDER\": true,\n  \"ALLOW_USER_CHOICE\": true,\n  \n  \"SECTIONS_ORDER\": [\"forwarding\", \"order\", \"certificate\"],\n  \n  \"DYNAMIC_TABLES\": [\n    {\n      \"TITLE\": \"કેન્દ્રના સરકારનો હિસ્સા પેટે (૬૦%)\",\n      \"HEADERS\": [\"ક્રમ\", \"ખર્ચ હેડનું નામ\", \"Party Name\", \"A/C. No.\", \"IFSC Code\", \"( સી.ઓ 60%) Central 60%\"],\n      \"KEYS\": [\"INDEX\", \"componentNameGu\", \"name\", \"accNo\", \"ifsc\", \"centralShare\"]\n    },\n    {\n      \"TITLE\": \"રાજ્ય સરકારનો હિસ્સા પેટે (૪૦%)\",\n      \"HEADERS\": [\"ક્રમ\", \"ખર્ચ હેડનું નામ\", \"Party Name\", \"A/C. No.\", \"IFSC Code\", \"( સી.ઓ 40%) State 40%\"],\n      \"KEYS\": [\"INDEX\", \"componentNameGu\", \"name\", \"accNo\", \"ifsc\", \"stateShare\"]\n    }\n  ],\n  \n  \"FORWARDING\": {\n    \"ENABLED\": true,\n    \"CUSTOM_RECIPIENT\": \"એડિશનલ ડિસ્ટ્રિક્ટ પ્રોજેકટ કો-ઓર્ડિનેટર અને શાસનાધિકારી<br>ન.પ્રા.શિ. સમિતિ, અમદાવાદ\",\n    \"SUBJECT\": \"SNA SPARSH ખર્ચનાં બિલ મંજુર કરવા બાબત\",\n    \"BODY\": \"સવિનય ઉપરોક્ત વિષય અન્વયે જણાવવાનું કે વર્ષ ૨૦૨૬-૨૭ માં અમારી શાળાને ફાળવેલ ગ્રાન્ટ માંથી SNA SPARSH દ્વારા નીચે મુજબ ગ્રાન્ટ સામે ખર્ચ કરવામાં આવેલ છે અને જરૂરી બિલ અને આધારો રજુ કરેલ છે. તો મંજુર કરી ચૂકવી આપવા વિનંતી.\",\n    \"SHOW_TABLE\": true,\n    \"HIDE_LOGOS\": false,\n    \"EXTRA_TOP_MM\": 0,\n    \"USE_MASTER_RECIPIENT\": true\n  },\n  \n  \"CERTIFICATE\": {\n    \"ENABLED\": true,\n    \"HIDE_LOGOS\": false,\n    \"EXTRA_TOP_MM\": 0,\n    \"POINTS\": [\n      \"રજુ થયેલ બીલમાં જણાવેલ લાભાર્થીના ખાતા નંબર, નામ અને IFSC કોડની પૂરતી ચકાસણી કરવામાં આવેલ છે તેમજ ખાતુ ચાલુ / એકટીવ છે.\",\n      \"રજુ કરેલ બિલના લાભાર્થી બેવડાતા નથી. લાભાર્થીને સરકારશ્રીના ધારાધોરણ તેમજ યોજનાની જોગવાઈ અને ગાઈડલાઈન મુજબ પૂરતી ચકાસણી કરવામાં આવેલ છે અને લાભાર્થી/વેન્ડરને મળવા પાત્ર સહાય/કામનું બીલ રજુ કરેલ છે.\",\n      \"બિલ આનુષાંગિક દસ્તાવેજો તેમજ અન્ય સાધનીક રેકર્ડ કચેરી પાસે ઉપલબ્ધ છે.\",\n      \"સામેલ બીલ પ્રથમ વખત રજુ કરવામાં આવેલ છે. જે અગાઉ કયારેય પણ રજુ કરવામાં આવેલ નથી.\",\n      \"સદર ખર્ચ ખરીદ નીતિ - ૨૦૨૪નું પાલન કરી ખરીદ પ્રક્રિયા અમારા ધ્વારા કરવામાં આવેલ છે. તેમજ સરકારશ્રીના ધારાધોરણ તેમજ યોજનાની જોગવાઈ અને ગાઈડલાઈનનુ પાલન કરવામાં આવેલ છે. જે બદલ આ પ્રમાણપત્ર આપવામાં આવે છે.\"\n    ]\n  },\n  \n  \"COPY_TO\": [\n    \"એડિશનલ ડિસ્ટ્રિક્ટ પ્રોજેકટ કો-ઓર્ડિ., અને શાસનાધિકારી, ન.પ્રા.શિ. સમિતિ, અમદાવાદ\",\n    \"જિલ્લા હિસાબી અધિકારીશ્રી, સમગ્ર શિક્ષા, જિ.અમદાવાદ મ્યુ.કોર્પોરેશન\"\n  ],\n  \n  \"LAYOUT_RULES\": {\n    \"DISTRICT_LETTERHEAD_MODE\": false,\n    \"DEFAULT_SHOW_FORWARDING\": true,\n    \"DEFAULT_SHOW_CERTIFICATE\": true\n  },\n  \n  \"SIGNATURE\": {\n    \"LINES\": [\n      \"મુખ્ય શિક્ષક\",\n      \"{{SCHOOL_NAME}}\"\n    ],\n    \"ALIGN\": \"right\"\n  },\n  \n  \"PRINT_RULES\": {\n    \"WATERMARK_ENABLED\": true,\n    \"WATERMARK_TYPE\": \"logo\",\n    \"WATERMARK_LOGO\": \"school\",\n    \"WATERMARK_TEXT_DRAFT\": \"DRAFT – FOR FILING\",\n    \"WATERMARK_TEXT_OFFICIAL\": \"\",\n    \"WATERMARK_OPACITY\": 0.06,\n    \"WATERMARK_SIZE\": \"380px\",\n    \"WATERMARK_ROTATE\": -32\n  }\n}",
       "STATUS": "ACTIVE",
       "LIVE ENGINE VERSION": "1",
+      "REMARK": ""
+    },
+    {
+      "STATE": "GUJARAT",
+      "DISTRICT (ENGLISH)": "MAHISAGAR",
+      "DISTRICT (REGIONAL LANGUAGE)": "મહીસાગર",
+      "INSTITUTION TYPE": "PM_SHRI_SCHOOL",
+      "GRANT TYPE": "RECURRING",
+      "TEMPLATE ID (GOOGLE DOC)": "",
+      "HEAD DESIGNATION (હોદ્દો)": "આચાર્યશ્રી",
+      "CENTRAL BUDGET BLOCK": "Demand No –  09 \nMajor head – 2202 General Education\nSub Major Head – 01 Elementary Education\nMinor Head – 113 Samagra Shiksha\nSub Head – 02 Samagra Shiksha (60% - Central Share) – GJ209\nHead Chargeable :- 09-2202-01-113-02\n",
+      "STATE BUDGET BLOCK": "Demand No – 09 \nMajor head – 2202 General Education\nSub Major Head – 01 Elementary Education\nMinor Head – 113 Samagra Shiksha\nSub Head – 03 Samagra Shiksha (40% - State Share) – GJ209\nHead Chargeable :- 09-2202-01-113-03\n",
+      "EXTRA TAGS (JSON)": "",
+      "STATUS": "",
+      "LIVE ENGINE VERSION": "",
       "REMARK": ""
     }
   ]
