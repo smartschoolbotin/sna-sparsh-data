@@ -53,5 +53,16 @@
     "district": "KHEDA",
     "taluka": "KHEDA",
     "instType": "PRIMARY_SCHOOL"
+  },
+  "24160401204": {
+    "name": "GANDHIPURA PS",
+    "planType": "SSA + LOCAL FUND (₹701)",
+    "schemes": "GJ209, LOCAL",
+    "expiry": "04-11-2027",
+    "pin": "6362",
+    "sig": "C1642E",
+    "district": "KHEDA",
+    "taluka": "KHEDA",
+    "instType": "PRIMARY_SCHOOL"
   }
 }
