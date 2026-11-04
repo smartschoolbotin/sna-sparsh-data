@@ -64,5 +64,16 @@
     "district": "KHEDA",
     "taluka": "KHEDA",
     "instType": "SPARSH-24160401204-20271104-C1642E"
+  },
+  "24160401205": {
+    "name": "VANTADI PS",
+    "planType": "SSA + LOCAL FUND (₹701)",
+    "schemes": "GJ209, LOCAL",
+    "expiry": "04-11-2027",
+    "pin": "5323",
+    "sig": "2921AE",
+    "district": "KHEDA",
+    "taluka": "KHEDA",
+    "instType": "PRIMARY_SCHOOL"
   }
 }
