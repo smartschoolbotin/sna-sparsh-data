@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T18:12:25.947Z",
+  "updatedAt": "2026-11-18T18:27:25.680Z",
   "latestExtVersion": 8.5,
   "latestLibVersion": 32,
   "minRequiredVersion": 8,
@@ -72,7 +72,8 @@
         "lapse_if_revoke_greater_than_zero": true
       },
       "3_targeted_kill_switches": []
-    }
+    },
+    "adminUdise": "24160400401"
   },
   "components": [
     {
