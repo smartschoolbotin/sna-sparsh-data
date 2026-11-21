@@ -8,7 +8,7 @@
     "sig": "E71F4A",
     "district": "KHEDA",
     "taluka": "KHEDA",
-    "instType": "SPARSH-24160400401-5296-C7628D"
+    "instType": "PRIMARY_SCHOOL"
   },
   "24160400402": {
     "name": "PM SHRI CHANDANA PS",
@@ -63,7 +63,7 @@
     "sig": "C1642E",
     "district": "KHEDA",
     "taluka": "KHEDA",
-    "instType": "SPARSH-24160401204-20271104-C1642E"
+    "instType": "PRIMARY_SCHOOL"
   },
   "24160401205": {
     "name": "VANTADI PS",
@@ -74,6 +74,6 @@
     "sig": "2921AE",
     "district": "KHEDA",
     "taluka": "KHEDA",
-    "instType": "SPARSH-24160401205-20271104-2921AE"
+    "instType": "PRIMARY_SCHOOL"
   }
 }
