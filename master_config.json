@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-24T16:12:25.294Z",
+  "updatedAt": "2026-11-24T16:18:22.662Z",
   "latestExtVersion": 8.5,
-  "latestLibVersion": 17,
+  "latestLibVersion": 18,
   "minRequiredVersion": 8,
-  "libraryVersionMessage": "\"Library 16 લાઈવ છે. અપડેટ કરો – નવા fixes સાથે.\"",
+  "libraryVersionMessage": "\"Library 18 લાઈવ છે. અપડેટ કરો – નવા fixes સાથે.\"",
   "rules": {
     "workflows": {
       "BENEFICIARIES": {
@@ -73,7 +73,8 @@
       },
       "3_targeted_kill_switches": []
     },
-    "adminUdise": "24160400401"
+    "adminUdise": "24160400401",
+    "templateVersion": "18 (LATEST - UPDATE LIB TO 18)"
   },
   "components": [
     {
