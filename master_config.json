@@ -1,9 +1,10 @@
 {
-  "updatedAt": "2026-11-26T16:12:26.223Z",
+  "updatedAt": "2026-11-26T16:27:26.177Z",
   "latestExtVersion": 8.5,
   "latestLibVersion": 18,
   "minRequiredVersion": 8,
   "libraryVersionMessage": "\"Library 18 લાઈવ છે. અપડેટ કરો – નવા fixes સાથે.\"",
+  "templateCopyUrl": "https://docs.google.com/spreadsheets/d/1OJa49OHiHnTv2Vs12JqTjY84GH6sRjo6yeXgu_yJnhs/copy",
   "rules": {
     "workflows": {
       "BENEFICIARIES": {
