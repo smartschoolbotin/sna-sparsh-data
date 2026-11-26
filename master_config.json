@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-26T18:42:25.261Z",
+  "updatedAt": "2026-11-26T18:44:20.992Z",
   "latestExtVersion": 8.5,
-  "latestLibVersion": 18,
+  "latestLibVersion": 25,
   "minRequiredVersion": 8,
-  "libraryVersionMessage": "\"Library 18 લાઈવ છે. અપડેટ કરો – નવા fixes સાથે.\"",
+  "libraryVersionMessage": "\"Library 25 લાઈવ છે. અપડેટ કરો – નવા fixes સાથે.\"",
   "templateCopyUrl": "https://docs.google.com/spreadsheets/d/1boDhnUmu60oGIayLflchMXlVn96ObsjRRBJinjg51mk/copy",
   "rules": {
     "workflows": {
@@ -75,7 +75,7 @@
       "3_targeted_kill_switches": []
     },
     "adminUdise": "24160400401",
-    "templateVersion": "18 (LATEST - UPDATE LIB TO 18)"
+    "templateVersion": "25 (LATEST - UPDATE LIB TO 25)"
   },
   "components": [
     {
