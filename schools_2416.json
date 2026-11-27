@@ -75,5 +75,16 @@
     "district": "KHEDA",
     "taluka": "KHEDA",
     "instType": "PRIMARY_SCHOOL"
+  },
+  "24160805601": {
+    "name": "VALLA PRIMARY SCHOOL",
+    "planType": "SSA + LOCAL FUND (₹701)",
+    "schemes": "GJ209, LOCAL",
+    "expiry": "27-11-2027",
+    "pin": "2994",
+    "sig": "98C8C9",
+    "district": "KHEDA",
+    "taluka": "NADIAD",
+    "instType": "PRIMARY_SCHOOL"
   }
 }
