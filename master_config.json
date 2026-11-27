@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T17:12:27.331Z",
+  "updatedAt": "2026-11-27T17:15:55.839Z",
   "latestExtVersion": 8.5,
   "latestLibVersion": 25,
   "minRequiredVersion": 8,
@@ -5838,7 +5838,7 @@
       "REMARK": ""
     },
     {
-      "STATE": "GUJARAT",
+      "STATE": "3",
       "DISTRICT (ENGLISH)": "PATAN",
       "DISTRICT (REGIONAL LANGUAGE)": "પાટણ",
       "INSTITUTION TYPE": "PRIMARY_SCHOOL",
