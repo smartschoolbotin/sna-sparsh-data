@@ -1,9 +1,10 @@
 {
-  "updatedAt": "2026-11-27T05:17:25.717Z",
+  "updatedAt": "2026-11-27T05:27:26.673Z",
   "latestExtVersion": 8.5,
   "latestLibVersion": 25,
   "minRequiredVersion": 8,
   "libraryVersionMessage": "\"Library 25 લાઈવ છે. અપડેટ કરો – નવા fixes સાથે.\"",
+  "templateCopyUrl": "https://docs.google.com/spreadsheets/d/1boDhnUmu60oGIayLflchMXlVn96ObsjRRBJinjg51mk/copy",
   "rules": {
     "workflows": {
       "BENEFICIARIES": {
@@ -73,7 +74,8 @@
       },
       "3_targeted_kill_switches": []
     },
-    "adminUdise": "24160400401"
+    "adminUdise": "24160400401",
+    "templateVersion": "25 (LATEST - UPDATE LIB TO 25)"
   },
   "components": [
     {
@@ -342,7 +344,7 @@
       "SLS_CODE": "GJ-302",
       "CODE": "1.2.11",
       "NAME_EN": "Organize ‘Swachhta Pakhwada’ clean up drives",
-      "NAME_GU": "‘સ્વચ્છતા પખવાડા’ ક્લીન અપ ડ્રાઇવનું આયોજન કરો",
+      "NAME_GU": "'સ્વચ્છતા પખવાડા' ક્લીન અપ ડ્રાઇવનું આયોજન કરો",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "PARENT DESCRIPTION": "Green School",
@@ -1148,7 +1150,7 @@
       "SLS_CODE": "GJ-302",
       "CODE": "2.12.4.26",
       "NAME_EN": "Computer Resource Person",
-      "NAME_GU": "કમ્પ્યુટર રિસોર્સ પર્સન",
+      "NAME_GU": "કોમ્પ્યુટર રિસોર્સ પર્સન",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "પી એમ શ્રી ",
       "PARENT DESCRIPTION": "Project Innovation Recurring State Specific",
@@ -4008,7 +4010,7 @@
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.18.5",
       "NAME_EN": "School Grant Enrol Greater than equal to 1 and less than equal to 30",
-      "NAME_GU": "શાળા ગ્રાન્ટ નોંધણી ૧ થી વધુ અને ૩૦ થી ઓછી",
+      "NAME_GU": "શાળા ગ્રાન્ટ નોંધણી ૧ થી વધારે અને ૩૦ થી ઓછી",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
       "PARENT DESCRIPTION": "Composite School Grant Elementary Annual Grant up to Highest Class VIII",
@@ -4086,7 +4088,7 @@
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.21.01.3",
       "NAME_EN": "Digital Hardware and Software Type I Elementary 250 700",
-      "NAME_GU": "ડિજિટલ હાર્ડવેર અને સોફ્ટવેર પ્રકાર I પ્રાથમિક 250 700",
+      "NAME_GU": "ડિજિટલ હાર્ડવેર અને સોફ્ટવેર પ્રકાર I પ્રાથમિક શાળા 250 700",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
       "PARENT DESCRIPTION": "Digital Hardware and Software up to Highest Class VIII NR",
@@ -4164,7 +4166,7 @@
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.23.01.3",
       "NAME_EN": "Financial Support for 1 MIS Coordinator in position",
-      "NAME_GU": "1 MIS કોઓર્ડિનેટર માટે નાણાકીય સહાય",
+      "NAME_GU": "1 MIS કોઓર્ડિનેટર પદ માટે નાણાકીય સહાય",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
       "PARENT DESCRIPTION": "Provision for BRCs URCs",
@@ -4593,7 +4595,7 @@
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.04.6",
       "NAME_EN": "Full Time Accountant",
-      "NAME_GU": "પૂર્ણ સમય એકાઉન્ટન્ટ",
+      "NAME_GU": "પૂર્ણ-સમય એકાઉન્ટન્ટ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
       "PARENT DESCRIPTION": "KGBV Type I Recurring Previous Year Classes VI VIII",
@@ -4866,7 +4868,7 @@
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.08.22",
       "NAME_EN": "KGBV Safety AND securities for Infrastructural AND soft skills",
-      "NAME_GU": "માળખાગત અને સોફ્ટ કૌશલ્યો માટે KGBV સલામતી અને સિક્યોરિટીઝ",
+      "NAME_GU": "માળખાગત અને સોફ્ટ સ્કિલ માટે KGBV સલામતી અને સિક્યોરિટીઝ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
       "PARENT DESCRIPTION": "KGBV Type II Recurring Previous Year Classes VI X",
@@ -5243,7 +5245,7 @@
       "SLS_CODE": "GJ-209",
       "CODE": "F.01.25.12.23",
       "NAME_EN": "KGBV Safety AND securities for Infrastructural AND soft skills",
-      "NAME_GU": "માળખાગત અને સોફ્ટ કૌશલ્યો માટે KGBV સલામતી અને સિક્યોરિટીઝ",
+      "NAME_GU": "માળખાગત અને સોફ્ટ સ્કિલ માટે KGBV સલામતી અને સિક્યોરિટીઝ",
       "STATUS": "ACTIVE",
       "SCHEME_NAME_GUJ": "સમગ્ર શિક્ષા -GJ-209",
       "PARENT DESCRIPTION": "KGBV Type III Recurring Previous Year Classes VI XII",
