@@ -20,5 +20,16 @@
     "district": "ANAND",
     "taluka": "ANAND",
     "instType": "PRIMARY_SCHOOL"
+  },
+  "24150101301": {
+    "name": "PRIMARY SCHOOL GOPALPURA PMSHRI-GUJARAT",
+    "planType": "3-Day Free Demo (COMBO) - ₹0",
+    "schemes": "GJ302, GJ209, LOCAL",
+    "expiry": "30-11-2026",
+    "pin": "2770",
+    "sig": "5847EA",
+    "district": "ANAND",
+    "taluka": "ANAND",
+    "instType": "PRIMARY_SCHOOL"
   }
 }
