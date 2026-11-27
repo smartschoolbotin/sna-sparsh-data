@@ -9,5 +9,16 @@
     "district": "ANAND",
     "taluka": "KHAMBHAT",
     "instType": "PRIMARY_SCHOOL"
+  },
+  "24150101402": {
+    "name": "PRIMARY SCHOOL JAHANGIRPURA (HADGUD)",
+    "planType": "3-Day Free Demo (COMBO) - ₹0",
+    "schemes": "GJ302, GJ209, LOCAL",
+    "expiry": "30-11-2026",
+    "pin": "4905",
+    "sig": "C15DF7",
+    "district": "ANAND",
+    "taluka": "ANAND",
+    "instType": "PRIMARY_SCHOOL"
   }
 }
